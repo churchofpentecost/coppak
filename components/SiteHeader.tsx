@@ -135,6 +135,7 @@ export default function SiteHeader() {
               </ul>{" "}
             </li>{" "}
             <li><a href="/news">News</a></li>
+            <li><a href="/books">Books</a></li>
           </ul>{" "}
         </nav>{" "}
         <a href="/" className="coppak-header__logo" aria-label="COPPAK home">

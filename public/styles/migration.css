@@ -1,2 +1,45 @@
 /* Preserve theme while allowing keyboard navigation. */
-a:focus-visible, button:focus-visible {outline:3px solid #1f4fa8;outline-offset:4px;}
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #1f4fa8;
+  outline-offset: 4px;
+}
+
+/* Keep the expanded News and Books navigation comfortable on desktop. */
+@media (min-width: 1280px) {
+  .coppak-nav a {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+/* Use the existing mobile menu when the full navigation would be crowded. */
+@media (min-width: 992px) and (max-width: 1279px) {
+  .page-wrapper {
+    padding-top: 70px !important;
+  }
+  .coppak-header__inner {
+    grid-template-columns: auto 1fr auto;
+    padding: 0 16px;
+    height: 70px !important;
+  }
+  .coppak-nav {
+    display: none;
+  }
+  .coppak-burger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    order: 3;
+    margin-left: auto;
+  }
+  .coppak-header__logo {
+    justify-self: center;
+    order: 2;
+  }
+  .coppak-header__logo-badge {
+    width: 92px;
+    height: 92px;
+    padding: 6px;
+    transform: translateY(6px);
+  }
+}

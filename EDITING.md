@@ -50,3 +50,7 @@ Add an object inside `newsPosts` in `data/news.ts` with these fields:
 - `paragraphs`: an array of quoted text paragraphs forming the article.
 
 Commit to `main`. Vercel publishes the article at `/news/your-slug`, adds its card to News (newest first), and includes it in the sitemap. Use real, approved news only; the announcements section currently has no posts. No dashboard or CMS is required.
+
+## Update the Books page
+
+The Books page is at `/books`, with links in the desktop menu, mobile menu and footer. Edit `app/books/page.tsx` to update the book description or Amazon destination. Book covers are stored in `public/assets/images/books/`; page styles are in `public/styles/pages/books.css`. The featured book links to Amazon ASIN `B0HK3NZWLH`. Prices are shown on Amazon so they stay current.
