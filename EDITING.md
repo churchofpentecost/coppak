@@ -35,3 +35,18 @@ Use Node.js 22 or newer. Run `npm ci`, then `npm run dev`. Before committing lar
 GitHub stores the source; Vercel builds and hosts it. Cloudflare currently hosts DNS only for the apex website connection, with its web proxy disabled. Hostinger email DNS records are preserved. Moving DNS entirely away from Cloudflare is a separate nameserver migration at the domain registrar.
 
 The contact form opens an email draft. Visitors must send it from their own email application; no server-side email service is configured.
+
+## Publish a news article
+
+The News page is at `/news`, linked from the desktop menu, mobile menu and footer. News articles live in `data/news.ts`; ministry spotlights live in `app/news/page.tsx`.
+
+Add an object inside `newsPosts` in `data/news.ts` with these fields:
+
+- `slug`: a unique URL name such as `community-gathering` (lowercase letters, numbers and hyphens).
+- `title`, `category`, `excerpt`: the article heading, category and short summary.
+- `date`: the actual publication date in `YYYY-MM-DD` format.
+- `image`: an existing public image path, such as `/assets/images/coppak/outreach/alpha-groups/01.jpg`.
+- `imageAlt`: a short, accurate description of the photo.
+- `paragraphs`: an array of quoted text paragraphs forming the article.
+
+Commit to `main`. Vercel publishes the article at `/news/your-slug`, adds its card to News (newest first), and includes it in the sitemap. Use real, approved news only; the announcements section currently has no posts. No dashboard or CMS is required.

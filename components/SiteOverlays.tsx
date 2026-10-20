@@ -421,6 +421,7 @@ export default function SiteOverlays() {
                 </li>{" "}
               </ul>{" "}
             </details>
+            <a href="/news" className="mobile-nav-menu__item"><span>News</span></a>
             <a href="/events" className="mobile-nav-menu__item">
               {" "}
               <span>Events</span>{" "}

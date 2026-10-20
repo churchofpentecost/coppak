@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { newsPosts } from "../data/news";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: "https://coppak.org/" },
@@ -18,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "https://coppak.org/donate" },
     { url: "https://coppak.org/events" },
     { url: "https://coppak.org/media" },
+    { url: "https://coppak.org/news" },
+    ...newsPosts.map(post => ({ url: `https://coppak.org/news/${post.slug}` })),
     { url: "https://coppak.org/ministries" },
     { url: "https://coppak.org/ministries/children" },
     { url: "https://coppak.org/ministries/compassion" },
