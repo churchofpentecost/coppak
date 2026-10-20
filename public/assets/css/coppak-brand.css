@@ -1,0 +1,1838 @@
+/* COPPAK brand overrides — pulled from the Church of Pentecost logo
+   - Primary blue:  #1f4fa8  (the dominant blue in the logo text/globe/ring)
+   - Yellow:        #ffd400  (the accent band beneath the wordmark)
+   - Deep navy:     #0f1b3d  (deep base — body text, dark areas) */
+
+:root {
+    --oxpins-base: #1f4fa8;
+    --oxpins-base-rgb: 31, 79, 168;
+
+    --oxpins-primary: #ffd400;
+    --oxpins-primary-rgb: 255, 212, 0;
+
+    --oxpins-secondary: #0f2a5f;
+    --oxpins-secondary-rgb: 15, 42, 95;
+
+    --oxpins-black: #0f1b3d;
+    --oxpins-black-rgb: 15, 27, 61;
+
+    --oxpins-black2: #081027;
+    --oxpins-black2-rgb: 8, 16, 39;
+}
+
+/* Logo sizing tweaks so the Church of Pentecost wordmark sits nicely */
+.main-menu__logo img {
+    max-width: 220px;
+    height: auto;
+}
+
+.footer-widget__about-logo img {
+    max-width: 260px;
+    height: auto;
+}
+
+.mobile-nav__content .logo-box img {
+    max-width: 160px;
+    height: auto;
+}
+
+/* Ensure donate button text stays readable on bright yellow */
+.thm-btn,
+.main-menu__btn {
+    color: var(--oxpins-black);
+}
+
+/* Modern pill buttons — replaces the Oxpins ink-circle hover.
+   Same brand palette; applied site-wide. */
+.thm-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px !important;
+    padding: 16px 34px !important;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: 1.5px solid transparent;
+    background-color: var(--oxpins-primary);
+    color: var(--oxpins-black) !important;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.4) inset,
+        0 10px 30px -12px rgba(255, 212, 0, 0.6);
+    transition: transform 0.2s ease, background 0.2s ease,
+        color 0.2s ease, box-shadow 0.2s ease;
+    overflow: visible;
+}
+/* Kill the Oxpins expanding-circle pseudo element */
+.thm-btn::before,
+.main-slider__btn::before,
+.about-one__btn::before,
+.events-one__btn::before,
+.testimonial-one__btn::before,
+.faq-one__btn::before {
+    display: none !important;
+}
+.thm-btn:hover {
+    background-color: #e6bf00;
+    color: var(--oxpins-black) !important;
+    transform: translateY(-1px);
+}
+.thm-btn .arr {
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+.thm-btn:hover .arr {
+    transform: translateX(4px);
+}
+
+/* Blue variant — opt-in via .thm-btn--blue */
+.thm-btn--blue {
+    background-color: var(--oxpins-base);
+    color: #fff !important;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.18) inset,
+        0 10px 30px -12px rgba(31, 79, 168, 0.55);
+}
+.thm-btn--blue:hover {
+    background-color: #173d83;
+    color: #fff !important;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.18) inset,
+        0 14px 34px -10px rgba(31, 79, 168, 0.7);
+}
+
+/* Kill the green/teal demo accents from Oxpins. */
+
+/* The teal-green swoosh PNG that sits next to the header logo. */
+.main-menu__shape-1,
+.main-menu__shape-2 {
+    display: none !important;
+}
+
+/* Oxpins hard-codes a dark-teal #212d2b in three places. Force navy. */
+.site-footer__bottom,
+.site-footer__social a,
+.main-slider-three .swiper-slide {
+    background-color: var(--oxpins-base) !important;
+}
+
+/* Footer social hover stays in brand */
+.site-footer__social a:hover {
+    background-color: var(--oxpins-primary) !important;
+    color: var(--oxpins-black) !important;
+}
+
+/* Replace the Oxpins demo loader with the Church of Pentecost emblem */
+.preloader__image {
+    background-image: url("/icon-512.png") !important;
+    background-size: 80px auto !important;
+}
+
+/* Page banner (inner pages) — Oxpins ships a gray placeholder JPG that
+   blends weirdly under their luminosity/opacity rules. Hide the placeholder
+   overlay so the parent's solid navy background-color renders uniformly. */
+.page-header {
+    background-color: var(--oxpins-base) !important;
+}
+.page-header-bg {
+    display: none !important;
+}
+
+/* Footer placeholder JPG ("1920X515" gray image shipped by Oxpins) — kill it. */
+.site-footer-bg {
+    display: none !important;
+}
+
+/* Real Sunday-service photo as a faded backdrop behind the footer content,
+   layered with the navy color so the photo stays atmospheric and the white
+   footer text remains readable. */
+.site-footer {
+    position: relative;
+    background-color: var(--oxpins-black) !important;
+    background-image:
+        linear-gradient(
+            180deg,
+            rgba(15, 27, 61, 0.92) 0%,
+            rgba(15, 27, 61, 0.88) 100%
+        ),
+        url("/assets/images/coppak/footer-bg.jpg") !important;
+    background-size: cover !important;
+    background-position: center 30% !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Keep the footer-bottom strip a slightly deeper navy so the bottom border
+   stands distinct from the photo-darkened middle */
+.site-footer__bottom {
+    background-color: rgba(8, 16, 39, 0.6) !important;
+}
+
+/* Soft light bloom over the footer — warm glow at bottom-centre,
+   cool blue bloom at top-left. Sits above the photo, under content. */
+.site-footer {
+    overflow: hidden;
+}
+.site-footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse at 50% 100%, rgba(255, 212, 0, 0.12), transparent 60%),
+        radial-gradient(ellipse at 0% 0%, rgba(31, 79, 168, 0.4), transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+.site-footer__top,
+.site-footer__bottom {
+    position: relative;
+    z-index: 1;
+}
+
+/* Modern elevation — no hairline strokes anywhere; soft shadows instead.
+   Project cards: lift the whole card, drop the content border + flat shadow */
+.causes-one__single {
+    border-radius: var(--oxpins-bdr-radius);
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 16px 40px -12px rgba(15, 27, 61, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.causes-one__single:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 4px 10px rgba(15, 27, 61, 0.07),
+        0 24px 56px -14px rgba(15, 27, 61, 0.22);
+}
+.causes-one__content {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+/* FAQ accordion: drop the 2px stroke, give every item a soft shadow
+   (Oxpins only shadowed the .active one) */
+.faq-one-accrodion .accrodion {
+    border: 0 !important;
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 14px 34px -14px rgba(15, 27, 61, 0.14) !important;
+}
+.faq-one-accrodion .accrodion.active {
+    box-shadow:
+        0 3px 8px rgba(15, 27, 61, 0.06),
+        0 20px 46px -14px rgba(15, 27, 61, 0.2) !important;
+}
+
+/* Hero slider — bulletproof override of Oxpins' split design.
+   The original used 50% width image-layer + luminosity blend, which
+   produced weird scaling/cropping and monochrome-blue photos. Replaced
+   with a simple full-width hero: photo fills the slide, dark gradient
+   overlay on the left for text readability, decorative shapes hidden. */
+
+.main-slider .swiper-slide {
+    background-color: var(--oxpins-black) !important;
+    min-height: 640px;
+}
+
+.main-slider .container {
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+
+.main-slider .image-layer {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    mix-blend-mode: normal !important;
+    transform: none !important;
+    opacity: 1 !important;
+    z-index: 0;
+}
+
+/* Dark left-to-right gradient over the photo so headline text stays
+   legible regardless of which photo is showing */
+.main-slider .image-layer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(15, 27, 61, 0.9) 0%,
+        rgba(15, 27, 61, 0.7) 40%,
+        rgba(15, 27, 61, 0.25) 80%,
+        rgba(15, 27, 61, 0.1) 100%
+    );
+    z-index: 1;
+}
+
+/* Hide the cracked-earth jpg + small swoosh png — they were designed to
+   fill the empty left half of the original split layout */
+.main-slider-shape-1,
+.main-slider-shape-2 {
+    display: none !important;
+}
+
+/* Text content sits above the gradient */
+.main-slider .container .main-slider__content {
+    position: relative;
+    z-index: 5;
+    max-width: 680px;
+}
+
+.main-slider__sub-title {
+    color: var(--oxpins-primary) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    margin-bottom: 16px !important;
+}
+
+.main-slider__title {
+    color: #fff !important;
+    font-size: 56px !important;
+    line-height: 1.15 !important;
+    margin-bottom: 32px !important;
+}
+
+@media (max-width: 991px) {
+    .main-slider .swiper-slide {
+        min-height: 520px;
+    }
+    .main-slider__title {
+        font-size: 38px !important;
+    }
+}
+
+/* About-one section — the image container was sized for the Oxpins
+   portrait demo (470×670, aspect 0.70). All real COPPAK photos are
+   landscape, so they only filled the top of the container, leaving
+   the decorative yellow border outlining empty space. Force the
+   container to a portrait aspect ratio and make the photo cover it. */
+.about-one__img {
+    aspect-ratio: 470 / 670;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.about-one__img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    /* anchor toward the right so the speaker with mic stays in frame */
+    object-position: 75% center !important;
+    display: block;
+}
+
+/* Logo-only badge variant — kill the curved text + canvas, keep the
+   white circle at its natural 200×200 size, center the logo inside it. */
+/* Home About section: kill the busy yellow swoosh border that wrapped
+   the photo. Anchor the COPPAK badge dead-centered on the photo's
+   bottom edge instead of jammed into the bottom-right corner. */
+.about-one__img-border {
+    display: none !important;
+}
+.about-one__curved-circle-box--logo-only {
+    position: absolute !important;
+    bottom: -56px !important;
+    left: 50% !important;
+    right: auto !important;
+    top: auto !important;
+    transform: translateX(-50%) !important;
+    width: 240px !important;
+    height: 240px !important;
+    overflow: hidden;
+    background: #fff !important;
+    box-shadow: 0 12px 36px -10px rgba(15, 27, 61, 0.28),
+        0 4px 10px rgba(15, 27, 61, 0.08) !important;
+}
+.about-one__curved-circle-box--logo-only .curved-circle,
+.about-one__curved-circle-box--logo-only canvas {
+    display: none !important;
+}
+.about-one__curved-circle-box--logo-only .about-one__curved-circle-icon {
+    position: absolute !important;
+    inset: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.about-one__curved-circle-box--logo-only .about-one__curved-circle-icon img {
+    width: 210px !important;
+    height: 210px !important;
+    max-width: 210px !important;
+    max-height: 210px !important;
+    object-fit: contain !important;
+    display: block !important;
+}
+
+/* Testimonial bg — same luminosity-blend issue as the hero slider.
+   Switch to normal blend at slightly higher opacity so the real
+   COPPAK crowd photo shows as a subtle, atmospheric backdrop instead
+   of a monochrome ghost. */
+.testimonial-one-bg {
+    mix-blend-mode: normal !important;
+    opacity: 0.25 !important;
+}
+
+/* Circular avatars and client photo in the testimonial section were
+   being stretched/squashed because Oxpins sets fixed width × height
+   without `object-fit`. Real portrait photos need to crop, not distort. */
+.testimonial-one__img-1 img,
+.testimonial-one__client-img img {
+    object-fit: cover !important;
+    object-position: center 25% !important;
+}
+
+/* ------------------------------------------------------------------
+   Causes / project cards (homepage) — equal-height layout
+   - Image height locked to a 16:9 crop so tall photos don't blow up cards
+   - Cards stretch to match each other's height (flex)
+   - "Read more" button always pins to the bottom of the card
+   ------------------------------------------------------------------ */
+
+/* Tighten the section spacing so the Our Projects block fits without
+   excessive scroll */
+.causes-one {
+    padding: 70px 0 80px !important;
+}
+.causes-one .section-title {
+    margin-bottom: 36px !important;
+}
+
+.causes-one .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    row-gap: 24px;
+}
+.causes-one .row > [class*="col-"] {
+    display: flex;
+    margin-bottom: 0 !important;
+}
+
+/* Whole card is a link — full-card click target, subtle hover lift */
+.causes-one__single--link {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+    text-decoration: none !important;
+    color: inherit !important;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    box-shadow: 0 2px 10px rgba(15, 27, 61, 0.05);
+}
+.causes-one__single--link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(15, 27, 61, 0.12);
+}
+
+/* Slimmer image — 16:9 instead of 16:10 keeps cards compact */
+.causes-one__img {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+}
+.causes-one__img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.causes-one__single--link:hover .causes-one__img img {
+    transform: scale(1.04);
+}
+
+.causes-one__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 18px 22px 18px !important;
+}
+
+.causes-one__title {
+    margin-bottom: 6px !important;
+    line-height: 1.22;
+    font-size: 22px !important;
+}
+.causes-one__title,
+.causes-one__title a {
+    color: var(--oxpins-black) !important;
+    text-decoration: none !important;
+}
+
+.causes-one__text {
+    margin-bottom: 10px !important;
+    opacity: 0.78;
+    font-size: 14.5px;
+    line-height: 1.5;
+    /* Force every card's description to occupy exactly 2 lines — keeps
+       cards visually equal even if one description is slightly shorter.
+       Any text that would have wrapped to 3 lines is capped with ellipsis. */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Force title to 2 lines max as well for consistent card heights */
+.causes-one__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Compact "Read more →" link in place of the big yellow button */
+.causes-one__read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 2px;
+    color: var(--oxpins-base);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: gap 0.18s ease;
+}
+.causes-one__single--link:hover .causes-one__read-more {
+    gap: 12px;
+}
+.causes-one__read-more .arrow {
+    color: var(--oxpins-primary);
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+/* =========================================================================
+   Custom COPPAK header — clean white bar, centered circle logo, split nav
+   ========================================================================= */
+
+/* The header is `position: fixed` so it is guaranteed to span the full
+   viewport width regardless of any ancestor max-width / overflow / transform
+   constraints (those were breaking `position: sticky`). The page-wrapper
+   gets matching `padding-top` to reserve space for the fixed bar. */
+.page-wrapper {
+    overflow: visible !important;
+    padding-top: 90px !important;
+}
+
+/* Kill horizontal scroll caused by Oxpins decorative absolutely-positioned
+   elements (testimonial floating avatars at left:-168px, slider shapes, etc.)
+   poking out past the viewport edge. `clip` (not `hidden`) clips the overflow
+   without creating a scroll container — which would break `position: sticky`. */
+html, body {
+    overflow-x: clip !important;
+    max-width: 100vw;
+}
+
+/* Make the bar 90px tall and lock the white background with !important so
+   nothing in Oxpins / Bootstrap / vendor CSS can leak through. */
+.coppak-header,
+header.coppak-header {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid rgba(15, 27, 61, 0.08);
+    z-index: 1000 !important;
+    /* overflow visible so the centered logo badge can spill below the bar */
+    overflow: visible !important;
+    box-shadow: 0 2px 12px rgba(15, 27, 61, 0.06);
+}
+
+.coppak-header__inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 32px;
+    /* fixed bar height — tall enough that menu items have clear whitespace
+       above and below them inside the white bar */
+    height: 90px !important;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 24px;
+    background: transparent;
+}
+
+.coppak-header__logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* lift the logo onto the bar like a badge; positive z-index keeps it above
+       both the nav and whatever section starts immediately below the header */
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+}
+
+/* White circular badge behind the logo so it stays readable when overhanging
+   onto colored sections below the header */
+.coppak-header__logo-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px rgba(15, 27, 61, 0.12);
+    /* small downward nudge so the badge overhang feels weighted toward the
+       bottom of the bar (visual emphasis on what's below) */
+    transform: translateY(10px);
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.coppak-header__logo-badge img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+/* Nav lists */
+.coppak-nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.coppak-nav--left > ul {
+    justify-content: flex-end;
+}
+
+.coppak-nav--right > ul {
+    justify-content: flex-start;
+}
+
+.coppak-nav li {
+    position: relative;
+}
+
+.coppak-nav a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    color: var(--oxpins-black);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 8px;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+.coppak-nav a:hover,
+.coppak-nav a:focus-visible {
+    background-color: rgba(31, 79, 168, 0.08);
+    color: var(--oxpins-base);
+}
+
+.coppak-nav li.is-active > a {
+    color: var(--oxpins-base);
+}
+
+.coppak-nav li.is-active > a::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 2px;
+    height: 2px;
+    background: var(--oxpins-primary);
+    border-radius: 2px;
+}
+
+.submenu-caret {
+    font-size: 10px;
+    opacity: 0.6;
+    margin-left: 2px;
+}
+
+/* ----- Submenu dropdown — fancier UI ----- */
+
+.coppak-nav .submenu {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    background: #fff;
+    border-radius: 14px;
+    padding: 14px 0 10px;
+    min-width: 240px;
+    list-style: none;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-8px) scale(0.98);
+    transform-origin: top center;
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s cubic-bezier(0.2, 0.8, 0.2, 1),
+        visibility 0.2s;
+    z-index: 60;
+    border: 1px solid rgba(31, 79, 168, 0.08);
+    box-shadow:
+        0 18px 48px -12px rgba(15, 27, 61, 0.22),
+        0 6px 16px rgba(15, 27, 61, 0.08);
+    overflow: hidden;
+}
+
+/* Brand-yellow accent strip at the top of every dropdown */
+.coppak-nav .submenu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--oxpins-primary) 0%, #ffe566 100%);
+}
+
+.coppak-nav .has-submenu:hover > .submenu,
+.coppak-nav .has-submenu:focus-within > .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0) scale(1);
+}
+
+/* Bridge the small gap between menu item and dropdown so hover doesn't break */
+.coppak-nav .has-submenu::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+/* Items */
+.coppak-nav .submenu a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 22px;
+    margin: 0 6px;
+    border-radius: 8px;
+    color: var(--oxpins-black);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    position: relative;
+    transition:
+        background-color 0.16s ease,
+        color 0.16s ease,
+        padding-left 0.18s ease;
+}
+
+/* Arrow that fades in on hover, signaling "go" */
+.coppak-nav .submenu a::after {
+    content: "→";
+    opacity: 0;
+    transform: translateX(-6px);
+    transition: opacity 0.16s ease, transform 0.18s ease;
+    color: var(--oxpins-base);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.coppak-nav .submenu a:hover,
+.coppak-nav .submenu a:focus-visible {
+    background-color: rgba(31, 79, 168, 0.06);
+    color: var(--oxpins-base);
+    padding-left: 28px;
+}
+
+.coppak-nav .submenu a:hover::after,
+.coppak-nav .submenu a:focus-visible::after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* First item ("All ____" / parent index) — emphasized + separator below */
+.coppak-nav .submenu li:first-child a {
+    font-weight: 700;
+    color: var(--oxpins-base);
+    letter-spacing: 0.01em;
+}
+
+.coppak-nav .submenu li:first-child {
+    border-bottom: 1px solid rgba(31, 79, 168, 0.1);
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+
+/* Donate CTA */
+.coppak-nav__cta {
+    margin-left: 8px;
+}
+
+.coppak-donate {
+    background: var(--oxpins-primary) !important;
+    color: var(--oxpins-black) !important;
+    padding: 10px 20px !important;
+    border-radius: 999px !important;
+    font-weight: 700 !important;
+    box-shadow: 0 2px 8px rgba(255, 212, 0, 0.3);
+}
+
+.coppak-donate:hover {
+    background: #ffdd33 !important;
+    transform: translateY(-1px);
+}
+
+/* Hamburger (mobile) */
+.coppak-burger {
+    display: none;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    font-size: 22px;
+    color: var(--oxpins-base);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    transition: background 0.18s ease;
+}
+.coppak-burger:hover,
+.coppak-burger:focus-visible {
+    background: rgba(31, 79, 168, 0.08);
+}
+
+@media (max-width: 1100px) {
+    .coppak-nav a {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .coppak-header__logo-badge {
+        width: 112px;
+        height: 112px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-wrapper {
+        padding-top: 70px !important;
+    }
+    .coppak-header__inner {
+        grid-template-columns: auto 1fr auto;
+        padding: 0 16px;
+        height: 70px !important;
+    }
+    .coppak-nav {
+        display: none;
+    }
+    .coppak-burger {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        order: 3;
+        margin-left: auto;
+    }
+    .coppak-header__logo {
+        justify-self: center;
+        order: 2;
+    }
+    .coppak-header__logo-badge {
+        width: 92px;
+        height: 92px;
+        padding: 6px;
+        transform: translateY(6px);
+    }
+}
+
+/* ============================================================
+   Detail pages — Ministries / Outreach / Projects
+   Sticky sidebar + structured content sections
+   ============================================================ */
+.detail-section {
+    padding: 80px 0 96px;
+}
+.detail-grid {
+    display: grid;
+    grid-template-columns: 312px 1fr;
+    gap: 48px;
+    align-items: start;
+}
+
+/* --- Sticky sidebar --- */
+.detail-sidebar {
+    position: sticky;
+    top: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+.detail-sidebar__card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 18px 16px;
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 16px 40px -12px rgba(15, 27, 61, 0.15);
+}
+.detail-sidebar__heading {
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--oxpins-black);
+    border-bottom: 1px solid rgba(15, 27, 61, 0.08);
+}
+.detail-sidebar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.detail-sidebar__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #5b6478;
+    transition: background 0.18s ease, color 0.18s ease;
+}
+.detail-sidebar__item i {
+    width: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #98a0b6;
+    transition: color 0.18s ease;
+}
+.detail-sidebar__item:hover {
+    background: rgba(31, 79, 168, 0.05);
+    color: var(--oxpins-black);
+    text-decoration: none;
+}
+.detail-sidebar__item:hover i {
+    color: var(--oxpins-base);
+}
+.detail-sidebar__item.is-active {
+    background: rgba(31, 79, 168, 0.08);
+    color: var(--oxpins-base);
+    font-weight: 700;
+}
+.detail-sidebar__item.is-active i {
+    color: var(--oxpins-base);
+}
+.detail-sidebar__item.is-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 6px;
+    width: 3px;
+    border-radius: 3px;
+    background: var(--oxpins-base);
+}
+.detail-sidebar__cta {
+    background: linear-gradient(155deg, #142a5f 0%, #0a1430 100%);
+    border-radius: 18px;
+    padding: 18px 18px;
+    color: #fff;
+}
+.detail-sidebar__cta h4 {
+    margin: 0 0 5px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+}
+.detail-sidebar__cta p {
+    margin: 0 0 13px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+/* --- Eyebrow tag (shared) --- */
+.detail-eyebrow {
+    display: inline-block;
+    background: #e9edf4;
+    color: #5b6478;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 7px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+}
+
+/* --- Intro / markdown body --- */
+.detail-status {
+    display: inline-block;
+    background: var(--oxpins-primary);
+    color: var(--oxpins-black);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+}
+.detail-lead {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: var(--oxpins-black);
+    margin: 0 0 22px;
+}
+.detail-body {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4a5168;
+}
+.detail-body p {
+    margin: 0 0 16px;
+}
+.detail-body h2,
+.detail-body h3 {
+    color: var(--oxpins-black);
+    margin: 28px 0 12px;
+}
+.detail-body h2 {
+    font-size: 24px;
+}
+.detail-body h3 {
+    font-size: 20px;
+}
+.detail-body strong {
+    color: var(--oxpins-black);
+}
+.detail-body ul {
+    margin: 0 0 16px;
+    padding-left: 20px;
+}
+.detail-body li {
+    margin-bottom: 6px;
+}
+
+/* --- Verse + stats on one row --- */
+.detail-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 16px;
+    margin: 36px 0;
+}
+.detail-highlight > .detail-verse {
+    flex: 3 1 340px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detail-highlight > .detail-stats {
+    flex: 2 1 230px;
+    margin: 0;
+    flex-direction: column;
+}
+.detail-highlight > .detail-stats .detail-stats__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* --- Scripture verse --- */
+.detail-verse {
+    margin: 36px 0;
+    padding: 32px 36px;
+    border-radius: 18px;
+    background: linear-gradient(155deg, #1f4fa8 0%, #142a5f 100%);
+    color: #fff;
+}
+.detail-verse blockquote {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.6;
+    font-style: italic;
+    font-weight: 500;
+}
+.detail-verse figcaption {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--oxpins-primary);
+}
+
+/* --- Stats row --- */
+.detail-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 36px 0;
+}
+.detail-stats__item {
+    flex: 1 1 140px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 22px 20px;
+    text-align: center;
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 16px 40px -14px rgba(15, 27, 61, 0.14);
+}
+.detail-stats__value {
+    display: block;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--oxpins-base);
+}
+.detail-stats__label {
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #6b7390;
+}
+
+/* --- "What we do" efforts card --- */
+.detail-efforts {
+    margin: 36px 0;
+    padding: 36px;
+    border-radius: 22px;
+    background: #f4f6fa;
+}
+.detail-efforts__title {
+    margin: 0 0 22px;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--oxpins-black);
+}
+.detail-efforts__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.detail-efforts__list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 1.55;
+    color: #4a5168;
+}
+.detail-efforts__list li + li {
+    border-top: 1px solid rgba(15, 27, 61, 0.06);
+}
+.detail-efforts__list i {
+    flex-shrink: 0;
+    margin-top: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(31, 79, 168, 0.1);
+    color: var(--oxpins-base);
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- "Where we work" location pills --- */
+.detail-locations {
+    margin: 36px 0;
+}
+.detail-locations__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.detail-locations__tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: #fff;
+    padding: 13px 22px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--oxpins-black);
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 12px 28px -14px rgba(15, 27, 61, 0.16);
+}
+.detail-locations__tag i {
+    color: var(--oxpins-base);
+    font-size: 14px;
+}
+
+/* --- Leader card --- */
+.detail-leader {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 36px 0;
+    padding: 26px 30px;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 16px 40px -12px rgba(15, 27, 61, 0.15);
+}
+.detail-leader__photo {
+    flex-shrink: 0;
+}
+.detail-leader__photo img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 6px 18px rgba(15, 27, 61, 0.18);
+}
+.detail-leader__name {
+    margin: 4px 0 2px;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--oxpins-black);
+}
+.detail-leader__role {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7390;
+}
+
+/* --- Gallery --- */
+.detail-gallery-block {
+    margin: 36px 0;
+}
+.detail-gallery__title {
+    margin: 0 0 20px;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--oxpins-black);
+}
+.detail-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+.detail-gallery__item {
+    display: block;
+    aspect-ratio: 4 / 3;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow:
+        0 2px 6px rgba(15, 27, 61, 0.05),
+        0 14px 34px -16px rgba(15, 27, 61, 0.18);
+}
+.detail-gallery__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+}
+.detail-gallery__item:hover img {
+    transform: scale(1.07);
+}
+
+/* --- Get involved CTA --- */
+.detail-cta {
+    margin-top: 44px;
+    padding: 40px;
+    border-radius: 22px;
+    text-align: center;
+    background: linear-gradient(155deg, #142a5f 0%, #0a1430 100%);
+    color: #fff;
+}
+.detail-cta__title {
+    margin: 0 0 8px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+.detail-cta__text {
+    margin: 0 auto 26px;
+    max-width: 460px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.74);
+}
+.detail-cta__actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.detail-cta__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 130px;
+    padding: 22px 12px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+.detail-cta__action i {
+    font-size: 24px;
+    color: var(--oxpins-primary);
+}
+.detail-cta__action:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-3px);
+}
+
+/* --- Responsive --- */
+@media (max-width: 991px) {
+    .detail-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .detail-sidebar {
+        position: static;
+    }
+    .detail-sidebar__list {
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 8px;
+        padding-bottom: 4px;
+    }
+    .detail-sidebar__item {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+    .detail-sidebar__item.is-active::before {
+        display: none;
+    }
+    .detail-sidebar__cta {
+        display: none;
+    }
+    .detail-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 575px) {
+    .detail-efforts {
+        padding: 26px 22px;
+    }
+    .detail-verse {
+        padding: 26px 24px;
+    }
+    .detail-leader {
+        flex-direction: column;
+        text-align: center;
+        gap: 14px;
+    }
+    .detail-cta {
+        padding: 32px 22px;
+    }
+}
+
+
+/* ============================================================
+   Detail hero — image-rich header for Ministries / Outreach / Projects
+   ============================================================ */
+.detail-hero {
+    position: relative;
+    overflow: hidden;
+    background-color: #0a1430;
+    /* fallback when a page has no image — the inline style layers
+       the same dark gradient over the photo when one is set */
+    background-image: linear-gradient(135deg, #1f4fa8 0%, #142a5f 56%, #0a1430 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 0 72px;
+}
+.detail-hero__glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(ellipse at 88% 18%, rgba(255, 212, 0, 0.14), transparent 55%),
+        radial-gradient(ellipse at 0% 100%, rgba(31, 79, 168, 0.5), transparent 55%);
+}
+.detail-hero .container {
+    position: relative;
+    z-index: 1;
+}
+.detail-hero__inner {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 56px;
+}
+.detail-hero__inner.is-textonly {
+    grid-template-columns: 1fr;
+}
+
+/* breadcrumb */
+.detail-hero__crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.detail-hero__crumbs a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.18s ease;
+}
+.detail-hero__crumbs a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.detail-hero__crumbs .is-current span {
+    color: var(--oxpins-primary);
+}
+.detail-hero__crumb-sep {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.detail-hero__eyebrow {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+}
+.detail-hero__title {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(34px, 4vw, 52px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+}
+
+/* photo collage */
+.detail-hero__collage {
+    display: grid;
+    gap: 14px;
+    height: 320px;
+}
+.detail-hero__collage.count-3 {
+    grid-template-columns: 1.25fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.detail-hero__collage.count-3 .detail-hero__photo:first-child {
+    grid-row: 1 / span 2;
+}
+.detail-hero__collage.count-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.detail-hero__collage.count-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+/* YouTube embed replaces the photo collage when a video is set */
+.detail-hero__video {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 18px 44px -16px rgba(0, 0, 0, 0.6);
+}
+.detail-hero__video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+.detail-hero__photo {
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 18px 44px -16px rgba(0, 0, 0, 0.6);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.detail-hero__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.detail-hero__photo:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 24px 54px -14px rgba(0, 0, 0, 0.7);
+}
+.detail-hero__photo:hover img {
+    transform: scale(1.06);
+}
+
+@media (max-width: 991px) {
+    .detail-hero {
+        padding: 48px 0 52px;
+    }
+    .detail-hero__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .detail-hero__collage {
+        height: 260px;
+    }
+}
+@media (max-width: 575px) {
+    .detail-hero__collage {
+        height: 210px;
+        gap: 10px;
+    }
+}
+
+/* ============================================================
+   Page hero — shared header for all standard pages
+   (image background + navy overlay + glow, centered content)
+   ============================================================ */
+.page-hero {
+    position: relative;
+    overflow: hidden;
+    background-color: #0a1430;
+    background-image: linear-gradient(135deg, #1f4fa8 0%, #142a5f 56%, #0a1430 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0 78px;
+    text-align: center;
+}
+.page-hero__glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(ellipse at 50% 0%, rgba(255, 212, 0, 0.1), transparent 55%),
+        radial-gradient(ellipse at 0% 100%, rgba(31, 79, 168, 0.5), transparent 55%);
+}
+.page-hero .container {
+    position: relative;
+    z-index: 1;
+}
+.page-hero__inner {
+    max-width: 760px;
+    margin: 0 auto;
+}
+.page-hero__crumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 16px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.page-hero__crumbs a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.18s ease;
+}
+.page-hero__crumbs a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.page-hero__crumbs .is-current span {
+    color: var(--oxpins-primary);
+}
+.page-hero__crumb-sep {
+    color: rgba(255, 255, 255, 0.35);
+}
+.page-hero__eyebrow {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+}
+.page-hero__title {
+    margin: 0;
+    color: #fff;
+    font-size: clamp(32px, 4.4vw, 50px);
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+}
+.page-hero__subtitle {
+    margin: 16px auto 0;
+    max-width: 600px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.76);
+}
+@media (max-width: 575px) {
+    .page-hero {
+        padding: 52px 0 58px;
+    }
+}
+
+/* ============================================================
+   Card "read more" link — subtle uppercase text-link with arrow,
+   used inside content cards (CollectionCard + home project cards).
+   Replaces the dated big yellow pill button inside cards.
+   ============================================================ */
+.card-readmore,
+.causes-one__read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--oxpins-base);
+    transition: color 0.18s ease;
+}
+.card-readmore .arr,
+.card-readmore .arrow,
+.causes-one__read-more .arr,
+.causes-one__read-more .arrow {
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+.card-readmore:hover,
+.causes-one__single:hover .causes-one__read-more {
+    color: var(--oxpins-black);
+    text-decoration: none;
+}
+.card-readmore:hover .arr,
+.card-readmore:hover .arrow,
+.causes-one__single:hover .causes-one__read-more .arr,
+.causes-one__single:hover .causes-one__read-more .arrow {
+    transform: translateX(4px);
+}
+
+/* ============================================================
+   Footer wordmark — the Pakistan horizontal logo PNG
+   (replaces the old "CANADA INC" wordmark).
+   ============================================================ */
+.footer-wordmark {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.footer-wordmark img {
+    display: block;
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+}
+.footer-wordmark:hover {
+    text-decoration: none;
+}
+
+/* ============================================================
+   Mobile slide-in nav — white panel, server-rendered + compact
+   ============================================================ */
+.mobile-nav__content {
+    background-color: #fff !important;
+    width: 290px !important;
+    padding: 22px 14px 18px !important;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+/* The Oxpins close-X was white-on-navy; on our white panel make it dark */
+.mobile-nav__content .mobile-nav__close {
+    color: var(--oxpins-black) !important;
+    font-size: 18px !important;
+}
+
+.mobile-nav-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0 14px;
+    padding: 0;
+}
+.mobile-nav-menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: var(--oxpins-black);
+    font-size: 14.5px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    transition: background 0.18s ease, color 0.18s ease;
+}
+.mobile-nav-menu__item:hover,
+.mobile-nav-menu__item:focus-visible {
+    background: rgba(31, 79, 168, 0.06);
+    color: var(--oxpins-base);
+    text-decoration: none;
+}
+.mobile-nav-menu > a.mobile-nav-menu__item.is-active,
+.mobile-nav-menu__group.is-active > summary.mobile-nav-menu__item {
+    background: rgba(31, 79, 168, 0.1);
+    color: var(--oxpins-base);
+    box-shadow: inset 3px 0 0 var(--oxpins-primary);
+}
+.mobile-nav-menu__caret {
+    font-size: 10px;
+    color: #98a0b6;
+    transition: transform 0.22s ease;
+}
+.mobile-nav-menu__group[open] > summary .mobile-nav-menu__caret {
+    transform: rotate(180deg);
+}
+.mobile-nav-menu__group > summary {
+    list-style: none;
+}
+.mobile-nav-menu__group > summary::-webkit-details-marker {
+    display: none;
+}
+.mobile-nav-menu__sub {
+    list-style: none;
+    margin: 2px 0 6px;
+    padding: 0 0 0 10px;
+    border-left: 2px solid rgba(15, 27, 61, 0.08);
+}
+.mobile-nav-menu__sub-item {
+    display: block;
+    min-height: 34px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #4a5168;
+    font-size: 13.5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.18s ease, color 0.18s ease;
+}
+.mobile-nav-menu__sub-item:hover,
+.mobile-nav-menu__sub-item:focus-visible {
+    background: rgba(31, 79, 168, 0.05);
+    color: var(--oxpins-base);
+    text-decoration: none;
+}
+.mobile-nav-menu__sub-item.is-active {
+    background: rgba(31, 79, 168, 0.09);
+    color: var(--oxpins-base);
+    font-weight: 700;
+}
+
+/* Compact Donate CTA */
+.mobile-nav-menu__donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 6px 4px 14px;
+    padding: 11px 18px;
+    border-radius: 999px;
+    background: var(--oxpins-primary);
+    color: var(--oxpins-black);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.4) inset,
+        0 10px 30px -12px rgba(255, 212, 0, 0.6);
+    transition: background 0.18s ease, transform 0.18s ease;
+}
+.mobile-nav-menu__donate:hover,
+.mobile-nav-menu__donate:focus-visible {
+    background: #e6bf00;
+    color: var(--oxpins-black);
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+.mobile-nav-menu__donate i {
+    color: #d33;
+    font-size: 12px;
+}
+
+/* Contact + social: Oxpins styled these for a navy panel (white-on-dark).
+   We switched to white panel — make them readable. */
+.mobile-nav__content .mobile-nav__contact {
+    margin: 6px 4px 14px !important;
+    padding-top: 14px;
+    border-top: 1px solid rgba(15, 27, 61, 0.08);
+}
+.mobile-nav__content .mobile-nav__contact li {
+    color: #4a5168 !important;
+    font-size: 13.5px !important;
+    gap: 10px;
+}
+.mobile-nav__content .mobile-nav__contact li + li {
+    margin-top: 8px !important;
+}
+.mobile-nav__content .mobile-nav__contact li a {
+    color: var(--oxpins-black) !important;
+    font-weight: 600;
+}
+.mobile-nav__content .mobile-nav__contact li a:hover {
+    color: var(--oxpins-base) !important;
+}
+.mobile-nav__content .mobile-nav__contact li i {
+    color: var(--oxpins-base);
+    width: 18px;
+}
+
+.mobile-nav__content .mobile-nav__top {
+    padding-top: 12px;
+    border-top: 1px solid rgba(15, 27, 61, 0.08);
+}
+.mobile-nav__content .mobile-nav__social a {
+    color: var(--oxpins-base) !important;
+    font-size: 16px;
+}
+.mobile-nav__content .mobile-nav__social a + a {
+    margin-left: 18px !important;
+}
+.mobile-nav__content .mobile-nav__social a:hover {
+    color: var(--oxpins-black) !important;
+}
