@@ -17,7 +17,8 @@ const bankDetails = [
       "Property No. S-86-R-800/C/Hall, Saroba Ferozpur Road, Lahore, Pakistan",
   },
 ];
-const methods = ["PayPal", "Bank transfer"];
+const jazzCash = { name: "Jamil Nasir", number: "03004179633" };
+const methods = ["PayPal", "Bank transfer", "JazzCash"];
 
 export default function DonationMethods() {
   const [active, setActive] = useState(0);
@@ -28,9 +29,11 @@ export default function DonationMethods() {
   function changeTab(event: KeyboardEvent<HTMLButtonElement>, index: number) {
     let next = index;
     if (event.key === "ArrowRight" || event.key === "ArrowLeft")
-      next = 1 - index;
+      next =
+        (index + (event.key === "ArrowRight" ? 1 : -1) + methods.length) %
+        methods.length;
     else if (event.key === "Home") next = 0;
-    else if (event.key === "End") next = 1;
+    else if (event.key === "End") next = methods.length - 1;
     else return;
     event.preventDefault();
     setActive(next);
@@ -168,6 +171,62 @@ export default function DonationMethods() {
           </p>
           <p className="giving-payment-note">
             Please review the details in your banking app before sending.
+          </p>
+        </div>
+      </div>
+      <div
+        id="giving-panel-2"
+        role="tabpanel"
+        aria-labelledby="giving-tab-2"
+        hidden={active !== 2}
+        tabIndex={0}
+      >
+        <div className="giving-jazzcash">
+          <div className="giving-jazzcash__brand">
+            <span>
+              Jazz<span>Cash</span>
+            </span>
+            <small>MOBILE WALLET · PAKISTAN</small>
+          </div>
+          <p className="giving-jazzcash__intro">
+            Support our mission through JazzCash.
+          </p>
+          <dl className="giving-jazzcash__account">
+            <div>
+              <dt>Account holder</dt>
+              <dd>{jazzCash.name}</dd>
+            </div>
+            <div>
+              <dt>JazzCash account number</dt>
+              <dd className="giving-jazzcash__number">0300 4179633</dd>
+              <p>International format: +92 300 4179633</p>
+            </div>
+          </dl>
+          <button
+            type="button"
+            className="giving-jazzcash__copy"
+            onClick={() => void copyDetail("JazzCash number", jazzCash.number)}
+          >
+            {copied === "JazzCash number"
+              ? "Number copied ✓"
+              : "Copy JazzCash number"}
+          </button>
+          <p className="giving-copy-status" role="status" aria-live="polite">
+            {notice}
+          </p>
+          <ol className="giving-jazzcash__steps">
+            <li>
+              Open your JazzCash app and choose to send money to a JazzCash
+              account.
+            </li>
+            <li>Enter the account number above and your donation amount.</li>
+            <li>
+              Confirm the recipient is <strong>Jamil Nasir</strong> before
+              sending.
+            </li>
+          </ol>
+          <p className="giving-payment-note">
+            Complete your transfer in the JazzCash app.
           </p>
         </div>
       </div>
