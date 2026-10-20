@@ -357,3 +357,123 @@
     transition: none;
   }
 }
+
+/* Carousel keeps the approved layout and pauses during interaction. */
+.home-hero__scene {
+  min-height: 660px;
+  touch-action: pan-y;
+}
+.home-hero__image {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.home-hero__image.is-current {
+  opacity: 1;
+}
+.home-hero__image--slide2 {
+  object-position: center 72%;
+}
+.home-hero__content {
+  padding-bottom: 110px;
+}
+.home-hero__intro {
+  min-height: 89px;
+}
+.home-hero__controls {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  z-index: 2;
+}
+.home-hero__control {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #ffffff50;
+  border-radius: 50%;
+  color: #fff;
+  background: #14263c85;
+  font:
+    20px Manrope,
+    sans-serif;
+  cursor: pointer;
+}
+.home-hero__control:hover {
+  color: #14243b;
+  background: #f3d37a;
+  border-color: #f3d37a;
+}
+.home-hero button:focus-visible {
+  outline: 3px solid #f3d37a;
+  outline-offset: 3px;
+}
+.home-hero__dots {
+  display: flex;
+  align-items: center;
+}
+.home-hero__dot {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.home-hero__dot span {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 20px;
+  background: #ffffff80;
+}
+.home-hero__dot[aria-current="true"] span {
+  width: 22px;
+  background: #f3d37a;
+}
+.home-hero__slide-count {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  padding: 0 8px;
+  color: #e1e7ef;
+}
+.home-hero__play {
+  font-size: 13px;
+}
+@media (min-width: 1600px) {
+  .home-hero__scene {
+    min-height: 710px;
+  }
+}
+@media (max-width: 767px) {
+  .home-hero__scene {
+    min-height: 710px;
+  }
+  .home-hero__content {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+  .home-hero__intro {
+    min-height: 101px;
+  }
+  .home-hero__controls {
+    bottom: 22px;
+  }
+  .home-hero__image--slide2 {
+    object-position: 65% center;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-hero__image {
+    transition: none;
+  }
+}
