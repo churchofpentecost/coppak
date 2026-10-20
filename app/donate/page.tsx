@@ -436,6 +436,7 @@ export default function Page() {
                   PayPal
                 </h3>{" "}
                 <div
+                  className="paypal-donation"
                   style={{
                     marginTop: 16,
                     padding: 28,
@@ -444,22 +445,57 @@ export default function Page() {
                   }}
                   data-astro-cid-vfkcmhic=""
                 >
-                  {" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">Recipient:</strong>{" "}
-                    Church of Pentecost Pakistan
-                  </p>{" "}
-                  <p style={{ margin: 0 }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">Email:</strong>{" "}
+                  <a
+                    className="paypal-donation__qr"
+                    href="https://www.paypal.com/qrcodes/managed/bf7b2486-1c8c-41d8-a016-a323be464ed2?utm_source=payandgetpaid"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Open PayPal donation page (opens in a new tab)"
+                  >
+                    <img
+                      src="/assets/images/paypal-donation-qr.png"
+                      alt="PayPal donation QR code for Church of Pentecost Pakistan"
+                      width={240}
+                      height={240}
+                      loading="lazy"
+                    />
+                  </a>
+                  <div className="paypal-donation__details">
+                    <h4>Scan to give with PayPal</h4>
+                    <p>
+                      Scan this QR code with your phone camera, or use the
+                      button below to open PayPal.
+                    </p>{" "}
+                    <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
+                      {" "}
+                      <strong data-astro-cid-vfkcmhic="">
+                        Recipient:
+                      </strong>{" "}
+                      Church of Pentecost Pakistan
+                    </p>{" "}
+                    <p style={{ margin: 0 }} data-astro-cid-vfkcmhic="">
+                      {" "}
+                      <strong data-astro-cid-vfkcmhic="">Email:</strong>{" "}
+                      <a
+                        href="mailto:rev.jamil.nasir@gmail.com"
+                        data-astro-cid-vfkcmhic=""
+                      >
+                        rev.jamil.nasir@gmail.com
+                      </a>{" "}
+                    </p>{" "}
                     <a
-                      href="mailto:rev.jamil.nasir@gmail.com"
-                      data-astro-cid-vfkcmhic=""
+                      className="thm-btn paypal-donation__button"
+                      href="https://www.paypal.com/qrcodes/managed/bf7b2486-1c8c-41d8-a016-a323be464ed2?utm_source=payandgetpaid"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      rev.jamil.nasir@gmail.com
-                    </a>{" "}
-                  </p>{" "}
+                      Donate with PayPal
+                      <span className="visually-hidden">
+                        {" "}
+                        (opens in a new tab)
+                      </span>
+                    </a>
+                  </div>
                 </div>{" "}
               </div>{" "}
               <div className="col-xl-5 col-lg-5" data-astro-cid-vfkcmhic="">
