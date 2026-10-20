@@ -1,0 +1,29 @@
+name: Import original website assets
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/source-assets.json
+      - .github/workflows/import-assets.yml
+permissions:
+  contents: write
+concurrency:
+  group: import-original-assets
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Download and verify original public assets
+        run: python3 scripts/import-assets.py
+      - name: Commit recovered assets
+        run: |
+          git add public
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import verified original COPPAK images, fonts, and theme assets'
+          git push origin HEAD:main

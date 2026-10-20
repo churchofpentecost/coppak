@@ -1,0 +1,4182 @@
+[
+  {
+    "path": "_astro/index.C953w-Oo.css",
+    "sha256": "4d15babfd8cef128b134aef94a32a608ebe0d4e0ad87a9d635468efeaa4e9bed"
+  },
+  {
+    "path": "_astro/leadership.B2k1OVpq.css",
+    "sha256": "2c6d0bf918db804dc53bde8f7dda0b54f2dbd0b446a219b3be1026faf97b2ec4"
+  },
+  {
+    "path": "apple-touch-icon.png",
+    "sha256": "c653967b9172849cc9436a92aff69e368cba62121b88eec80cc726dd5f4b85a9"
+  },
+  {
+    "path": "assets/css/coppak-brand.css",
+    "sha256": "ed2ae5d468f61903e067d9dd7c240fa75a1b34b041668c9725f01be6d1883826"
+  },
+  {
+    "path": "assets/css/oxpins-color-1.css",
+    "sha256": "623d793bc7760769def7597d02904b62dde436e788ab31d30e4a8b101615f1de"
+  },
+  {
+    "path": "assets/css/oxpins-color-1.css.map",
+    "sha256": "a23b2608b89b7a6014350a535b8fb3226adc39895375574d8e79df7a32deca6b"
+  },
+  {
+    "path": "assets/css/oxpins-color-2.css",
+    "sha256": "15ad717e88b42821fd0017a215a96dcc236169c740cada404210234cbfd413d0"
+  },
+  {
+    "path": "assets/css/oxpins-color-2.css.map",
+    "sha256": "161915d63df922351fd9858f137707e55b34f0712ae10a5f3b10fcbdafd5caaa"
+  },
+  {
+    "path": "assets/css/oxpins-dark.css",
+    "sha256": "f4d70b92dee7247fd04c0c20521e471b49108ef4111e5a99484c29573263e65b"
+  },
+  {
+    "path": "assets/css/oxpins-dark.css.map",
+    "sha256": "148b32b6cf3a8776857fe57bf3c6b3dbb9a0bcd017f2d1747c8d3b934a2f958c"
+  },
+  {
+    "path": "assets/css/oxpins-rtl-custom.css",
+    "sha256": "e1111dcfe137ee564d88bc3162ca17e425377a54bedbb0f5c2813b3f2b7996c9"
+  },
+  {
+    "path": "assets/css/oxpins-rtl-custom.css.map",
+    "sha256": "489990805410f2882c73534a9215b8652449222c8e09d23a406cadba7fbe9375"
+  },
+  {
+    "path": "assets/css/oxpins-rtl.css",
+    "sha256": "455698801b513c9a8c459028c8db20b8940ee1cd30edd06ca4645ce52b5c0a5b"
+  },
+  {
+    "path": "assets/css/oxpins-update-rtl.css",
+    "sha256": "5fd04abea0046a5d90f2d2c21bfa48509c635f68481b69427d9b0f02c0f1e609"
+  },
+  {
+    "path": "assets/css/oxpins-update.css",
+    "sha256": "cc3d6a1541362ba968b4e345d7ef0bb6e7e9d08ddd793a1291133757f3956210"
+  },
+  {
+    "path": "assets/css/oxpins-update.css.map",
+    "sha256": "1d2d28818268271df04ab8376df1bbfb99a8acbf4c832537f4d741bfe04da53a"
+  },
+  {
+    "path": "assets/css/oxpins.css",
+    "sha256": "7639eda072a64b83467f1baba87922f729f46dfc672f9a318cd413a2002d2fb9"
+  },
+  {
+    "path": "assets/css/oxpins.css.map",
+    "sha256": "a868149fdebec9f0a55cdacdf2def26875a8aee99241f52e4ff3793ea24f91b0"
+  },
+  {
+    "path": "assets/images/backgrounds/become-volunteer-one-bg.jpg",
+    "sha256": "8bbb610c98b4a915d4b03383e0f02bd69424be4cc38105fbf7cbc93021c7fcff"
+  },
+  {
+    "path": "assets/images/backgrounds/call-to-action-bg.jpg",
+    "sha256": "eda15e3f57abfc7f493cfa7226a35f0ba3ae45e42ca5bbc4520d049a6f9577a5"
+  },
+  {
+    "path": "assets/images/backgrounds/causes-three-bg.jpg",
+    "sha256": "8bbb610c98b4a915d4b03383e0f02bd69424be4cc38105fbf7cbc93021c7fcff"
+  },
+  {
+    "path": "assets/images/backgrounds/counter-one-bg.jpg",
+    "sha256": "8bbb610c98b4a915d4b03383e0f02bd69424be4cc38105fbf7cbc93021c7fcff"
+  },
+  {
+    "path": "assets/images/backgrounds/events-two-bg.png",
+    "sha256": "f194928b82a647395b8adf2c7eaa15bbb881a4bc4b25c6fb3d6186876d1e8ff1"
+  },
+  {
+    "path": "assets/images/backgrounds/faq-one-bg.png",
+    "sha256": "f194928b82a647395b8adf2c7eaa15bbb881a4bc4b25c6fb3d6186876d1e8ff1"
+  },
+  {
+    "path": "assets/images/backgrounds/help-bg.jpg",
+    "sha256": "8bbb610c98b4a915d4b03383e0f02bd69424be4cc38105fbf7cbc93021c7fcff"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-1-1-rtl.png",
+    "sha256": "def46bd0f36e4c2a2ed783ce8e068aa504ef651a28bcf5440ad0ec1a9314973f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-1-1.png",
+    "sha256": "def46bd0f36e4c2a2ed783ce8e068aa504ef651a28bcf5440ad0ec1a9314973f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-1-2-rtl.png",
+    "sha256": "def46bd0f36e4c2a2ed783ce8e068aa504ef651a28bcf5440ad0ec1a9314973f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-1-2.png",
+    "sha256": "def46bd0f36e4c2a2ed783ce8e068aa504ef651a28bcf5440ad0ec1a9314973f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-1-3-rtl.png",
+    "sha256": "def46bd0f36e4c2a2ed783ce8e068aa504ef651a28bcf5440ad0ec1a9314973f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-1-3.png",
+    "sha256": "def46bd0f36e4c2a2ed783ce8e068aa504ef651a28bcf5440ad0ec1a9314973f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-2-1.jpg",
+    "sha256": "b182705bd4e4e5aeecd60e5901312e57765caa1f847778b9e50effcf1e4d324c"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-2-2.jpg",
+    "sha256": "b182705bd4e4e5aeecd60e5901312e57765caa1f847778b9e50effcf1e4d324c"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-2-3.jpg",
+    "sha256": "b182705bd4e4e5aeecd60e5901312e57765caa1f847778b9e50effcf1e4d324c"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-3-1.jpg",
+    "sha256": "bc0b20597032cb91014f1eddcd80ac4aadf878a4d7cac3f0ad964cb6d11c570f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-3-2.jpg",
+    "sha256": "bc0b20597032cb91014f1eddcd80ac4aadf878a4d7cac3f0ad964cb6d11c570f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-3-3.jpg",
+    "sha256": "bc0b20597032cb91014f1eddcd80ac4aadf878a4d7cac3f0ad964cb6d11c570f"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-5-1.jpg",
+    "sha256": "60c14990fa4576f3ffd44e5c8182b998478bf8de7b0dd69e56bb87924c56331a"
+  },
+  {
+    "path": "assets/images/backgrounds/main-slider-5-2.jpg",
+    "sha256": "60c14990fa4576f3ffd44e5c8182b998478bf8de7b0dd69e56bb87924c56331a"
+  },
+  {
+    "path": "assets/images/backgrounds/page-header-bg.jpg",
+    "sha256": "f233b9446c3a9082c6e0dc8454710967efa5ea41ac28466cefd96a373bd381af"
+  },
+  {
+    "path": "assets/images/backgrounds/site-footer-bg.jpg",
+    "sha256": "3951d099575e8f6abab9e9737ec109122a99ca67092fd8c45cc8344971876de0"
+  },
+  {
+    "path": "assets/images/backgrounds/testimonial-one-bg.jpg",
+    "sha256": "8bbb610c98b4a915d4b03383e0f02bd69424be4cc38105fbf7cbc93021c7fcff"
+  },
+  {
+    "path": "assets/images/backgrounds/urgent-cause-bg.jpg",
+    "sha256": "c1920284795ba7fda5d34ad5971fd84cf7411747b332fbb2baa4bcfbe496fad1"
+  },
+  {
+    "path": "assets/images/blog/comment-1-1.jpg",
+    "sha256": "c3fe0123f56dccdec9d12193ef57c25cceb3e783c349888d07b80b6415deb650"
+  },
+  {
+    "path": "assets/images/blog/comment-1-2.jpg",
+    "sha256": "c3fe0123f56dccdec9d12193ef57c25cceb3e783c349888d07b80b6415deb650"
+  },
+  {
+    "path": "assets/images/blog/lp-1-1.jpg",
+    "sha256": "dcbc8a548026fd233fe73834150fde8a1da00f7f68b7eb3e9e5bd1ca40fa0c6a"
+  },
+  {
+    "path": "assets/images/blog/lp-1-2.jpg",
+    "sha256": "dcbc8a548026fd233fe73834150fde8a1da00f7f68b7eb3e9e5bd1ca40fa0c6a"
+  },
+  {
+    "path": "assets/images/blog/lp-1-3.jpg",
+    "sha256": "dcbc8a548026fd233fe73834150fde8a1da00f7f68b7eb3e9e5bd1ca40fa0c6a"
+  },
+  {
+    "path": "assets/images/blog/news-1-1.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/blog/news-1-2.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/blog/news-1-3.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/blog/news-1-4.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/blog/news-1-5.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/blog/news-1-6.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/blog/news-2-1.jpg",
+    "sha256": "f2ae29d2c14f02909d19c95360f80cbacf19ec264ff4163a4695db0001812d6f"
+  },
+  {
+    "path": "assets/images/blog/news-2-2.jpg",
+    "sha256": "94b496e614b62d15fe403df74187f11b697e18bbbb214200e2ffce3e0aae9540"
+  },
+  {
+    "path": "assets/images/blog/news-2-3.jpg",
+    "sha256": "94b496e614b62d15fe403df74187f11b697e18bbbb214200e2ffce3e0aae9540"
+  },
+  {
+    "path": "assets/images/blog/news-2-4.jpg",
+    "sha256": "94b496e614b62d15fe403df74187f11b697e18bbbb214200e2ffce3e0aae9540"
+  },
+  {
+    "path": "assets/images/blog/news-3-1.jpg",
+    "sha256": "85f9a75848a03c5ca5e91655c786fd9ed84450f637dc9d29355f9ee4bef2402b"
+  },
+  {
+    "path": "assets/images/blog/news-3-2.jpg",
+    "sha256": "85f9a75848a03c5ca5e91655c786fd9ed84450f637dc9d29355f9ee4bef2402b"
+  },
+  {
+    "path": "assets/images/blog/news-4-1.jpg",
+    "sha256": "49119b43eea61c8dc51c5a906b2bbd281d0a1524506a65a1f025341f715f04fb"
+  },
+  {
+    "path": "assets/images/blog/news-4-2.jpg",
+    "sha256": "49119b43eea61c8dc51c5a906b2bbd281d0a1524506a65a1f025341f715f04fb"
+  },
+  {
+    "path": "assets/images/blog/news-4-3.jpg",
+    "sha256": "49119b43eea61c8dc51c5a906b2bbd281d0a1524506a65a1f025341f715f04fb"
+  },
+  {
+    "path": "assets/images/blog/news-details-img-1.jpg",
+    "sha256": "759d383dca47cffffc37a3944543db4d94e2425b27ee9dfbd227a50183b4379f"
+  },
+  {
+    "path": "assets/images/blog/news-sidebar-img-1.jpg",
+    "sha256": "759d383dca47cffffc37a3944543db4d94e2425b27ee9dfbd227a50183b4379f"
+  },
+  {
+    "path": "assets/images/blog/news-sidebar-img-2.jpg",
+    "sha256": "759d383dca47cffffc37a3944543db4d94e2425b27ee9dfbd227a50183b4379f"
+  },
+  {
+    "path": "assets/images/blog/news-sidebar-img-3.jpg",
+    "sha256": "759d383dca47cffffc37a3944543db4d94e2425b27ee9dfbd227a50183b4379f"
+  },
+  {
+    "path": "assets/images/brand/brand-1-1-dark.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-1.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-2-dark.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-2.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-3-dark.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-3.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-4-dark.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-4.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-5-dark.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-5.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-6-dark.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-1-6.png",
+    "sha256": "76a8c782771ef6da0278da6b12160c404851e7432eae300cea6e602c8744d3c4"
+  },
+  {
+    "path": "assets/images/brand/brand-3-1-dark.png",
+    "sha256": "847eb7d3b33c0401691194eea984fdfcad5fcdf8b79ae12467a99fc86991bc8e"
+  },
+  {
+    "path": "assets/images/brand/brand-3-1.png",
+    "sha256": "847eb7d3b33c0401691194eea984fdfcad5fcdf8b79ae12467a99fc86991bc8e"
+  },
+  {
+    "path": "assets/images/coppak/about/history/01.jpg",
+    "sha256": "7a0a0c4c6f928b89cfeb4f294334fdc57ccf1e60ba3cfafb5ba1dcd0c4a8a26e"
+  },
+  {
+    "path": "assets/images/coppak/about/history/02.jpg",
+    "sha256": "99434e21db52bb72b562f7d00fa22f297e378718a82c621e1c4ee3be9abeecfc"
+  },
+  {
+    "path": "assets/images/coppak/about/history/03.jpg",
+    "sha256": "95616444c0d7f472a97f3c2fb1f31e70e551e1d2a44ffde48849cbe36d94040e"
+  },
+  {
+    "path": "assets/images/coppak/about/history/04.jpg",
+    "sha256": "78ac6b4d748706cfd17be61de2444b572487603e9ac4e2f0ede95880d4da2b22"
+  },
+  {
+    "path": "assets/images/coppak/about/history/05.jpg",
+    "sha256": "11ae5683acdfd08bfb09e9bf4485f7da5043bf767c69887e459e6679b0bc7b34"
+  },
+  {
+    "path": "assets/images/coppak/about/history/06.jpg",
+    "sha256": "26371826a98c82913ddbd8ad87e13ec57045697c81bcc2d61379730eff3f180b"
+  },
+  {
+    "path": "assets/images/coppak/about/history/07.jpg",
+    "sha256": "aaa085a5441c4ca7d26291d171a889cdaa4bcbb2a8baefce4586cdffa0770f2b"
+  },
+  {
+    "path": "assets/images/coppak/about/history/08.jpg",
+    "sha256": "9150546fca8b7d8c19e05780c213db77a9cb8be0b5f710c2f4ed6dfc428c43b8"
+  },
+  {
+    "path": "assets/images/coppak/about/team/akeel-nasir.jpg",
+    "sha256": "5538123336269c18e4abd0604b44af3f1931e9327325bf7971168d0fa6836a8f"
+  },
+  {
+    "path": "assets/images/coppak/about/team/amina-mudasir.jpg",
+    "sha256": "4106f95455362f94955ee88030496a6a51dda62026ee7dede6ed98b60acfce72"
+  },
+  {
+    "path": "assets/images/coppak/about/team/emmanuel-agyemang-bekoe.jpg",
+    "sha256": "9455bb758523bb6ae27757d28913618081acf9001f482d14fc84ecc45ea51671"
+  },
+  {
+    "path": "assets/images/coppak/about/team/eric-nyamekye.jpg",
+    "sha256": "cf028a4ff7903ebb8894f1dd465e9230df67e5f8d4be262d969443400f0167f6"
+  },
+  {
+    "path": "assets/images/coppak/about/team/farman-naz.jpg",
+    "sha256": "62f92854d20332138cee46dbb3592fdecdf016f9be80cbf57079f576b5ce8361"
+  },
+  {
+    "path": "assets/images/coppak/about/team/jamil-nasir.jpg",
+    "sha256": "80d54feb081e81275ede5012d1a337356806c4ca834570ef2754ca56217cf74c"
+  },
+  {
+    "path": "assets/images/coppak/about/team/matti-karmat.jpg",
+    "sha256": "3e749a2a9ddf3c45e806b253b10b22d07d9b2d3b1718307b9f74ab70e70ae014"
+  },
+  {
+    "path": "assets/images/coppak/about/team/palous-barket.jpg",
+    "sha256": "1525807933780ec25957da06e04043469c76c0eaaac5af406bd9854ebac35f50"
+  },
+  {
+    "path": "assets/images/coppak/about/team/rose-mary.jpg",
+    "sha256": "ae09788391e15c22ea1f5fd38507fa035be1cb12d93cbd778f71b16a0955c379"
+  },
+  {
+    "path": "assets/images/coppak/about/team/samuel-gyau-obuobi.jpg",
+    "sha256": "1f3a28465d3963bf6d1a15f28e7c4156e18686281ab47b3f8fa961fb669fa829"
+  },
+  {
+    "path": "assets/images/coppak/about/team/shakeel-nasir.png",
+    "sha256": "2814599dcfc889ff23d7a400a92d2f75be1f6b4df913396478f4ae8ef4ba0e1c"
+  },
+  {
+    "path": "assets/images/coppak/about/team/shulammite-nasir.jpg",
+    "sha256": "4719e1d840e7c0edd31e3a562233dd23ae907ae0732ea8b04d895dc0dc701010"
+  },
+  {
+    "path": "assets/images/coppak/about/team/simon-khan.jpg",
+    "sha256": "c8a300d5ecd8eae0be24dd6f15c79c92cf80f1e88f283d29fbc76c88ab511082"
+  },
+  {
+    "path": "assets/images/coppak/about/team/zakria-john.jpg",
+    "sha256": "2acbaf9500f372726bef573b488e3efbd345087a4158778817996da281bda51f"
+  },
+  {
+    "path": "assets/images/coppak/about/team/zohaib-qasir.jpg",
+    "sha256": "9a5325fd4902ade093fc45c9a0b1221b6889563b545c1160e2f34a74795e6cdf"
+  },
+  {
+    "path": "assets/images/coppak/about/theme/01.jpg",
+    "sha256": "2d476ebb0f82d955ae76a0f04fd8c774fe2df15057f956d044af3fe0dc085679"
+  },
+  {
+    "path": "assets/images/coppak/about/theme/02.jpg",
+    "sha256": "709c0076d2fa377a85af577636096fae64b7e99e38be72f43acefa1e01b5cc76"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/01.jpg",
+    "sha256": "d6ba04f337751f8697b0442b56c1cd6182323dc13d10642f4b3329bc32c8d1ca"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/02.jpg",
+    "sha256": "4777e229300e0c5f318e514fc93d0deb3ee61016810f6bbc2f6a777bc9cd3061"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/03.jpg",
+    "sha256": "571b8cb3860adad425cc39d453b0d3cc8a3acf055798622d134bf44e5c3e8e83"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/04.jpg",
+    "sha256": "b295420a0ae283cecfe05d0629c69f01fcb0e3922a0c9af2d6ef44c9af780c13"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/05.jpg",
+    "sha256": "3b05847711c69e4122149899e25c755cd8e682f0463148485401cebdb310ea8f"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/06.jpg",
+    "sha256": "ce24fc9d029c9a60e90b00e0814a334770313cc4b26f99110211daf02f163e04"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/07.jpg",
+    "sha256": "250346f42a669ef4d9ddb1b379839b9cffc33324d191251c52f2f9f8da614738"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/08.png",
+    "sha256": "22f3afa33ce42ba86af61d758f9efa4d52e79df42b5606b07b320cfe3e8cafac"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/09.png",
+    "sha256": "cd1c43bb360306036b2e0796d423c043f20f9420e6e591852d7044cd8bce7748"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/10.png",
+    "sha256": "d188396a3fbb5466e4fabfc4de341ed904fa64a2b86eafd3131e198b5dcfa6bb"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/11.png",
+    "sha256": "f3dbfa7b2f23fd1233486ddd82aa9e1a95aaa551d56112bfee8fdadfd12bb53a"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/12.jpg",
+    "sha256": "42a8ec0925eef42c317150a29e2215591ca1d26974c4b840ff027837bc18701a"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/13.jpg",
+    "sha256": "bdf169489e3a2b18dd16126f70128f811e3140321ff258d8e9700ea8de23524d"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/14.jpg",
+    "sha256": "9a53d414c6b88a9bb517dbb5ef2f7cefd9f052866f4ea100e82f928ac4bd043c"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/15.jpg",
+    "sha256": "665ceca7a49bee250540376686535b664b78e5d8889ee6d541466541d619b02e"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/16.jpg",
+    "sha256": "f66a2b1579fe67ffe31a7371299b4059ec1c13044239657616616bb509f6ea8b"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/17.jpg",
+    "sha256": "12aaba9f133c47fd1d722a90427451bc8b6ad1bc0faf773c453eb32c7c74be76"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/18.jpg",
+    "sha256": "c7ebcc1cc5d142dc089dab0ba13d5fb955b6b32dc6841a9edd790026a6ab67ac"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/19.jpg",
+    "sha256": "f8ba92517df739f7788abe187b911feee1b3435d0e5826724ff1a7884ad39f29"
+  },
+  {
+    "path": "assets/images/coppak/bible-college/20.jpg",
+    "sha256": "3ba9fccdbe22726de1fe2e5b0dfa2ea083bf4e0203040cc08d788e5aacfaea5e"
+  },
+  {
+    "path": "assets/images/coppak/conferences/01.jpg",
+    "sha256": "eb0f2a6028aa8c5b1fdef0dc06ea120abbf60d723e9a738fbb1660d9ba08ec3d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/02.jpg",
+    "sha256": "e7391881a0afe121fd7253bc5b70ecdbee8ed09cad40f5edc48eef0c6925706f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/03.jpg",
+    "sha256": "1572c816626e1dae74c3980186ab96ccaf33106930d630cad10fdbfa5e8b4d5d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/04.jpg",
+    "sha256": "926dc68900227743e538b7b6de0c481f4963f4c673f49985f68ac109cb0f89d1"
+  },
+  {
+    "path": "assets/images/coppak/conferences/05.jpg",
+    "sha256": "3368e96515f5b83240a9321b333f36ad34f316dd94bcd54d81c4273adf689157"
+  },
+  {
+    "path": "assets/images/coppak/conferences/06.jpg",
+    "sha256": "1b17ae1895a0432ab87c71f64b725a4cc38a8ecda6033cee4b4f6f9e43d2fdab"
+  },
+  {
+    "path": "assets/images/coppak/conferences/07.jpg",
+    "sha256": "358019d37ae8d4f445ef90746314d285d2d61e0c888446a42b53beb2a1ecd77d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/08.jpg",
+    "sha256": "52aa1b6143763574c5c998f2905688e1f50486de66b076ba415456bb02b75593"
+  },
+  {
+    "path": "assets/images/coppak/conferences/09.jpg",
+    "sha256": "3c2df5212dfaa18df57271e053fe6f4dae264cd14815f82e6cc5a3666c1a59cd"
+  },
+  {
+    "path": "assets/images/coppak/conferences/10.jpg",
+    "sha256": "38ad8f8dc0c55ac31ad25e423ac8ee2044b350829ed03388309390125511198a"
+  },
+  {
+    "path": "assets/images/coppak/conferences/11.jpg",
+    "sha256": "384710cbf96a5566cb3e77a3582065d47b81a0fa783cc842e838fcdcb6caf09f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/12.jpg",
+    "sha256": "fbd4222f3f48a97d3e64a30513ec6a040f1308f0f311c23811c2c82f89f364a7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/01.jpg",
+    "sha256": "c7f34ef3e1f35422cf120301d2fd40013c9ca8f72e4776cfa173658510bfdb5f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/02.jpg",
+    "sha256": "b26aece561eac42bdef02d7c754b1817c5498453bebfd7e3ad4327015999d4d8"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/03.jpg",
+    "sha256": "1131d7f0559bfe183781e242507fc1ae84e0b8176bbc8dd31f6947ee904afc1a"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/04.jpg",
+    "sha256": "1b7d2ed36448cf43b16e8cdf63d66c5ac1e0424a44873698af93562363ec53df"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/05.jpg",
+    "sha256": "7199ea7abdde499a6e08564db63ab7fe0aa50a3116c48d99e40cdb27b278ee2b"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/06.jpg",
+    "sha256": "5676da37de93a12313afff976a0fce725f2ed82cac4c0c9439b9913778daaa17"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/07.jpg",
+    "sha256": "9e2130fb46666329f845b01c6387b0802e0835aa154d7effdb8c0b7302918863"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/08.jpg",
+    "sha256": "fe0e3a6b5b64864ebc3a694cd80db283f19093a3e16bccb77016f9bab3c5905d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/09.jpg",
+    "sha256": "b370abb696aa309a7f871b56669d5ac123c907a45496873071622a996a358e61"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/10.jpg",
+    "sha256": "61d3be8b461067437d582617af2e6ab75849c9f522e2566fc36c8848d32651c3"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/11.jpg",
+    "sha256": "aa60182bb69e29b2e37c849136884732ff3f4daaf72c256d6a86cbb7083b1b62"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/12.jpg",
+    "sha256": "f1d8a33822a3c5bdcd8d39332cc12b29db136828daa94944605bea5ac823baa5"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/13.jpg",
+    "sha256": "5bb9d935441ac0bb046dd4a3e9cca10b58c12a9709c8f1769e0d6d094bfeacaf"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/14.jpg",
+    "sha256": "c3cb5c6b73ca344e11617cda42ecf345af28f112df81c859089a6354f4afedd2"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/15.jpg",
+    "sha256": "f9c81c81c763815383d935a1b5d350a6e351a977a46fa5a8cb02f074cee07808"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/16.jpg",
+    "sha256": "4830a5619617d9b697cfcfc54530391e9c9b72043663b66eb836094a17e64b57"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/17.jpg",
+    "sha256": "6bd7f266922099d32636a0ec4a9c8a9a00a318e4cb454e2cc64311dd320c08e6"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/18.jpg",
+    "sha256": "fb86fd404e141e90cf2d9c6486e814d239041a55922d3c15434ee7054547a5d2"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/19.jpg",
+    "sha256": "fa57bc77bfcb7356311ca8a70aa9e28e4b58b3b30a1fc3e37feb76c7205a992b"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/20.jpg",
+    "sha256": "848aef9386665e0d5d7ffd4707b0f3bb074737a3500b43ad2339b808b7a37def"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/21.jpg",
+    "sha256": "b6a59d87c98bb8349d018c6c338072b357ed921b8f5ef1ac48bcc045b5718296"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/22.jpg",
+    "sha256": "04899212f1ad2a2f9066c75033884a5e947cccf03fbd31484b974edd62b2f90d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/23.jpg",
+    "sha256": "d8b330519cdbc357cfc8dfcecda7b5e7c190cbcf79dd736bc0395359daec88d0"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/24.jpg",
+    "sha256": "0091374c4dc5862a2c53cbe729ffc079a3a541ec6eb1e4e423b02d66c3cd9f1f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/25.jpg",
+    "sha256": "9f867827e1c0f29c43514882bafef80454c12bbe2aae09d22d93501cd94ee1ae"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/26.jpg",
+    "sha256": "13021363b7b3d18136d27fdc799d509f23c6db959bbc134616eb919c4af2cbf1"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/27.jpg",
+    "sha256": "4a9be14562c4f7b09b4a22b4c4b29a75bdf86c273b07a5959409921697a5c155"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/28.jpg",
+    "sha256": "15ab7fadecaf6fc1e6202c965bb69a4d87e00d3496618d5106b23fbbe972224f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/29.jpg",
+    "sha256": "44f80b70482990c72b1928bc52a06bba7c2bec0f3a3bdf1e05d1c8be1fbcaf83"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/30.jpg",
+    "sha256": "4c73d3f67290e6cd637a7575672a2624952d2c8fc59d2fb980918cf4e9bc6252"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/31.jpg",
+    "sha256": "56ef89f112c9127e603ea1d28321128f87d11bb1656755c5cae2ffa70de89bd4"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/32.jpg",
+    "sha256": "47dff30900a7ebe3b3b43e0da958f75fe6fdbc767be6fb80fe5b644e3fdbba32"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/33.jpg",
+    "sha256": "4a9be14562c4f7b09b4a22b4c4b29a75bdf86c273b07a5959409921697a5c155"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/34.jpg",
+    "sha256": "15ab7fadecaf6fc1e6202c965bb69a4d87e00d3496618d5106b23fbbe972224f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/35.jpg",
+    "sha256": "f5794311bae601fc1c7af8dcd3c862104f8a3268a58d2123cf8442f7d68d6fa9"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/36.jpg",
+    "sha256": "df41e6f7094db90866b435121be7169200207dbaf6de97173eaa80ab13ee8705"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/37.jpg",
+    "sha256": "f5f1180651908eb8e29fa927d8f8012dc52121cbb5126409b784cb151b3a6a13"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/38.jpg",
+    "sha256": "722732909e2f1f658ae38e111158e49c375dd1dddde1f59a4f4392652d5fe1f7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/39.jpg",
+    "sha256": "5943903c9ba851b3897718823a5c57c0aa7b481af18f782c4db15a59364f0e8a"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/40.jpg",
+    "sha256": "713e45b5485c244d1ce518ad22deb4568a3a4bc3151a3bb72f3fb5cec9f7d7ad"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/41.jpg",
+    "sha256": "d4ca4a82cb02c0c7aa49b68f0651e46d533e7a64b3b27d27a9b2d2e29266d682"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/42.jpg",
+    "sha256": "5399dfa0c812285834f51cfcea91fbba6cb06584ba167b5e5d882fd6e0ecbaec"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/43.jpg",
+    "sha256": "442aca3ee4660c2210fabba5c926a9216a919dea0d5bb475d6be8ec7bf6c962f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/44.jpg",
+    "sha256": "2705817ab268e6ba2da8e1742aca4d7ee8c533a1df191ae1d358843e55c8679a"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/45.jpg",
+    "sha256": "718780fce78242f19fc576175e15405bbb80b52da4b4744db1046f4a62a7f965"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/46.jpg",
+    "sha256": "23407e6606f8b5aee09a63fa37175a9db991745f48eb874030f03c524a135551"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/47.jpg",
+    "sha256": "8e205d700f8ebc6f31fc98175d262ab5270c51829602bb52a46abfc8d48dc63e"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/48.jpg",
+    "sha256": "8aa879d9d2700d8672b2c7d9e27f4db0516c29292669472e25ece6a07126f7cf"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/49.jpg",
+    "sha256": "670e8553ff3287eb73a14183de1b9281aba70fc5dc9a47c2b306e483b2437de7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/50.jpg",
+    "sha256": "88e982a06b228e59bf5721516bdb810ca9ccd10fdddec2c7708c250655d6306d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/51.jpg",
+    "sha256": "2703765b83c0d4770d8665015f788540690c45cb922198abf1a8c3beaa9f7481"
+  },
+  {
+    "path": "assets/images/coppak/conferences/christian-apologetics/52.jpg",
+    "sha256": "5baf8ca97679e6de296cfa3fb1ae7fc916eec9d69150a6da7222bf3095626f8b"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/01.jpg",
+    "sha256": "eb0f2a6028aa8c5b1fdef0dc06ea120abbf60d723e9a738fbb1660d9ba08ec3d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/02.jpg",
+    "sha256": "91ba347cb4df0fa7bd6b9e94a3cabcaaac1b2ee0f7ec9743fb2289824a7e343e"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/03.jpg",
+    "sha256": "fbd4222f3f48a97d3e64a30513ec6a040f1308f0f311c23811c2c82f89f364a7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/04.jpg",
+    "sha256": "e7391881a0afe121fd7253bc5b70ecdbee8ed09cad40f5edc48eef0c6925706f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/05.jpg",
+    "sha256": "1572c816626e1dae74c3980186ab96ccaf33106930d630cad10fdbfa5e8b4d5d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/06.jpg",
+    "sha256": "6c37b532521fec9613fcb9547cd0a49553aa354b73ce4db97d11e3b7105b00c3"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/07.jpg",
+    "sha256": "3368e96515f5b83240a9321b333f36ad34f316dd94bcd54d81c4273adf689157"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/08.jpg",
+    "sha256": "1b17ae1895a0432ab87c71f64b725a4cc38a8ecda6033cee4b4f6f9e43d2fdab"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/09.jpg",
+    "sha256": "358019d37ae8d4f445ef90746314d285d2d61e0c888446a42b53beb2a1ecd77d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/10.jpg",
+    "sha256": "52aa1b6143763574c5c998f2905688e1f50486de66b076ba415456bb02b75593"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/11.jpg",
+    "sha256": "3c2df5212dfaa18df57271e053fe6f4dae264cd14815f82e6cc5a3666c1a59cd"
+  },
+  {
+    "path": "assets/images/coppak/conferences/leadership/12.jpg",
+    "sha256": "38ad8f8dc0c55ac31ad25e423ac8ee2044b350829ed03388309390125511198a"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/01.jpg",
+    "sha256": "00094bfe7ec0cc85c0c05bf20a1c170bcd0b88a32dc2cd773b7d252f7a3d94b7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/02.jpg",
+    "sha256": "86df4e6ae212197c25effcc110611e2b4ec670536c171fbbecc09ad052159f99"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/03.jpg",
+    "sha256": "06cb6ca707b458d2179fa4710f4409c89cea0d1ef22c1be1cf2c2d7515cd484c"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/04.jpg",
+    "sha256": "e2ce35a590c1c1259f24ee1db09b91d63fc68b5b092ff3bd3d0e14ee6b931f4d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/05.jpg",
+    "sha256": "0fd20e0711ce717b82e516249599911437580def4f86d72d7fdba0794c01568f"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/06.jpg",
+    "sha256": "9387107c179e8109a3986a4e0d72f322dba5b91af421027425142718c7bc39c6"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/07.jpg",
+    "sha256": "04899212f1ad2a2f9066c75033884a5e947cccf03fbd31484b974edd62b2f90d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/08.jpg",
+    "sha256": "601b017c98a3117941d8fca41ba12132236a5f36ad8cc39df5259957e38d26e5"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/09.jpg",
+    "sha256": "32d9e28ec39cdba0237f83ce4b316d4cb09bfd0ed24d13c7487f2da558d913e7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/10.jpg",
+    "sha256": "cfb43e31293f79a124a6b0768ae46c9f580624811992bf82ac1e2f09dc9fcbd6"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/11.jpg",
+    "sha256": "9e30d433eb3887782a0ddabc6ee4b29c164618681be111e72872d30d44148a91"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/12.jpg",
+    "sha256": "b17f0c4a09f251f2c32c92e8646475ec0feb7c4d748a82916d14d7443735d209"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/13.jpg",
+    "sha256": "a57310701dc07a2352de7ff49c33ae0c080ef85b9aa0e8257edc2b32e7bf1516"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/14.jpg",
+    "sha256": "51bfc375f3ac7454d2b4e2ccba32bd71c22f03f5d518c7e5d4e822bfdb6c5060"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/15.jpg",
+    "sha256": "e3c98cd35297f9a971a4f357a69763706f59005d24963d164196abdaa0d706d2"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/16.jpg",
+    "sha256": "9290298c57414d441b30efacbf301796086ab9b8d12d85b5db21e9f42696e075"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/17.jpg",
+    "sha256": "ad918f83996e0194303d8425855bb23dbee4868120f689410c3afedfc90ebbb0"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/18.jpg",
+    "sha256": "3081633bb3a255f8e81503bfbb8acc997520fc1db94b87cf834bb14908eba491"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/19.jpg",
+    "sha256": "1f5acd6700836ed608d7ddf6a776eaba3a76c694b4f143ee24b5e109dcd399ff"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/20.jpg",
+    "sha256": "5ae3ee43016e9cb0c909673f1c8385d6a414c0aa1c815ec9f73279aed472473c"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/21.jpg",
+    "sha256": "348dc1df0723ea2db037dd358834e7f0f4c518a2e9de974e6006d143153d8e19"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/22.jpg",
+    "sha256": "6763b5340ee26a1e00aaf57c01f7ef316a0b42acbe85029725ba95bc59a815dc"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/23.jpg",
+    "sha256": "feecdfbf7135abc9d6e86e50d776a75a6a6b657fc5d95b44e5fd2b6dd07edd5b"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/24.jpg",
+    "sha256": "0d36b19f7cf8f05b60bc0a06e82f848126862202a4a371c27ab0697c77f55919"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/25.jpg",
+    "sha256": "c5fe58193fe601200ee5590ea165bdc12a239200c889f7e0d933851bf80a7fa1"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/26.jpg",
+    "sha256": "8856e476cb9114e139b809162121d93b61e7309a2e8183e2701ed38003c1f829"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/27.jpg",
+    "sha256": "c4bfea6296da06f03e1b1667235a316c76b0dc14093f5c2bc5a973a5eeda0f32"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/28.jpg",
+    "sha256": "32a6e034eb8746606378b31f7667d2190cc750e909f2ae8371fa9a23858fc35d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/29.jpg",
+    "sha256": "0627928b9045d627549f1b5a7a8df5c292109a709bf95107a99a3254846ee371"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/30.jpg",
+    "sha256": "25abb392a67367fa754b5dc33e81f756863cb165d0fbadd7a368561bc5b0c23a"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/31.jpg",
+    "sha256": "d74323be986c7696a73834f353d4f03145ca03dcca5c47a0666e05f8ed223ed9"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/32.jpg",
+    "sha256": "65c91f29f697ec635a0493108316382599ea17c0b2e9cf652ab3d1b91e9a4e8d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/33.jpg",
+    "sha256": "fe96701508734e185754d2e73ff350491f741977d61bec217f56f2ae964ac858"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/34.jpg",
+    "sha256": "7b07b6812e64d8f2cdd3b990c10b690c264d791740aaa8e90b9d4fa3c1a710d4"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/35.jpg",
+    "sha256": "c51c5c2a122d018dbeffd7f792f5bed445ade1d6167cd75428d93cfedaae5c34"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/36.jpg",
+    "sha256": "08a5c8b386dfee7a28d94db9b5d958cf652c8a7667505d5ce78f128fc8908e19"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/37.jpg",
+    "sha256": "ce9cdbfd5da7c6655b13ebdfa2bca7a6ed03cea5d2bd7f5193130e887cf02e6e"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/38.jpg",
+    "sha256": "40c768e9af80dee35a9850b38afa2eeb71dae474303030529dc75f76c2231b36"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/39.jpg",
+    "sha256": "c053791eeccb19a0228abc9770041d723f5fdae281d04ccc649015ab1c014433"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/40.jpg",
+    "sha256": "bb79e74000cfa96c5efe2a2b4356b82c952e1127e14b981c83ad498844819f1d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/41.jpg",
+    "sha256": "261919eef120fb1d9fa45922a6e6cab7bd97d767c68735c8dca973cf57d71f0b"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/42.jpg",
+    "sha256": "69ef6c76b4a1ad0167c391e4fd99172a311c13e598e56a80c36a6b797b7cc429"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/43.jpg",
+    "sha256": "68cbfa93ad08a8af02907fe900ffc5c65825067f924756703093455e3b539d86"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/44.jpg",
+    "sha256": "9176331a3803c3059b4ddd92909a683f2592b14c2beba476776fba8f8158c069"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/45.jpg",
+    "sha256": "19e8ac08ebcd56b96d9762c963ff017eba1d7eaf49b08eba51419039fa9113aa"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/46.jpg",
+    "sha256": "07109dce40510c691dd070ac73e599a8c80c43207b44d9c3e141bd8cc14e8abb"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/47.jpg",
+    "sha256": "25469784f83d5bf1fdaa3b89e2cbceb49b8de5c777a1aec288b47c1067a7809c"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/48.jpg",
+    "sha256": "a50107fa1c49f6a57a60b1cbc08b2394133ba832e37acbb005aa70e5df0eb20d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/49.jpg",
+    "sha256": "3972d387e4aae9d51ccbfd90b295e2dc3dabe3f6cde15011594ab00949584582"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/50.jpg",
+    "sha256": "35e8899eab6ea5e2c17105ae4ccbcfd1befc80a6b3aa2b138aa23e7483043bcd"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/51.jpg",
+    "sha256": "cb7601534a8e2207617da9c271a8a3cbb927e5af921a64452a5be5a2a56ad850"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/52.jpg",
+    "sha256": "291290d751fa0e22851ce2d1e5c8944a38fb56eb7ff95d2a311018db2126fe02"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/53.jpg",
+    "sha256": "cae6678976b531d334967686b364e5dd8b15f36e087711c9034ab3fcbb0bbe0e"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/54.jpg",
+    "sha256": "bb30dbabbb835c69bc6989fe8876bddb8f0df3b3362764587c96427847e4ffa9"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/55.jpg",
+    "sha256": "3a79d9f3966cb52a499afec59bf03b8a8057207ec83fae60967d634063065cd7"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/56.jpg",
+    "sha256": "60fa98108662fca7c1ec1987e7a3781893ecd8d030490abb8119bc802653632d"
+  },
+  {
+    "path": "assets/images/coppak/conferences/quest-leadership/57.jpg",
+    "sha256": "0ba4576cb66d4981630cb448f815f0852e4154a823daa5ab74a94883cee98684"
+  },
+  {
+    "path": "assets/images/coppak/footer-bg.jpg",
+    "sha256": "89ef04546a7fdbc4fb15345251e106b218f000978d7f12218d461eea5c8dca0c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/01.jpg",
+    "sha256": "bd9306dee57543710b90285a9e29fa6694112433365297abfe4f8846bd664c8a"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/02.jpg",
+    "sha256": "4ae87ee30970c5a0b605c1881a16c4e1f1c9e85666167a7f9729981f30125cde"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/03.jpg",
+    "sha256": "727fb13cde7bb3d817245a00e8d082f54345e9783a6e9a57a2f61bfbce59f32a"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/04.jpg",
+    "sha256": "edba8eaf6254d554d7c55219301e057521e6e8a421dbeb299c8e7b8f92804c9c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/05.jpg",
+    "sha256": "ce8736e4277dbf2db95a38c3bad7190592978f4380e7e5091558743f69932034"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/06.jpg",
+    "sha256": "903ac1c36f48cb67d6c84dbea063b03b87202002ff9dcdb537aa577648a02bf6"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/07.jpg",
+    "sha256": "6d1bf9d6ee314bbdf1a515a21e6f96b350b57b833f9a573fd39c6b7a21e5cb5f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/08.jpg",
+    "sha256": "c005cf9b8b0108d03ae308b6ca7eabaaf1c8903a9f9828872c1a249d57c6f16a"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/09.jpg",
+    "sha256": "f791b08ffc15e439412d37f24dabe4f680f7e2c2db118300e06ada0002f2b0e5"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/10.jpg",
+    "sha256": "ccf63ede015e809d1aec50a442b04d776170d2d5e6374d20c32fd421681cabab"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/11.jpg",
+    "sha256": "fa1b34e0dad2e39bc0a3790bfde1aec71e5f4b2cd51a2950d48a3b06dfe1561b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/12.jpg",
+    "sha256": "75c49d4c56f97f02eb8e927bd6b28ee4278772a32a826a89db567c5e9cc7fb07"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/13.jpg",
+    "sha256": "a4c4c4431bfe702b51999f251152345864b4ac8cd11375ad472ac5541b4fd80c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/children/14.jpg",
+    "sha256": "2101b96a71020a12d9091e260a4e3f4d8369d14617d197e37123dbf656ff800a"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-01.jpg",
+    "sha256": "13eaa619c89cbf043b119230036ba16d15a74d345275fc5ff304cf3c82fb085b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-02.jpg",
+    "sha256": "badd972a6b40fb07d975aa806ea7494ff12f99172d9843583a26037b0988db86"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-03.jpg",
+    "sha256": "f187744d3e0b909e1880e9935155157c185f36315926d5dad05b534b262bf62c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-04.jpg",
+    "sha256": "a02509cc0aca06d834488e7ff6c6c72e9cd9a8d0c1ccf585e8317377050b3569"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-05.jpg",
+    "sha256": "b0ef1442b7ebf3fb26911fc799028f91d7c650abfed4d4fafb04a9c131826217"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-06.jpg",
+    "sha256": "d787feeb86c3b5ad0d76b12721f36b2ab6d3a37680e15ac09294ba575709d010"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-07.jpg",
+    "sha256": "07beba931f44b52cce0b5b15c0d36eee983d15c7634602dac18a35e84e5e84ec"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-08.jpg",
+    "sha256": "735ba19c49a3f105715ca0b0e83c5a3ce6e40dfb7185c00b7bd58ecefe5511c8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-09.jpg",
+    "sha256": "f75b4e9a25b6705daca19785bd22d5cab23405febcfabef4547ea20c9f3dfb21"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-10.jpg",
+    "sha256": "d380fadc3f5a2a0fb0f71d48c01409a999eb31c29b4d48d5053f2eb1e97745fe"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-100.jpg",
+    "sha256": "dde850c8d5ea8126309b4fceb40925a6970c4969b063470c6b02cbed1026a9d1"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-101.jpg",
+    "sha256": "9c0cecf9efba2f29761146ff0c7f038fed6bb37a4171d8c436e25d1e56d8bddd"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-102.jpg",
+    "sha256": "cba0ee9d9692f33f709d41310399e4883f5959c69a5d82b8a0c416ba8e3d192f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-103.jpg",
+    "sha256": "65ce4ab6cc51b55ebc86ae315e81cc5849154c33e7f29fb9833b5cab4e18ff31"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-104.jpg",
+    "sha256": "e48639f6d443d864ed104e53d6009292893b7a2dec80db464a4696c428e1fab8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-105.jpg",
+    "sha256": "804fc6d7aef7cab64042988bac584bf94081376dad4e3322f7b869291e637dea"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-11.jpg",
+    "sha256": "1ad23df151880e3e1985a84569baafeb237c9efc5d296fdaedeff4e46cd20a69"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-12.jpg",
+    "sha256": "2dde73784b1072c53fc113f2231ca46664bdebebd0e3d9810ae2d3e685192727"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-13.jpg",
+    "sha256": "fdf88b2f9f3b84e0b0d709a1c9721194fe053612e66a3a91b56a69745a4d984d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-14.jpg",
+    "sha256": "2e8a6d7ae688872ffb5406726e6b6f20d3f5715a2496c6c6747cc68519247089"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-15.jpg",
+    "sha256": "3617a354da4388f6a9c039161853b77f26719502331ba0fc9d0e75128db8cea8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-16.jpg",
+    "sha256": "1fd4b2bf5fb014212fe4da5aafeebc9f269ba10a11425839c06ec457c67ca22f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-17.jpg",
+    "sha256": "9b926d9521706d85a159cd07425370824d8b04fca076688ab48cee208d583ef9"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-18.jpg",
+    "sha256": "aa18fa0d93acaec567fd6f8b27e8dfd36f2e192236e143ab0860ec773310e328"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-19.jpg",
+    "sha256": "64a5059c39c7423e22fb8b39f614f36fca98dd2c93f5bb97651d5d80a6832167"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-20.jpg",
+    "sha256": "97aeef9b69a7fc635cf4f5d52e1a70d8932827cc6b719e591fac155313755721"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-21.jpg",
+    "sha256": "4c016e9be8c58beda866adfba58d5882b9fd847e1d3fd853042a3c71ede8c311"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-22.jpg",
+    "sha256": "f6ef5b9383a62df3660686e54fa22de5d71cf958b19d328b78593e8bcbf7193d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-23.jpg",
+    "sha256": "2b89d798a232a2b7923284050563942e04e6d5ae104c7176ecd9f319a0b396ad"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-24.jpg",
+    "sha256": "4eab07c58069d752fd496fbc9ca8ffa6e088a017be7b4427d19b25af0ab5a60a"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-25.jpg",
+    "sha256": "db0f7e5fd46a10f94889290ccdddf0e7c115afdba6df607e36a2bfc1cb75a7ca"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-26.jpg",
+    "sha256": "15de5ded1b184575607b9f831bae058aeba28c3f48fc9eab3754e463f0092842"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-27.jpg",
+    "sha256": "cd40e5dfaaa17e1386d8c84eb4c385d80b45f2e9fc5b5de8c25075eadb9e1a00"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-28.jpg",
+    "sha256": "cd40e5dfaaa17e1386d8c84eb4c385d80b45f2e9fc5b5de8c25075eadb9e1a00"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-29.jpg",
+    "sha256": "aae91475e93e3748bec124bb1cc2c31c88c51112fd5f9dccc0fd5adb238a8389"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-30.jpg",
+    "sha256": "aae91475e93e3748bec124bb1cc2c31c88c51112fd5f9dccc0fd5adb238a8389"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-31.jpg",
+    "sha256": "3d0277af0ac9b06c1209b70e53ad253017dd9bf9e52094767d63b993e9050348"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-32.jpg",
+    "sha256": "3d0277af0ac9b06c1209b70e53ad253017dd9bf9e52094767d63b993e9050348"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-33.jpg",
+    "sha256": "c34dc7750a1dee8281cb1d2e0c8a2e725136523624aeffbe2cbb047f23cbccf1"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-34.jpg",
+    "sha256": "499dac1d9dc10c5c5452bdf0b9025a3cc69b60d9eb55e063efac4dc3fc8704a2"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-35.jpg",
+    "sha256": "c126ca19a3d59ac49c389325a2df57f5226c480a12acc0bd86625f7cecdda0b8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-36.jpg",
+    "sha256": "512e4e0f9cc02d25403278b1012ffc9d52068a938c1a96a6eb0e3984bd7a5bd8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-37.jpg",
+    "sha256": "79ba527ed742869a9f16946cc69450d4cefc340847f388c2ae15972d9851e314"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-38.jpg",
+    "sha256": "d333519e78b63de59cf169a4ea8bbcf8c7357a1e0a0ab436be5b886dde31bdb2"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-39.jpg",
+    "sha256": "d901010f3dbcd8678033bca4ffe9bad031e634388030c6bc3358321a438533aa"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-40.jpg",
+    "sha256": "d901010f3dbcd8678033bca4ffe9bad031e634388030c6bc3358321a438533aa"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-41.jpg",
+    "sha256": "1f27e3e1cfa2e1c4f76df9f2b228f4a5bf20682791a099eb914d87af274629f0"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-42.jpg",
+    "sha256": "6d4fb13de8cc250a29c4925dcb52fae883a74d8bdda008f9896c78d172de8e27"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-43.jpg",
+    "sha256": "90c660a3f4e258e7c3bd1835fa84b32412a4cc39ace969129f32d2148579a0a4"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-44.jpg",
+    "sha256": "46bbd6eb8285bbdb30b692e3565a3cef861d7a9ac6f94f46d623641ceacfec4e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-45.jpg",
+    "sha256": "0363b76a7c43230edd36edf132e178fb7543b9a93260173f3a2d99b52781cca9"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-46.jpg",
+    "sha256": "0363b76a7c43230edd36edf132e178fb7543b9a93260173f3a2d99b52781cca9"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-47.jpg",
+    "sha256": "5517ccbabf5aa9b9f70296695e4b7e7b2b79be2a366649f9b3c24fef3c31295b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-48.jpg",
+    "sha256": "15e07d6888353eadcb3ab650ea777d854ae90448b0e722ecca0da4b6f9a7574c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-49.jpg",
+    "sha256": "15e07d6888353eadcb3ab650ea777d854ae90448b0e722ecca0da4b6f9a7574c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-50.jpg",
+    "sha256": "fc6b43bec9a0ad7c4995a89083e65fc761d9407c34074c1bd3523bcb25a14c56"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-51.jpg",
+    "sha256": "de92b2f73d9c4e48b4ca79174f4e153db4f6cb37e3d7630fa1ae720894743596"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-52.jpg",
+    "sha256": "ac6f4b663a0a8bac1255200a21a14ac8ac75179f9913c86333f977e8a35fc778"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-53.jpg",
+    "sha256": "89628ed5600701f6be3633f9ee165d9bad173bac0b39a11dbaeb82484178b1c1"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-54.jpg",
+    "sha256": "89628ed5600701f6be3633f9ee165d9bad173bac0b39a11dbaeb82484178b1c1"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-55.jpg",
+    "sha256": "de111958831b5e2d51399119d9ce5890a79e1b3baaa2837efef893127f62700c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-56.jpg",
+    "sha256": "d5aaef34b7a6b0518b946021ebb4bd8929ab62dec4826b5196456bff8d85327c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-57.jpg",
+    "sha256": "4e8c0d5f25333d7637728f53a1a9a7bb9831eff098e0040dbcb72958f0d2f53e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-58.jpg",
+    "sha256": "54ed5126729982621533dfc0081662c0593bc3473198481e04122ca5917e4c92"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-59.jpg",
+    "sha256": "35bb1320d3aa6f8f3123368a7f4e0d3315fa87e9ac01943c142b8e835b11dbe0"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-60.jpg",
+    "sha256": "a24690b587cb663b3c57e396595d57dfe077a11309eead19e2ed1713e2b45db5"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-61.jpg",
+    "sha256": "13e4bcf750bf9f17ce6da736aeb753a0eaeeefd90f7cfd773deadb695649d664"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-62.jpg",
+    "sha256": "3fdca2099d665553d3a31050fda2fe12ea1210340f55f314dfff33d43dae140d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-63.jpg",
+    "sha256": "6bec7886c986b5b855bfa9aec0da0f4969fce9b836fffa1031508130c9722b0e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-64.jpg",
+    "sha256": "71e94d63c2f07708147718216966b7c662781a7e57672cfaecd0df5a64ff912c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-65.jpg",
+    "sha256": "5471e2c244777b66a0ff69f33451bad60678676b2cc0dbe19ec50f109878fb4d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-66.jpg",
+    "sha256": "8d155cff98c5c7e6f7872288c7565110afb3756758e5d0374d06064a7dc7de32"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-67.jpg",
+    "sha256": "7737de75ee41b5fa2b0b8e7cabf16666eb7f123f1ae46d31022a3faebc4659b8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-68.jpg",
+    "sha256": "adc60942a27344cadded2bebe4b156066c9b52035766a47a8a467f394e402c84"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-69.jpg",
+    "sha256": "c03ff6aeba196537404e539511fff18bca81c918a28dedb79dd9d2acb8da19ec"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-70.jpg",
+    "sha256": "960864b1beee2d0f74e88e09094c71b0ffb80c1334fae30a8f7a95e2480b5028"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-71.jpg",
+    "sha256": "865a8ef6534008bcde67f622852b20e4817b1aa656cd94f04bed04b464604d55"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-72.jpg",
+    "sha256": "d916249713576e55f78d90fc2548a3ca6a3d102eb6c992e3e20d9beca087adee"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-73.jpg",
+    "sha256": "49e29af2f310b6f2b78ab795e008ae864aecc9258b076a73f91c15e08cc74e63"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-74.jpg",
+    "sha256": "894d463fcc47b852a41b5b673f8adf461a172f95bcf414ef91999112b9fc91b0"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-75.jpg",
+    "sha256": "4571dabfccdbd2246a821e2a32d8d28377719c60cdd87ab81eff0a0ed41f6739"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-76.jpg",
+    "sha256": "5e8336d478fd766b9e9d9ba4250680de41d41a0fa404839101e171e523253fbf"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-77.jpg",
+    "sha256": "98c21ee1e9b8a1cfbf399da5a866abe5dca940835ef0ca6003d29aea3b65a20f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-78.jpg",
+    "sha256": "592c0122a5857b31b52eda089b06c28e888be47a713439d80d19914a5f0d35ce"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-79.jpg",
+    "sha256": "f19b707121700911858ea4ffaa46658d193e34695294dbf5bb85f5bb7835df3d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-80.jpg",
+    "sha256": "ebe609fa1a23321cef5214d69c4916f9c15cbda5227aad0b7c8b371a38716751"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-81.jpg",
+    "sha256": "9dfb9db8a756f026dd6480177152849ff28dd092f6322d6c587fd205f1c40369"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-82.jpg",
+    "sha256": "c5a6b03eb6686cd25965a71bf95dab6ac3233632870c1ee123e7a6f19db5144e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-83.jpg",
+    "sha256": "18725abab58c2aca969ae047f6e4643ff40fb488fe2e212a703f5c8a9a20b8db"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-84.jpg",
+    "sha256": "311a2c46e846e5d7d59567eda22eccbd22e2d6b0da1d3302e647ea0cf6a43652"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-85.jpg",
+    "sha256": "4dc1011ac00045f0cc024d11bddd05bfd8cd109aa9bc1ef70d680876cc0412b2"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-86.jpg",
+    "sha256": "364fcb302295d9228f33edf537ffe417f11f12587d59ff4a80894201bb85f9ed"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-87.jpg",
+    "sha256": "f606910c41ab6cb09b0c6566a54c2494b7c9aaf28ca7f3a07099eb0201a65557"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-88.jpg",
+    "sha256": "f6cff450dca054f68dd7186bf1dbaf73b8dd49c9a9ae3a466de6afc0bf0afb55"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-89.jpg",
+    "sha256": "2ebc5908a7a8fb1586ebfe2a664eb341ebad9a2c0357cd0b022ef10fcf068dde"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-90.jpg",
+    "sha256": "7f467b2121b6067cfb11c635f0a00d67f5012c591d0465561f57da905909a77d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-91.jpg",
+    "sha256": "055ff006d72cc328b8d0c18c9eda17d640f948e5429d305988133fca725e3899"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-92.jpg",
+    "sha256": "329a205202f45df161498f7ecef5b8334aea40ddec0937dfb069739054acef8c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-93.jpg",
+    "sha256": "37595ef49bd356763df73de0f9d4c773a860d037f9dadbd3f9fd1986f73fab7e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-94.jpg",
+    "sha256": "23c447b3d2e90deedfa000733820bfda16a281ac04fc325ec8d373b742cd76a4"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-95.jpg",
+    "sha256": "55307fb272625f29cf2f1589aaf956302e55c3bedbe85fd0d21375bb376b6c11"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-96.jpg",
+    "sha256": "3354b50a3f49c031ea50360833ba0aef31f4c6a6f32671bd526728707902471d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-97.jpg",
+    "sha256": "adc929915d759d9047f9604decf8f814deea75ddf79214541efc306b268f71ac"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-98.jpg",
+    "sha256": "b3708202510f00974cc5b70e979e712d3cc3ff68e6f893af21b947347369f40f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/distribution-99.jpg",
+    "sha256": "191b619bc18272f1687d7971a8bc9be2fccff1e308fc95f055ed399515edafa4"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-01.jpg",
+    "sha256": "cb3e72432ffb8f6cdea83244aa04c01276842fd24cb9264eaf8341eb295be904"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-02.jpg",
+    "sha256": "de09b7f87c13740518a7c867b0f03ca97ba82f5ca87f2f52daeaea25ccfabfe5"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-03.jpg",
+    "sha256": "d967432fe0490afc205c18162a06b75e57cda5faf90d2d696bab650bddf484e9"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-04.jpg",
+    "sha256": "66d9943e03cf40a39c172877a624c79780fb77aadcca0f234cb02c249ca9f3f0"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-05.jpg",
+    "sha256": "dfb41f3880eaf645a95f8caff4bbce1fd2b9b0cb1867e8fb9f448aae4b0cc792"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-06.jpg",
+    "sha256": "751ca41c4331b38b979ed4321b6f1e0db748d7531f011dfadcc1c1b62492312d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-07.jpg",
+    "sha256": "e01178478b24167d2f6fddc736248383c4ee64ab79a81a4df3387a0d665ce56c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/compassion/help-out-08.jpg",
+    "sha256": "283bef7786a2b6a1f416644047118593109db115c15c03181cc28e78633a4925"
+  },
+  {
+    "path": "assets/images/coppak/ministries/lords-table/01.jpg",
+    "sha256": "76d0574be86141bbd5e2d86b2b17e4d9da26e961464ee01afc6cc9a55294efb8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/lords-table/02.jpg",
+    "sha256": "c4b6a41e0654fa66d68c35f4aa49d64964e6c8bda5af6547cbee049c3bc27fa2"
+  },
+  {
+    "path": "assets/images/coppak/ministries/lords-table/03.jpg",
+    "sha256": "a8fa74f09becd34bd050a69ebdfd8bf0f9fd06a21ab915e7c85113b8db7a58c8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/lords-table/04.jpg",
+    "sha256": "ebdf8b0d788a24b77045ad7042a098dbd445e7f82b4ec02d4c81c54b656c0992"
+  },
+  {
+    "path": "assets/images/coppak/ministries/lords-table/05.jpg",
+    "sha256": "592c6e27de560ff9e618ecb11e2c62a2c08f3e389421cda623a463b8e877a10b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/01.jpg",
+    "sha256": "10c03d9cd57a9385a89d7c579a34c3408927ca3e35747fe9b7a11a9a74635c48"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/02.jpg",
+    "sha256": "5d3c9729195b1584a4478351efc90a205907b76b4f3e8c3cfee74b074dbd154c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/03.jpg",
+    "sha256": "71d16841fe48c4801f37625a0e0f86602011be436618adfcaea86d6dc3127267"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/04.jpg",
+    "sha256": "ca932b5f278a16c0747d7d00b9354ed972e9bb67dc2e40cdb7b328801ecbd100"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/05.jpg",
+    "sha256": "8a4a525c9d24c88ec620003de0f740638fee4e5f4746ac176aaedda1fdd8b79a"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/06.jpg",
+    "sha256": "e66b4c1a654abfb26048559984a70716be8faf93542b452dd2f7fb6375c6f705"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/07.jpg",
+    "sha256": "649598e1d32772e28923557fddf7df0eb300a6dd7219e6c106e1a289579609fd"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/08.jpg",
+    "sha256": "6816b450b8407a3faff4426b3ba8479c9511f8c379372ef8027c899b050efa93"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/09.jpg",
+    "sha256": "525a5444e153aa01f1fe6e99f31632a69bd4dce9401a53947f4a84111ce2ec15"
+  },
+  {
+    "path": "assets/images/coppak/ministries/pensa-youth/10.jpg",
+    "sha256": "851917419ff0e0d714a61cb37150a93d561614f539f50f08d5b968e5db32ad2d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/01.jpg",
+    "sha256": "a625c68ad6d4a3649bcac5953bd481f0f2fc7874e73254db06f09cc85f9eb30f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/02.jpg",
+    "sha256": "bcb73e20e9b51416b691b04534290828029d7a31b2c7dede8ea6a194277301b9"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/03.jpg",
+    "sha256": "bd8b00fc40d48896b1f7e720157ab4c3c260b6e7be6a219d2aec4962c4bee90c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/04.jpg",
+    "sha256": "e384e4244d246a24816060b03956b4bbc5d3e33dcbbe45383ae5113e2647864c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/05.jpg",
+    "sha256": "6b7bff80daf44fc90b2af52c814cfd5fe8c462141abb66d7d65ea705c74a9588"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/06.jpg",
+    "sha256": "dc02f2a4a38e7ee84380dbed56e5e725a0381bc9e1c3a4e221fee8e19577ba9e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/07.jpg",
+    "sha256": "05108b574995989957c9cfd80eec42c3195db025003a944480e005e7832497bc"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/08.jpg",
+    "sha256": "a36448e213213f80d385ea7a6bfab5bfb426c0b10e16d5736c61f8a4fed1dd94"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/09.jpg",
+    "sha256": "546b15bbe4837f46b279ba69cef955d0ecaca51f666e76679b622a06d9f0f97d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/10.jpg",
+    "sha256": "63f9ed422a87f0404fa3caa5ef3adfe1eb3a14e17dea948a8cdaf87c7ceeb02d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/11.jpg",
+    "sha256": "00ef47c4036f9f9f0e32a63d7fc0a4f41d46e00ff34dad38430c44b34711febf"
+  },
+  {
+    "path": "assets/images/coppak/ministries/sports/12.jpg",
+    "sha256": "0c898c8ec6c505a0faa89e554e354b0ed70e0d90a3ccdc746176ecee108c6618"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-01.jpg",
+    "sha256": "9b0ce9da41228efc95662d2312c395bc4c85635fba3a722214930809b973b44e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-02.jpg",
+    "sha256": "347ef982f5f947ab25295148938d3408cec7646b9b3ee1a34a26e29855aeac37"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-03.jpg",
+    "sha256": "e48235511d9d18599d6a6f9ad93ded0173c6496dfa0a1fa54d8b923f1feb997f"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-04.jpg",
+    "sha256": "ef08199517d611266f08c62951564b20ac262b58f971bfdf10fb22cac41bf1d6"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-05.jpg",
+    "sha256": "1f6022672be6af94fcf52df681818b68a2d151d5ffc18fa4c7dce3b3342980a4"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-06.jpg",
+    "sha256": "13037c16d38a27468d551c578e2753bfd02800193b2ca26d772ede7d58b77f0e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-07.jpg",
+    "sha256": "2c8e120c76bab53f94da9a7efd085108f4a23df92cbb84e512ffb0abd26e08d6"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-08.jpg",
+    "sha256": "ae8de5252b92e94dfbf06ec7567554f29a0a293d21d1e87f2df23a133ecf10d0"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-09.jpg",
+    "sha256": "587dd61b88e22f70ebf6d1ca4dfc964aba4159f76e9245de677113251e69e131"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/family-10.jpg",
+    "sha256": "2538c9278789316e50786a1f49b450aa1571fb9c5501128ca2ccd5db5da7d2e5"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-01.jpg",
+    "sha256": "41aa3cc121c3047e844706f2118d8889aa27744e23351d7d4d450f35bd957b02"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-02.jpg",
+    "sha256": "3b592fc5f5c8e5fb1964424c985fcec79175d3291b0ea823a7a397c239a33de7"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-03.jpg",
+    "sha256": "e71066131c433719caa9fa6cc0a376f88165454cffb97752d3d121543db618c1"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-04.jpg",
+    "sha256": "b6cb6cb674e110be9069874ce62f6ef9614d83d9c13084bb0f16d9d038dcb70d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-05.jpg",
+    "sha256": "a32a551d6b8cd905fd472ec8aaf791ef622be08f81962607fde7dcb239a348c1"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-06.jpg",
+    "sha256": "ea740aa74051f5e307aede654f8c1d340a08ecdae4f8701109efd24a82aaea0b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-07.jpg",
+    "sha256": "36c2dfa3b39b17581cbc7d26d4e1389b865ba2ec77fda4c03e0574d3c6b9bffd"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-08.jpg",
+    "sha256": "0b0ebb834e7a319a00ccc9d25cb88227d1e4dc05b5b9666feb33442b05ad43e7"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-09.jpg",
+    "sha256": "26dfe83d3d0b61291f66cd6adf2b480681e5736199f3af450c27da5f26ad8b8b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-10.jpg",
+    "sha256": "0d8d587d63532797b2e103dacc2818ecd7d80d61c03c78557b47427dadb061be"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-11.jpg",
+    "sha256": "491c34499b5f62a8841d96deada1bda49773612c1d678a2aa16d3c36278e8961"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-12.jpg",
+    "sha256": "d315206271c5a76b1577ea0aa7fe4b88801b967dd037f3c34ab6bc4d218ba6f8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-13.jpg",
+    "sha256": "94feae94489784e36e33b77791099fc6ae2352578902a0082be4fe287b4d2d47"
+  },
+  {
+    "path": "assets/images/coppak/ministries/support-needy-families/welfare-14.jpg",
+    "sha256": "19ceb90f4885a32aaa73b1777924f6cc5aa652601a26506636e8be2b406910f8"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/01.jpg",
+    "sha256": "4ebdb84af522bbadd2f57b56e7ad00e90d8d3461d4b19cfb1c616f4ccab653cd"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/02.jpg",
+    "sha256": "42013d7cc1ffbd8d8c1351c64a5dd9a82570011f7c96c368901091e95895a649"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/03.png",
+    "sha256": "1dc5ff38bd556104e2b3f11a040614d90ab37971155ba7be089381e6d7d698c3"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/04.jpg",
+    "sha256": "af29f44ccb376b61484bf520a87fe1fd05ce58f7065be88382289829cffc8082"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/05.png",
+    "sha256": "8efcf884da304d4ca012f89f10227e3e03f9a5893fc2d88dddd96e7720a1eb9d"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/06.jpg",
+    "sha256": "395b2a6af894d6a8aaf5c6c386d6412e023b471175d1fe017d3840798c34184c"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/07.jpg",
+    "sha256": "019e9c695032cf804b00b9a6b5a4e1e9aefbd217db4b7ec7d1bb42eaac4f9bee"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/08.png",
+    "sha256": "55e80aec60d100d7a13c626c58661bbf8890328283056f864d095f2fff68565b"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/09.jpg",
+    "sha256": "cb46d930ee6ab716fd06548966af8075e68298a39a856be773d9654542aeda6e"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/10.jpg",
+    "sha256": "659092af60ae7315d55c023b6518d4d9d183048b3363104cff4b0535a1789a17"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/11.jpg",
+    "sha256": "a1df2cbb79b8a0b203fcd521c2b5c79f691dfda41571e2bfabda03fc6a0f6150"
+  },
+  {
+    "path": "assets/images/coppak/ministries/women/12.jpg",
+    "sha256": "d590f4bcaf01011c9f995a8d95daa3d8882eb47265dc048d7757247a7e1073f1"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/01.jpg",
+    "sha256": "2db1a5cc2972e94222e4a6965aa2d9b81bd2b1438a8046aabf3ad59fd4633598"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/02.jpg",
+    "sha256": "6dfdc5fe0cdb8b66d50df86228d3e1c9a03063fb430580ce2a8e84930d51fe8c"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/03.jpg",
+    "sha256": "69823954b2979b540bef392ae7a896b92c774a509fdd4a7b77a23806bb20201a"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/04.jpg",
+    "sha256": "64e7f9ff0deb8e8530c8c991cc12ca8c4358bb35378953512c449338c25fabdf"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/05.jpg",
+    "sha256": "4adb379e5b12149858c58c2271178493da5328d4eb7af2d3a8d4dbc2aa36bd4e"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/06.jpg",
+    "sha256": "da417371505962d9f3cee6d62199ec0ba9a335dd36d10cabe3f30a415a6d55d3"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/07.jpg",
+    "sha256": "793adc2287c8787ba81951d59ec099b57fdb00e28a7b9eddfdd8ecfbac7a4333"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/08.jpg",
+    "sha256": "b80de097b2c0add487c59932adc0d1973003ec3a723eebd1e3a45fef82aa0248"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/09.jpg",
+    "sha256": "fdca7b3e75632ebd95a748730a350d94b05babe82720eee3acafee2f09bbf2ab"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/10.jpg",
+    "sha256": "669e6bdb8e5a153509e13f2e55a4fe9e18e144c708eb979984602ea94ad35e47"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/11.jpg",
+    "sha256": "bba2b9220bba547fcccd25086f0c43ac6fa2a4d89768b063ae6034a0ace6b832"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/12.jpg",
+    "sha256": "9516b30c5ff3f5f3ed883e46c1ce023ec883b8f6834f45819d4d2c811c5afc9a"
+  },
+  {
+    "path": "assets/images/coppak/outreach/alpha-groups/13.jpg",
+    "sha256": "ff5f6b55177b2dd5872e0782f0c3105a3bb79c9b06db09529162442b416dacfe"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/01.jpg",
+    "sha256": "7cb2ebe7a961aff2744d2ac157bdbe7713762b4678a9d5e07a439442b5cd224f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/02.jpg",
+    "sha256": "83da93ff33f24ba0e4eeb47bce4fa82f21982d24fd6a923020e74e30344f169f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/03.jpg",
+    "sha256": "9b9195c0d87b24c1e4505ab3a1d7d37f5b8736137feaec30be92d4a18fb840c4"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/04.jpg",
+    "sha256": "c52d26a89bcc41604dc4dd09ae4aa5658feb22f4407ee67f44f7a3b2ecdf8b46"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/05.jpg",
+    "sha256": "f4ab8bfda6d38ba8787b56a945f2b06d4e51e851f89d264dabab00475ff8ab9e"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/06.jpg",
+    "sha256": "59b06ed5006dc7d6bc62bd730c0d718c94430a37fc61a7442f4631390ed34327"
+  },
+  {
+    "path": "assets/images/coppak/outreach/home-cell/07.jpg",
+    "sha256": "73dc0ea5ae63423f18095570eee478dbb36773c4dc5b0153995f5e1fc06fed1b"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/01.jpg",
+    "sha256": "f2a2a31e6c102b5dbf01e076677486480ff304ea5ffe55694f07fe0d5c603bb2"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/02.jpg",
+    "sha256": "fce71ab8e4ef12a7c1c9a46d2c749525a7ee116d44819e02947a128605df112b"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/03.jpg",
+    "sha256": "e80b3ce017a3c229dea9f1fa2d173804f0457b1809572d90a75b1d64502130b7"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/04.jpg",
+    "sha256": "b7f580657de916c41917c3ac5347b0501abd43c46132c2a2114a0354543c2683"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/05.jpg",
+    "sha256": "37353e61c8eaf3f11a1c79b7ab5a6ffe51a36e3e625893f2f16e4a146bef608d"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/06.jpg",
+    "sha256": "98d0834e8a3ae58095711408194dd2de1f8923e3194175bc74731ed9728c0bf8"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/07.jpg",
+    "sha256": "9d4094501c69cc4c3fd95e4a7367c5fbe21b77cd672c17ac9d0809acbebcefb4"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/08.jpg",
+    "sha256": "d9f78df4afc86f0f3f57c3c686e9afb8b807b79264bcbf90ad1f8f26da2c1b3f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/09.jpg",
+    "sha256": "b4bc7b8a8ddfb20b74e9c2547a289633138bcdd106c0734923d31d31e49292b6"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/10.jpg",
+    "sha256": "7fe44b0a8b75d1f49de6de706da2dc5e0c2ebcba5fe6fa433c499be8f39d1a8f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/mass-evangelism/11.jpg",
+    "sha256": "8e3a806d6e914f5d54c379cf7d1d531e4e175f0607a84691ef6d2491cbb1652d"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/01.jpg",
+    "sha256": "a703e624ac339dd1fcd5e430b61c0f05daed18151aa18f91a36a243977a8abce"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/02.jpg",
+    "sha256": "514737c94bced6b2b89365be6531ec8aee25f8494c2199abd20e9b185ff4c89a"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/03.jpg",
+    "sha256": "f4912b1a62d4870798542fd5c8dda4d96747c14474690840befd3f3e95fcbcbc"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/04.jpg",
+    "sha256": "1f2aa402ceeb366801fb3b1c0f09e213d9ffc79b55827dd5ca10cf5552540b51"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/05.jpg",
+    "sha256": "e85a825ed93c37847b83999e1242f47f29da38d8ffa5d5a4641cbdb32ddbe10a"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/06.jpg",
+    "sha256": "fcf57aad099c7959ce08f3a84940bcf0097a68009befcaaa5bac03585e8b58da"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/07.jpg",
+    "sha256": "7f09262d199867dc38ef2b9df1f65869b527f43930f1b752569d02508c75a0e4"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/08.jpg",
+    "sha256": "bd1e237bf1dcd87e2832e1b7f6642e5d78a58cbad7204abc72c812cc443933eb"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/09.jpg",
+    "sha256": "801e9b6f4dac98de3f26feb24721ae91c4a2c64fdc67c8a4c7e9e144e29fd64c"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/10.jpg",
+    "sha256": "42569331fddd4408ecc6ccf13a04c5f0e41c4338a2f4955431b4d094e4e6300b"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/11.jpg",
+    "sha256": "f01adf6bd7a5c93f71e8276f347299692cb4174b5f09e9db78a1bcc1cc72ecf0"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/12.jpg",
+    "sha256": "d1b491bff114a2560934a049d4b2f67de1ae8d2a44070d05ac5e947bb241ad78"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/13.jpg",
+    "sha256": "46b3edd086307ab664b06fae4af261d71bd9a41726c7ec27a9a5e4f509e51af2"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/14.jpg",
+    "sha256": "ff14b27e301b8fab18405efb0fa0407ee84da2790088c97119476db077beab7e"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/15.jpg",
+    "sha256": "a923263b8e385efef0259893ea7d59c201f38a5a0c8646e27183567408525e23"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/16.jpg",
+    "sha256": "e9cb6ecfba5b942d9716dece2cbf821d002cdf7bb9fa1fb43406b67d1a3c41f0"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/17.jpg",
+    "sha256": "d8a17b5e1fcbbae3aecaca7c6bd15f1da54bcdc0c3a5adb50ef2ee993fae029f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/18.jpg",
+    "sha256": "c1b5c98f222f7880e3011b2b27227601bbaeb588dddf1acd45b6006e0bf04711"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/19.jpg",
+    "sha256": "050b00c24cf87e6a3f9948828698b172d72b36c5fc2df8060c89182c2b66bbd5"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/20.jpg",
+    "sha256": "f03ed964da069080939cf2e9b3ee02423c0f17d51b33260e74b7889f9daa1cdf"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/21.jpg",
+    "sha256": "d8ebc6a1f158f6ec41403f9400b38fe6dbc65eeb9cf7f7710343a60a395fb0c2"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/22.jpg",
+    "sha256": "11a16d5af66305de0561de7e44998940eb861562490c4af4ca2b707b60644fca"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/23.jpg",
+    "sha256": "c6adf0ded631b55d0ec18276ed8ec2ab94b4b4db66ec092de04cef53a0388ff9"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/24.jpg",
+    "sha256": "c0f01ff43e727c0cc288eae960a035f37af972872b6c2ac98ff2e4425af4a355"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/25.jpg",
+    "sha256": "91a6ea7778b9bb91bf1838da57a161bf734bf2c439748ac2d7b7d61147649151"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/26.jpg",
+    "sha256": "3d7072ed17e592d7758513f9fbf2d545ba1d9a0e2160ae50931406a6442931a3"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/27.jpg",
+    "sha256": "f782fa2455296bd0d72d8c6c48319afa5cda1cfeca49a58e11b6990a78534f15"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/28.jpg",
+    "sha256": "8c0283a03c69474939a4c25841ca50eaaa23abc5b27732d59b7a4ad10d3edfb7"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/29.jpg",
+    "sha256": "c0294473a957e253c8bff058bbb04d52b6ce769e01d26dc161a770587377322a"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/30.jpg",
+    "sha256": "27aaf4d20d0be7cd983e2b2b79b0b49dceb322cb89f4804327520d30950b8a09"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/31.jpg",
+    "sha256": "bac5ce81b315a698524e75e3c3b8553375dd1bff467a1a9ac55de3cb2e539e04"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/32.jpg",
+    "sha256": "c597afea1bc985f330ee6a1dc4743ed7feab0ede6242501f0198fc163309ffd6"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/33.jpg",
+    "sha256": "e815d4443dd8f25af5be07f3836a8ec205ee43188353b02f61f6e9b63291afd8"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/34.jpg",
+    "sha256": "8b528ac06292830c62528383866de69b617d384504d1ee32d916f778c5090274"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/35.jpg",
+    "sha256": "70f42dd4b4bb3a9ab6ba8ffadd69ac728f6b8d4c229a528209ef96f5a8383710"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/36.jpg",
+    "sha256": "5e83a3f147471fa5d5b365d1dee61fda1bb4f74385cdba37070c57129c421b80"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/37.jpg",
+    "sha256": "9082fcd7ca9afc5c2c6eb9a691bc7b704ba0fa15a6cd26b5c7198bc4e52de326"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/38.jpg",
+    "sha256": "48c76831af06d8e2cbe827947de282aeff984f99e0d4924ab876d4763b3c867e"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/39.jpg",
+    "sha256": "726362555caf9ffd0785778e719f312daeb6ed346f885e8bc44483b943ee5949"
+  },
+  {
+    "path": "assets/images/coppak/outreach/peace-train/40.jpg",
+    "sha256": "fb1f0e61e24a326fc58e433e813bd4dbaf5335a6d63f3d9e3b9d42f01fd14193"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/01.jpg",
+    "sha256": "caba8d9ad6b1dcc8f1ce9feb4f199f8fd05266f0e7f0011d17dd12836d7f5477"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/02.jpg",
+    "sha256": "f4f435f5efa30fb790012342b4f199229ee422737c7fcdbc336337725c03184c"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/03.jpg",
+    "sha256": "54acc44c3d2ca58f3b6cf20a1c0d53dd709e193ae29fd9a95c1fc50c85ce9029"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/04.jpg",
+    "sha256": "1bf7d46c4eb6af84efb343ca266ed35e086b35688438ee177c255da49fdb123f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/05.jpg",
+    "sha256": "27ac7ba3b2887bc6982e26acbb08176e7e405324e5868ceea06a212feb1d0ee7"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/06.jpg",
+    "sha256": "a132b69e36cc78728c3ca075ddce171978ec7366a8d0a949582babc31a487b16"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/07.jpg",
+    "sha256": "571b6dd81360697b2a1b45676b04f5a3a69e2a7ad6b939a2e21d3f3bcfe73012"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/08.jpg",
+    "sha256": "65b525eb500677f1712a10280d9c507b59c7baa939f0e96970b4abe1eabfc190"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/09.jpg",
+    "sha256": "dc83a270d523674ed2e1fec5d59be63348688e5a44ad68ab9bb9c2189620868a"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/10.jpg",
+    "sha256": "6eba36187720a395d8cdccc8e9feccccd20da5b59b25a3d1eca26a279692e9d5"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/01.jpg",
+    "sha256": "013c4441dbb97f25ef50859d3ee61b75d822f006dea3d3c05eb3025a306c4c83"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/02.jpg",
+    "sha256": "485e11c3c94472d83f916d2da5046126f3aca9c87faca5f7862d5b32b58b17bf"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/03.jpg",
+    "sha256": "73bc92e394f3dd37afe654e3bc6fe324294fd342a8c3137f1de9a59ff2934b88"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/04.jpg",
+    "sha256": "c020f748a18145de48405d61ff3225f54404e5f349540533454da25bec6ca6ff"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/05.jpg",
+    "sha256": "f7a08446fb8a5b11e442a4436102a02db61e00249383488c5422101981cd935f"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/06.jpg",
+    "sha256": "2727339b68ca4469c05369b9d8662f5b51c7ad59227fdc7150f99507d4a5468b"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/07.jpg",
+    "sha256": "bdb568f86a7d4da5fa965b462da705e45519d762ec381830bc6369d0a3365198"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/08.jpg",
+    "sha256": "429abda8753291b56ca41820e769f7746e086434cb152951f02ff74a63b98f35"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/09.jpg",
+    "sha256": "5ebaf86a0ceb056b67fa7444b1304808aa1805039a5c21340bb66a7fe24aff06"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/10.jpg",
+    "sha256": "fc15ce2c8b83e03a2006145fb9387e93cd9fd4123ce6a6b4f8ae99e64f47f8e4"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/11.jpg",
+    "sha256": "7fe15d8238ef81550081bfde15839ab50d516821f45c5885cfd033f83c99e930"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/12.jpg",
+    "sha256": "1508434f40465a9849ac6d8d75e3658cc366ef042534d3c64d3d888e22e36215"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/13.jpg",
+    "sha256": "de188db6e31e5aca0956d160d90b33d4031cfb7de0c492eb2fd4c8dc0129b9b7"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/14.jpg",
+    "sha256": "cd692c75d0793a266f9b9c80a2af2451be51ac11a14f6f422ba4a97526223921"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/15.jpg",
+    "sha256": "986f2247f0f8c6d169023cd34c39e8c661231426503af3143d2b97a7a2808057"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/16.jpg",
+    "sha256": "3f288bd49266fb7f06c617fcac9a13dfec742f95e34ec89ccbf6a15e20d08c86"
+  },
+  {
+    "path": "assets/images/coppak/outreach/public-rallies/christmas/17.jpg",
+    "sha256": "90de302abb26adbbe86181b48dea1c16a7ccabeaa73c5a2ea542550c5bfde3cd"
+  },
+  {
+    "path": "assets/images/coppak/projects/adult-literacy/01.jpg",
+    "sha256": "9d307f2ed2e2d0be6e18755071158ef26536c1f602c70c36134558bda90698b8"
+  },
+  {
+    "path": "assets/images/coppak/projects/adult-literacy/02.jpg",
+    "sha256": "9d594ae36dafeacbec877dd4fce0e39fbbb3a8394711142769a346a92e168112"
+  },
+  {
+    "path": "assets/images/coppak/projects/adult-literacy/03.jpg",
+    "sha256": "8c1808c1724bb9d179456a3653d7ff38e7c746b84de8fc7e39380decede7b5d1"
+  },
+  {
+    "path": "assets/images/coppak/projects/adult-literacy/04.jpg",
+    "sha256": "60a6f1615050731795812be5c75d1e194e8d8be54d023675ba37709fd941c395"
+  },
+  {
+    "path": "assets/images/coppak/projects/adult-literacy/05.jpg",
+    "sha256": "465ffb83a6cd3939adb13f50fd3284561620c19783c91a7364c19fd698c5fe26"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/01.png",
+    "sha256": "6243d27ecc4daef7c7a53f57ee396c5239b22b105c7c694c69825959c4fe4171"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/02.png",
+    "sha256": "c65e414865890da9b798f7bd8a6e3625d7d790ccd5ec8d2184359d25cbef85b1"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/03.jpg",
+    "sha256": "c08fc8727d70de5c02115993cabab41bef09e818c5bf8237a1fe6680f580e7fb"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/04.jpg",
+    "sha256": "605a8b53f7f14350b1cef6e5a3a4583f4a29372fdf8c6a185426f5890657d5ba"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/05.png",
+    "sha256": "ce6668e1834811648fe798b86cf0954a4ff4f8cc2e37c6aca2df13caf7111c3a"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/06.jpg",
+    "sha256": "0c95e805ef4448cc20898ab3ed657e49513d67ef215a04cd321763618859a620"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/07.jpg",
+    "sha256": "b245e0ea32187b774f1941293ff2bf8eefbd82114ef77f67325e516234781236"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/08.jpg",
+    "sha256": "e6799bc456b52edae47697070b138bc5695c4dffd2189341a26a6ada6866dc91"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/09.jpg",
+    "sha256": "8188dd3d0ded3c07a2d0117f4f2f9e504baddb39273e83049a8de297be9e4260"
+  },
+  {
+    "path": "assets/images/coppak/projects/bible-translation/10.jpg",
+    "sha256": "70e54333314b3c838184ad6c43c80958c80373bf58340f2506fb0b8fc4f1d63d"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/01.jpg",
+    "sha256": "47a76aeca6a692994bce8da6fb96fbb36887db88a65684615a76f053b0cc6aac"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/02.jpg",
+    "sha256": "644e2e351fefa1ba3f894a642323c9523cb63aa67d577a8d6e3fa27a110a21e5"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/03.jpg",
+    "sha256": "0a62a9c797a2438e7213d60e1ea75770d48ad279e23c266231d324dd3a9c865f"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/04.jpg",
+    "sha256": "a4e76458c5601ba3f8963306bdd75a57e4b6cbe64fb0d92fcf73b2d8e0cfa4f1"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/05.jpg",
+    "sha256": "5dfc6c2167fe91a92ba559e98c576182f06632d74abf4fbf7368b6a20a4b53f6"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/06.jpg",
+    "sha256": "ded15682d28e1407f3a034687dbed4a59395545b8018c86e46f289e94d1bd063"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/07.jpg",
+    "sha256": "37bbdbce2bd40be4777b7a6da03abb372bbf9d16e24d3123f97618b91c6a4295"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/08.jpg",
+    "sha256": "131376cdba9565adbb2d2083456beebb2825d45855ad061e33f789e084bc8d07"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/09.jpg",
+    "sha256": "985d35555f449546934c004a08b5e59412c0341c067195c004ad4578174bfb06"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/10.jpg",
+    "sha256": "e3aab766d4dcf5efafa94117c3de9fc8216e98842fce5ea65b2fbd6162807441"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/11.jpg",
+    "sha256": "ec8b67a00ba41466b42bba251ce887ebb8d71d4054e55c6e2695f77c41a6429b"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/12.jpg",
+    "sha256": "614dfdba467fc4c0fce14f91978399b6827a9c7d787efd720a02aed22407030b"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/13.jpg",
+    "sha256": "3c4edaba45e0f86ecb6f9868235b46524f54c88757ccc18da8166a07cf372c86"
+  },
+  {
+    "path": "assets/images/coppak/projects/brick-kiln/14.jpg",
+    "sha256": "a1b0ef4f7a613bf7eebf03d8458f80a57e917221ac831f3457a85eb2c0a72307"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/01.jpg",
+    "sha256": "e056d7933f815596e6f427f87382b087998140bd3670597be28ea8ae5719a128"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/02.jpg",
+    "sha256": "4e5e1a94c5373a5abb49b845c72ebdf78d0a1c2094e263465e8a01b757f10b8b"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/03.jpg",
+    "sha256": "492a8e9aa602524bd1ef7e4108f167d5fc188cd75341d611d5f0260a42f957db"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/04.jpg",
+    "sha256": "6c71d798c6e819975e3c01572ff52426f69eb4f410122b963b34a5cd982f9762"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/05.jpg",
+    "sha256": "cf0281bca7abe9b938d266f5cd295e5b36e34bc2c83802b2b8c5964cccbcb9a0"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/06.jpg",
+    "sha256": "ed76303f43a347d9dbf84effbf72261e22c556ffe1280bc9f8dcf6a01126dda8"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/07.jpg",
+    "sha256": "ff6311234f5507f898a410d537ba18640fb3f4e3834356eb19750ae43745afd0"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/08.jpg",
+    "sha256": "090b391dd2df225b5af0fc3c1adc034953ba843c69c768a11bb1fcac06913c1d"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/09.jpg",
+    "sha256": "78915bb42d02c3565e0d25f11b62416ddebe37003ddb48e744c21bb37d23b6cb"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/10.jpg",
+    "sha256": "a95ad02891ed84a00ac28ddb659ce31b1be9841735518f2b53373da50182eacb"
+  },
+  {
+    "path": "assets/images/coppak/projects/collective-marriages/11.jpg",
+    "sha256": "0abb71b32924931c2aa9fa2def1c2e4e7d36ca460b7bbc1e0d34313ae42e0f60"
+  },
+  {
+    "path": "assets/images/coppak/projects/disaster-recovery/01.jpg",
+    "sha256": "5bce0588bd02e2a71673c7434a3b0f33b4dc6c60d5678bac504b354121ec4274"
+  },
+  {
+    "path": "assets/images/coppak/projects/disaster-recovery/02.jpg",
+    "sha256": "9dfb9db8a756f026dd6480177152849ff28dd092f6322d6c587fd205f1c40369"
+  },
+  {
+    "path": "assets/images/coppak/projects/disaster-recovery/03.jpg",
+    "sha256": "9726da1424e2b8610e69d42d0685b04d2302f4378d3d34275345dc5418012d5e"
+  },
+  {
+    "path": "assets/images/coppak/projects/disaster-recovery/04.jpg",
+    "sha256": "d380fadc3f5a2a0fb0f71d48c01409a999eb31c29b4d48d5053f2eb1e97745fe"
+  },
+  {
+    "path": "assets/images/coppak/projects/disaster-recovery/05.jpg",
+    "sha256": "1fd4b2bf5fb014212fe4da5aafeebc9f269ba10a11425839c06ec457c67ca22f"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/01.jpg",
+    "sha256": "e087d801a3776f4eb5f5441827bee593069dd2bcaae620f3b9d6a06824cd096f"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/02.jpg",
+    "sha256": "73963ae3d837fa983bb8f600a91986b05dbbc7e49569b2ac14410337943e6da6"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/03.jpg",
+    "sha256": "82d5c88d5ab6c57fd24b9d4f6f8bad6cf08b7d21f4290eaa1e2cfad01ee74d56"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/04.jpg",
+    "sha256": "f4e4c30e7a60581130e3803f920f57c36a0560bce1b3a6b8d04c73cab34f9f6d"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/05.jpg",
+    "sha256": "f46e9ecfdf498624f2380cb9f49f26bb160fa871475182d9f5589084012a18d8"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/06.jpg",
+    "sha256": "527a668ad88127a66e8933db6c125e0efc943784039affdc3d99446970e15698"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/07.jpg",
+    "sha256": "5361624031ae9e294df0c472d9ece4ded6c954cf00a6eb9980b2264f68e86fd5"
+  },
+  {
+    "path": "assets/images/coppak/projects/medical-camps/08.jpg",
+    "sha256": "031cd6a45933877e5b188618720af5461dd264ca814b1101984d7aeea5ebf930"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/01.jpg",
+    "sha256": "216eeec17b52e0a8ce647a0cbc1ed0a00b1ec8fbb71532bc96e09536473d2794"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/02.avif",
+    "sha256": "a7399358295c4f4a0ec5c6f058679436bfe3d3146435302720895ab3dfc97855"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/03.jpg",
+    "sha256": "63aca4c95a35dccb4b343185a267007df3b39da72e458f09f3fd961faae9670a"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/04.jpg",
+    "sha256": "98fb52aef6ea5ea1b75de1ed6e8e3b9661de74f2aff38324362c1e81b0dc53e0"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/05.jpg",
+    "sha256": "06b50a08cecfdb74d41080de68e132ce1f6406a49b3a5239698bbafd26f72e27"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/06.jpg",
+    "sha256": "307026fbd7d415c60c84bbf8ea8955233e088b1fa30a9a680e472e7969ba154b"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/07.jpg",
+    "sha256": "3b592fc5f5c8e5fb1964424c985fcec79175d3291b0ea823a7a397c239a33de7"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/08.jpg",
+    "sha256": "b7c59c23e179d8c6a5a1caeaf536a9fc2beeaa01afcfa3bc69872c94d33af057"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/09.jpg",
+    "sha256": "04e81a4541e36bcacf0a07b28df2b6b69baa3653a34daa82e48fd9d46ddfc7f7"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/10.jpg",
+    "sha256": "76622a8beab9d937b4b2408c82f63a29259e1a617fff4754786631485c221407"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/11.jpg",
+    "sha256": "332db8420570a303308f6a808e797c98de817c80fb6a5da87c03ef5bd4810626"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/12.jpg",
+    "sha256": "23aa71655377a33e44816c337e7bfa49351757f3d33f36824cd41c087971bdc1"
+  },
+  {
+    "path": "assets/images/coppak/projects/persecution/13.jpg",
+    "sha256": "0c7dca93d3025e4b06788c0019c56d3dc84f34af4fdd1f8c5430cc2cd04446f9"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/01.jpg",
+    "sha256": "d9a17ea376a2864f6eaf43612b8284c8374009899bf8951e71e740c42feac698"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/02.jpg",
+    "sha256": "3728b650b3e48016bd62b6cf03c68051f38e25c6a47dba2906e31b59b9b16a21"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/03.jpg",
+    "sha256": "ad21d8e1aca579ba08b8d586029db670f74560c991dbbf6278253e44bb339032"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/04.jpg",
+    "sha256": "da79deb8553b2238e74e62df90850db70b4d0a09afc6999f5decdacf32577818"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/05.jpg",
+    "sha256": "f1499d7ac9217d1ffed28ddeb93d464d6bf737942c2902fdc9f702f5fb18076b"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/06.jpg",
+    "sha256": "532a3ca89805f879c75ce11f864bdc551028a006867e71fc0316dd73b1a5c4cf"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/07.jpg",
+    "sha256": "ca32d26ded1c9a2705ea0baeadbb854c6f6d0e9856a3b67484be9e3fe4d6388b"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/08.jpg",
+    "sha256": "ff32dafa6449fefb89d8c4acab0fce642c18eff640682a39ee7a3f54bb94e90f"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/09.jpg",
+    "sha256": "47939f9ab7f5729f450dcf13115e0b78b0d5eb99b2b3344ff0457a5b69526b77"
+  },
+  {
+    "path": "assets/images/coppak/services/baptism/10.jpg",
+    "sha256": "f7164a8b0750c33a237f88b7d97792045672f7e2d0d0c7dfe269a3ac9f5129ac"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/01.jpg",
+    "sha256": "fe86aacc44f91dbc39857232d45c873b719a8f39c323eab6e3039e6004a48780"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/02.jpg",
+    "sha256": "6a8986ff3967a136695290b92ce7f8f1ffdf7177f5e222d6cf13b3829691f0c6"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/03.jpg",
+    "sha256": "3e306591e251fd345f86c536162fe1a9f3806a08097ed5b992324f23e8d86199"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/04.jpg",
+    "sha256": "b12903ae00b53ed0b86fe9e6b44be0a74906c21f40b3c36bcca5e8d016644e64"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/05.jpg",
+    "sha256": "7b08cc278d683c144d1dcdebd54fc34e5e840e460f419a403a398f39e0e9466e"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/06.jpg",
+    "sha256": "87f293eae4beaf24f21bf1fe7711e1bbf96ba49b4d0a0c7675fbd8703a87555b"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/07.jpg",
+    "sha256": "2eddc9c87f9f5b8af4eabd5d93003f9493b5d84b35dada46612addbb8f1fb824"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/08.jpg",
+    "sha256": "d5459ce61a74601d3d57966ecb47cbd0c32421daf2999843646c80697027d76d"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/09.jpg",
+    "sha256": "0884ed8f34f92d9eec1b89e140c65b008d90c61e353c46e2224585efd38bcfd4"
+  },
+  {
+    "path": "assets/images/coppak/services/communion/10.jpg",
+    "sha256": "e9381f58f6d8dc335697d326292f273593c0b689eff4d2c0470fbbc2a721a8e9"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/01.jpg",
+    "sha256": "69ccf1bcacaa6e0640d36ea571b2670de0d1519af034237ae8fd8cfefcf351f7"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/02.jpg",
+    "sha256": "ad49fbcdc8609914736d593dda8406ad042eec8dc86c1e0e0064a2a89373e0d6"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/03.jpg",
+    "sha256": "7b9426db9ea24929a7bd981f708577ee19013ea09b988b2928b74e3d18d9635c"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/04.jpg",
+    "sha256": "4d8389003c3eefe90e207d3eaaa0792104f490c51e8b582c1499c1ecc1616875"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/05.jpg",
+    "sha256": "cc77bc33be0fbc99bd647dd91ab204f920b2e979a2d5cbc79edb7bcab65e88af"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/06.jpg",
+    "sha256": "52ead22388dfb563646129a1c3dc6f63bc85727a5bfc7bfee514aeddc1adae0d"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/07.jpg",
+    "sha256": "63b9da7b05051a18ddf11307bed241fadde3d52704b724d030f668c2b7230c9a"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/08.jpg",
+    "sha256": "5327ba798335c23947c7d1407a29f9444c1e1b298b7c97d0de00e9b0c52f0af2"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/09.jpg",
+    "sha256": "fc0e55b6efb699572834ef86c1afd12f7ab00c3d117baeb809bc32de8f9b51ad"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/10.jpg",
+    "sha256": "e21b8610ad0703beeadad1e025c15db465f68d4a8da9f5d85e45111f58253a45"
+  },
+  {
+    "path": "assets/images/coppak/services/sunday/11.jpg",
+    "sha256": "2b4a498d26592a0854734e415a21c278302bfa047a5a6f3d25ad5720bc29e2a8"
+  },
+  {
+    "path": "assets/images/events/event-details-img-1.jpg",
+    "sha256": "532aa8becd05d7aba68637fff03f36d761852504fce1e9b79ede451bb21d2c48"
+  },
+  {
+    "path": "assets/images/events/event-details-img-2.jpg",
+    "sha256": "532aa8becd05d7aba68637fff03f36d761852504fce1e9b79ede451bb21d2c48"
+  },
+  {
+    "path": "assets/images/events/events-1-1.jpg",
+    "sha256": "019186bcc29240cd2387c7a733c474dc3fb45e0d4e25b22f55abd758aff9b2e3"
+  },
+  {
+    "path": "assets/images/events/events-1-2.jpg",
+    "sha256": "019186bcc29240cd2387c7a733c474dc3fb45e0d4e25b22f55abd758aff9b2e3"
+  },
+  {
+    "path": "assets/images/events/events-1-3.jpg",
+    "sha256": "019186bcc29240cd2387c7a733c474dc3fb45e0d4e25b22f55abd758aff9b2e3"
+  },
+  {
+    "path": "assets/images/events/events-2-1.jpg",
+    "sha256": "f03c83f84133aee534fe87de20637688d2ac40f03db6723909bd76fa4f5d07c2"
+  },
+  {
+    "path": "assets/images/events/events-2-2.jpg",
+    "sha256": "f03c83f84133aee534fe87de20637688d2ac40f03db6723909bd76fa4f5d07c2"
+  },
+  {
+    "path": "assets/images/events/events-3-1.jpg",
+    "sha256": "e5a3aaee35a3ac7470235f63498da3fe8853b1ed3552b5a5cda78a19f2724b7a"
+  },
+  {
+    "path": "assets/images/events/events-3-2.jpg",
+    "sha256": "e5a3aaee35a3ac7470235f63498da3fe8853b1ed3552b5a5cda78a19f2724b7a"
+  },
+  {
+    "path": "assets/images/events/events-3-3.jpg",
+    "sha256": "e5a3aaee35a3ac7470235f63498da3fe8853b1ed3552b5a5cda78a19f2724b7a"
+  },
+  {
+    "path": "assets/images/events/events-page-1-1.jpg",
+    "sha256": "4c5ba9a31fc4560c1b14a01d3362e8591a038920038fec32703e7d9a957047e9"
+  },
+  {
+    "path": "assets/images/events/events-page-1-2.jpg",
+    "sha256": "4c5ba9a31fc4560c1b14a01d3362e8591a038920038fec32703e7d9a957047e9"
+  },
+  {
+    "path": "assets/images/events/events-page-1-3.jpg",
+    "sha256": "4c5ba9a31fc4560c1b14a01d3362e8591a038920038fec32703e7d9a957047e9"
+  },
+  {
+    "path": "assets/images/events/events-page-1-4.jpg",
+    "sha256": "4c5ba9a31fc4560c1b14a01d3362e8591a038920038fec32703e7d9a957047e9"
+  },
+  {
+    "path": "assets/images/events/events-page-1-5.jpg",
+    "sha256": "4c5ba9a31fc4560c1b14a01d3362e8591a038920038fec32703e7d9a957047e9"
+  },
+  {
+    "path": "assets/images/events/events-page-1-6.jpg",
+    "sha256": "4c5ba9a31fc4560c1b14a01d3362e8591a038920038fec32703e7d9a957047e9"
+  },
+  {
+    "path": "assets/images/favicons/android-chrome-192x192.png",
+    "sha256": "3ad2f45fcb9c6f5a39d206ec81e43e32f60403f9a5095b0661129b5d493db741"
+  },
+  {
+    "path": "assets/images/favicons/android-chrome-512x512.png",
+    "sha256": "3ac7ba805add72d56972c43a186bf8850ff01abd070ed36ef2ddf716cd741c82"
+  },
+  {
+    "path": "assets/images/favicons/apple-touch-icon.png",
+    "sha256": "163f68516127c506124ac3cc4ac6635347aeee09797da073f2b0df751841bb67"
+  },
+  {
+    "path": "assets/images/favicons/favicon-16x16.png",
+    "sha256": "3c4a4b7a87d26155c1b1b10600a124ae082263ef37a70350321273ed7134b53d"
+  },
+  {
+    "path": "assets/images/favicons/favicon-32x32.png",
+    "sha256": "1ae83af1b5f982f4efb3a572549891165ca56b020a939e0d05202a73c05a0a62"
+  },
+  {
+    "path": "assets/images/favicons/favicon.ico",
+    "sha256": "11f844695a9857eddf1dcdbbd9cb0195ddf7e073aaf919da0b730be1a30813bf"
+  },
+  {
+    "path": "assets/images/favicons/site.webmanifest",
+    "sha256": "7a9e07ce1f7386689917602ddc5a75750ad842e605ff764f67173529c181bf04"
+  },
+  {
+    "path": "assets/images/gallery/gallery-1-1.jpg",
+    "sha256": "9a5cbde8fa7c971e1a15552167c3ddb94a19f9395e19fecc87e75f7a25a47edd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-1-2.jpg",
+    "sha256": "9a5cbde8fa7c971e1a15552167c3ddb94a19f9395e19fecc87e75f7a25a47edd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-1-3.jpg",
+    "sha256": "9a5cbde8fa7c971e1a15552167c3ddb94a19f9395e19fecc87e75f7a25a47edd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-1-4.jpg",
+    "sha256": "9a5cbde8fa7c971e1a15552167c3ddb94a19f9395e19fecc87e75f7a25a47edd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-1-5.jpg",
+    "sha256": "9a5cbde8fa7c971e1a15552167c3ddb94a19f9395e19fecc87e75f7a25a47edd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-3-1.jpg",
+    "sha256": "27b6a722662c7828a3f39d6fe5579b8877c4c6ad9d95243580fea822fa665560"
+  },
+  {
+    "path": "assets/images/gallery/gallery-3-2.jpg",
+    "sha256": "5c4b9b239ade59e0acc9dfe8de4e1f2c11ad09cc625033b5d32c8a3f96713329"
+  },
+  {
+    "path": "assets/images/gallery/gallery-3-3.jpg",
+    "sha256": "5c4b9b239ade59e0acc9dfe8de4e1f2c11ad09cc625033b5d32c8a3f96713329"
+  },
+  {
+    "path": "assets/images/gallery/gallery-3-4.jpg",
+    "sha256": "5c4b9b239ade59e0acc9dfe8de4e1f2c11ad09cc625033b5d32c8a3f96713329"
+  },
+  {
+    "path": "assets/images/gallery/gallery-3-5.jpg",
+    "sha256": "27b6a722662c7828a3f39d6fe5579b8877c4c6ad9d95243580fea822fa665560"
+  },
+  {
+    "path": "assets/images/gallery/gallery-4-1.jpg",
+    "sha256": "d7b095e0924eedcfdbbce3c8a9686676de38e8a360eed4a256ed23d0e622cacd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-4-2.jpg",
+    "sha256": "d7b095e0924eedcfdbbce3c8a9686676de38e8a360eed4a256ed23d0e622cacd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-4-3.jpg",
+    "sha256": "d7b095e0924eedcfdbbce3c8a9686676de38e8a360eed4a256ed23d0e622cacd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-4-4.jpg",
+    "sha256": "d7b095e0924eedcfdbbce3c8a9686676de38e8a360eed4a256ed23d0e622cacd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-4-5.jpg",
+    "sha256": "d7b095e0924eedcfdbbce3c8a9686676de38e8a360eed4a256ed23d0e622cacd"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-1.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-2.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-3.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-4.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-5.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-6.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-7.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-8.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/gallery/gallery-page-1-9.jpg",
+    "sha256": "f0290a60ee2f7bbb921525cd19a1d151fbddfb8deeff19055b1e63eb2f71ff1f"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-1.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-2.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-3.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-4.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-5.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-6.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/home-showcase/home-1-7.png",
+    "sha256": "7b1ab5093bf50dadbb869634130f636d4a74ffb29b29609dbee7e37246abf0af"
+  },
+  {
+    "path": "assets/images/icon/curved-circle-icon.png",
+    "sha256": "aa93bc5a846f1682aa5535e5f295db6531117c431b94bd1f1c1242c970c8ebbc"
+  },
+  {
+    "path": "assets/images/icon/main-menu-heart-icon-2.png",
+    "sha256": "0173f0eff624878ff82d9b5d8098b15a4b756619164710e373c7564d74d6a58d"
+  },
+  {
+    "path": "assets/images/icon/main-menu-heart-icon.png",
+    "sha256": "855b2aa301a2f1c5e0955ce4ddf89f617d7079f0e0a2643cc9253c0a6e0e5b47"
+  },
+  {
+    "path": "assets/images/icon/news-sidebar-bottom-box-icon.png",
+    "sha256": "7c148f157c7b1e4c16078148a5b89f7b2d4eab90bae6d604b6827a309b337404"
+  },
+  {
+    "path": "assets/images/icon/news-sidebar__delivering-services-icon.png",
+    "sha256": "61f0d70713724fd80108f1a4cb28be32efee0c4fb1534024775b0fbd501c4c6a"
+  },
+  {
+    "path": "assets/images/loader.png",
+    "sha256": "b9df6a1dd38f749f556a5181f54ad2ba3ed09a6453af4cafd684d54159e8150c"
+  },
+  {
+    "path": "assets/images/resources/about-5-1.jpg",
+    "sha256": "9bcc78089c525fa6c32a7d49e45d3564ae48ecc7c35d6f249481e33a11e917fc"
+  },
+  {
+    "path": "assets/images/resources/about-5-feature-1.jpg",
+    "sha256": "6dfa9ebb22f58b2a24521cefa0abd06d70675e3696140e329fcdafe52ee3b087"
+  },
+  {
+    "path": "assets/images/resources/about-6-1.jpg",
+    "sha256": "ed3d4ed8bfaf916e9274936954712a6e99d0b04edef00f87ebf7386a3683a935"
+  },
+  {
+    "path": "assets/images/resources/about-6-2.jpg",
+    "sha256": "b0e285699d6ed0b6cfa2bf5b2539768535e7b1ffd071333f3ffce2656c23fe12"
+  },
+  {
+    "path": "assets/images/resources/about-four-img-1.jpg",
+    "sha256": "3fc406ed97e77d46176a823066eb2279eb0c2d9186c92829b9af20c331bd296f"
+  },
+  {
+    "path": "assets/images/resources/about-four-img-2.jpg",
+    "sha256": "3fc406ed97e77d46176a823066eb2279eb0c2d9186c92829b9af20c331bd296f"
+  },
+  {
+    "path": "assets/images/resources/about-one-img-1.jpg",
+    "sha256": "aeccb0d63afcb18bd6a7f514f529c44897391cf99d53fafbcc39108101ddde83"
+  },
+  {
+    "path": "assets/images/resources/about-three-img-2.jpg",
+    "sha256": "72b682b571aaedc73885485472aa9d442d802559b1ec4e8798fb06ee650d95ac"
+  },
+  {
+    "path": "assets/images/resources/about-three-img.jpg",
+    "sha256": "0eeea6001c1a11822e3d32bf7e19c412f2e1ff6fb44fdd9556e64c43304b1e56"
+  },
+  {
+    "path": "assets/images/resources/about-two-img-1.jpg",
+    "sha256": "4945dd0530cde1847d00ef779de6e445665adf01a23ae80dc0e510fc49dfd99b"
+  },
+  {
+    "path": "assets/images/resources/about-two-img-2.jpg",
+    "sha256": "dafabe3277c0165aa222a22117f8c310f563fb535182189191cbabffeff3eed4"
+  },
+  {
+    "path": "assets/images/resources/become-volunteer-three.png",
+    "sha256": "59b040fa99278b6371d268c078c6d4e9a4d6d87da812a835709be06b64e1e6c7"
+  },
+  {
+    "path": "assets/images/resources/causes-1-1.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-1-2.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-1-3.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-1-4.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-1-5.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-1-6.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-3-1.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-3-2.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-3-3.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-3-4.jpg",
+    "sha256": "a8c6015d4f2b7f2513437ed4002d37b995ed0b7a4bdb183ffb7b62c0d0b7df60"
+  },
+  {
+    "path": "assets/images/resources/causes-4-1.jpg",
+    "sha256": "b83cc12e6a3bdb685a025e544adb412a291f654041c62c8b6d8241c1914f4d38"
+  },
+  {
+    "path": "assets/images/resources/causes-4-2.jpg",
+    "sha256": "b83cc12e6a3bdb685a025e544adb412a291f654041c62c8b6d8241c1914f4d38"
+  },
+  {
+    "path": "assets/images/resources/causes-4-3.jpg",
+    "sha256": "b83cc12e6a3bdb685a025e544adb412a291f654041c62c8b6d8241c1914f4d38"
+  },
+  {
+    "path": "assets/images/resources/causes-5-1.jpg",
+    "sha256": "2a7d5717e6353e7f7c3d869b286f0512029cf546c2482c1bbc5d880e64c6e885"
+  },
+  {
+    "path": "assets/images/resources/causes-5-2.jpg",
+    "sha256": "2a7d5717e6353e7f7c3d869b286f0512029cf546c2482c1bbc5d880e64c6e885"
+  },
+  {
+    "path": "assets/images/resources/causes-5-3.jpg",
+    "sha256": "2a7d5717e6353e7f7c3d869b286f0512029cf546c2482c1bbc5d880e64c6e885"
+  },
+  {
+    "path": "assets/images/resources/church-of-pentecost-stacked-logo.png",
+    "sha256": "78b10b5ea9fd9b559eb7f80a057b83aa5932f1658dab3af6f64cee8514ccd5aa"
+  },
+  {
+    "path": "assets/images/resources/coppak-horizontal-logo-black.png",
+    "sha256": "342742daaa959aaaef9c6b4962ed06ad664108d03f5c30df698b946760f29842"
+  },
+  {
+    "path": "assets/images/resources/coppak-horizontal-logo-white.png",
+    "sha256": "01835b7e9a5143fcef3169e361b7db54e9792b78e80ed78b1f5080b28b591759"
+  },
+  {
+    "path": "assets/images/resources/coppak-horizontal-logo.png",
+    "sha256": "27bd6e855b1b78ba2aa47c7576d3881e2045bc4fa02587f608431b7d46776227"
+  },
+  {
+    "path": "assets/images/resources/counter-1-1.jpg",
+    "sha256": "9e46565bb0e1aba0e68e2c5c3219ebee65e2e364777c39a5b90d9605be86f022"
+  },
+  {
+    "path": "assets/images/resources/donate-1-1.jpg",
+    "sha256": "817460338978920c812fb4064b28027db4705447e36a2b3fcd2fc27cbefc2d7c"
+  },
+  {
+    "path": "assets/images/resources/donation-details-img-1.jpg",
+    "sha256": "97172030ed0cb687300161ccdabce0a6f2007848ba48fc31f6c4c41594e0c07c"
+  },
+  {
+    "path": "assets/images/resources/donation-details-organizer-img.jpg",
+    "sha256": "bfa82f03b8e644663538394d4ec2140cf22edf5cb2f223f48ad8ad266fbeab09"
+  },
+  {
+    "path": "assets/images/resources/donations-list-img-1.jpg",
+    "sha256": "0abaf6015b4fa618b712030787b99bf9bfe054bf7b7d877dd2ad1362c0c6cec7"
+  },
+  {
+    "path": "assets/images/resources/donations-list-img-2.jpg",
+    "sha256": "0abaf6015b4fa618b712030787b99bf9bfe054bf7b7d877dd2ad1362c0c6cec7"
+  },
+  {
+    "path": "assets/images/resources/donations-list-img-3.jpg",
+    "sha256": "0abaf6015b4fa618b712030787b99bf9bfe054bf7b7d877dd2ad1362c0c6cec7"
+  },
+  {
+    "path": "assets/images/resources/donations-list-img-4.jpg",
+    "sha256": "0abaf6015b4fa618b712030787b99bf9bfe054bf7b7d877dd2ad1362c0c6cec7"
+  },
+  {
+    "path": "assets/images/resources/donations-list-img-5.jpg",
+    "sha256": "0abaf6015b4fa618b712030787b99bf9bfe054bf7b7d877dd2ad1362c0c6cec7"
+  },
+  {
+    "path": "assets/images/resources/faq-3-1.jpg",
+    "sha256": "59bbdd07c3b5e990b67c7b7e9eb11a81e11ef333c9b04e937e253442ecaeb3a1"
+  },
+  {
+    "path": "assets/images/resources/feature-3-1-dark.png",
+    "sha256": "1f792ebabdde5b5a9c448c88a3e4ec7809d20232e46919111b0914201028217d"
+  },
+  {
+    "path": "assets/images/resources/feature-3-1.png",
+    "sha256": "1f792ebabdde5b5a9c448c88a3e4ec7809d20232e46919111b0914201028217d"
+  },
+  {
+    "path": "assets/images/resources/feature-3-2-dark.png",
+    "sha256": "1f792ebabdde5b5a9c448c88a3e4ec7809d20232e46919111b0914201028217d"
+  },
+  {
+    "path": "assets/images/resources/feature-3-2.png",
+    "sha256": "1f792ebabdde5b5a9c448c88a3e4ec7809d20232e46919111b0914201028217d"
+  },
+  {
+    "path": "assets/images/resources/feature-3-3-dark.png",
+    "sha256": "1f792ebabdde5b5a9c448c88a3e4ec7809d20232e46919111b0914201028217d"
+  },
+  {
+    "path": "assets/images/resources/feature-3-3.png",
+    "sha256": "1f792ebabdde5b5a9c448c88a3e4ec7809d20232e46919111b0914201028217d"
+  },
+  {
+    "path": "assets/images/resources/footer-logo-three.png",
+    "sha256": "7fad4650decfc80d192f4866f8204c1bdbf25697e2dca0f947252fd18f1e546b"
+  },
+  {
+    "path": "assets/images/resources/footer-logo-two.png",
+    "sha256": "194d08073ad069b8ce594bdbd65c6ee6af176b0145063defe8804a3aa24069cd"
+  },
+  {
+    "path": "assets/images/resources/footer-logo.png",
+    "sha256": "3d0662df5aa03fdfbc68bfb9e83a4fd5ac01a38f84c82d2ef7e4f2d7b9b0086b"
+  },
+  {
+    "path": "assets/images/resources/logo-1.png",
+    "sha256": "8ec985c3cbda7c8ff742003bbdbf863066c009530859cfc5a2b5a19d33d0b8f6"
+  },
+  {
+    "path": "assets/images/resources/logo-2.png",
+    "sha256": "6e640aca573fa6d2757c9d328006d437c2c5970d34a10bac71bacd4e64e1745d"
+  },
+  {
+    "path": "assets/images/resources/logo-3.png",
+    "sha256": "10923dcda0b98b975ce09400a53b5b9720297d721c02ba89e3136ed3edf8dabc"
+  },
+  {
+    "path": "assets/images/resources/logo-4-dark.png",
+    "sha256": "3da9b5fade9497f3a299526def264f59732b81da890d23f41188ef027856ddbb"
+  },
+  {
+    "path": "assets/images/resources/logo-4.png",
+    "sha256": "069b6f1a19f9156e41dc876552d3eacefa3faed29e36a516d87ced837dfe0ff5"
+  },
+  {
+    "path": "assets/images/resources/make-donation-img-1.jpg",
+    "sha256": "ce5dfb360ce4d0ad9c76d3bf66bcc8d67ad2ae097a6db3bab783e99f6def49e1"
+  },
+  {
+    "path": "assets/images/resources/recent-donation-img-1.jpg",
+    "sha256": "9bc5c354b100442c22fc7bc1f125c73204be078590a444022547cce13f30a9bc"
+  },
+  {
+    "path": "assets/images/resources/recent-donation-img-2.jpg",
+    "sha256": "9bc5c354b100442c22fc7bc1f125c73204be078590a444022547cce13f30a9bc"
+  },
+  {
+    "path": "assets/images/resources/recent-donation-img-3.jpg",
+    "sha256": "9bc5c354b100442c22fc7bc1f125c73204be078590a444022547cce13f30a9bc"
+  },
+  {
+    "path": "assets/images/resources/recent-donation-img-4.jpg",
+    "sha256": "9bc5c354b100442c22fc7bc1f125c73204be078590a444022547cce13f30a9bc"
+  },
+  {
+    "path": "assets/images/resources/recent-donation-img-5.jpg",
+    "sha256": "9bc5c354b100442c22fc7bc1f125c73204be078590a444022547cce13f30a9bc"
+  },
+  {
+    "path": "assets/images/resources/service-1-1-normal.jpg",
+    "sha256": "41e61e16823983e0d99670db3771e8f32e94a2adcb6c35f31aa4e811f96b31a2"
+  },
+  {
+    "path": "assets/images/resources/service-1-1.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/resources/service-1-2-normal.jpg",
+    "sha256": "41e61e16823983e0d99670db3771e8f32e94a2adcb6c35f31aa4e811f96b31a2"
+  },
+  {
+    "path": "assets/images/resources/service-1-2.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/resources/service-1-3-normal.jpg",
+    "sha256": "41e61e16823983e0d99670db3771e8f32e94a2adcb6c35f31aa4e811f96b31a2"
+  },
+  {
+    "path": "assets/images/resources/service-1-3.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/resources/service-1-4-normal.jpg",
+    "sha256": "41e61e16823983e0d99670db3771e8f32e94a2adcb6c35f31aa4e811f96b31a2"
+  },
+  {
+    "path": "assets/images/resources/service-1-4.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/resources/slider-4-1.jpg",
+    "sha256": "b2af8b759816053a69c77641e67c98ce8ebf81dc3800c2298d2350b1708ea279"
+  },
+  {
+    "path": "assets/images/resources/why-choose-1.jpg",
+    "sha256": "a561e0fc0769c1f19fc8c410e88fd52a07a4120c2c8933da6538a08ceff09309"
+  },
+  {
+    "path": "assets/images/shapes/BG.png",
+    "sha256": "2f6bf30e5ea472c86de02058848240305a87e4d9fb1c82850d18873529aeb71d"
+  },
+  {
+    "path": "assets/images/shapes/about-5-feature-bg-dark.png",
+    "sha256": "5d7d36d609ea956daf82f49cad300f8fad3bb420615b84914f0dea7ea0cc87cd"
+  },
+  {
+    "path": "assets/images/shapes/about-5-feature-bg.png",
+    "sha256": "1bda9f291c3c4deb54fe38fc12fd2e267a8129d80cb51a79e4c553fe3d35ed01"
+  },
+  {
+    "path": "assets/images/shapes/about-one-shape-1.png",
+    "sha256": "f83f5554f27ed8d2a71a08ad583ecad4af9b2d913becb419bdb27413c4c279cf"
+  },
+  {
+    "path": "assets/images/shapes/about-one-shape-2.png",
+    "sha256": "4a47bea9713174c9794bf970db0e5bdbf32dcba21bba69502a2082a39537b856"
+  },
+  {
+    "path": "assets/images/shapes/about-one-shape-3-dark.png",
+    "sha256": "3dfe07bf0b13e8b0a2a92af246896bca1d16a7587b60bd7bc6fd2a4f8af808a1"
+  },
+  {
+    "path": "assets/images/shapes/about-one-shape-3.png",
+    "sha256": "3e197724433988f309022b8d78afff8bb0e72f8fef614e1348bca53606424d05"
+  },
+  {
+    "path": "assets/images/shapes/about-one-shape-4.png",
+    "sha256": "2551f1c56e7575aef1a02f633818657ba83d96411f2c0835f7d66246ec1f86ab"
+  },
+  {
+    "path": "assets/images/shapes/about-three-help-shape.png",
+    "sha256": "b7672c48d9ca42193994066e91db5fb1de90b1cc9fae3e0462bc6813d727cbdc"
+  },
+  {
+    "path": "assets/images/shapes/about-two-shape-1.png",
+    "sha256": "fe3f1ae4152eac870889bde1636bfcb1c050fecd9d5d19057d561209128056b1"
+  },
+  {
+    "path": "assets/images/shapes/about-two-shape-2.png",
+    "sha256": "87a1a3751d48d360a2658c2bde6a8355df383f6723b3beda4bc5150dc9a8d1be"
+  },
+  {
+    "path": "assets/images/shapes/about-two-shape-3.png",
+    "sha256": "f7ef5d86011682d385736d970366625aabdcbf6770d73072bcb3f679773f6e6d"
+  },
+  {
+    "path": "assets/images/shapes/become-volunteer-shape-1-dark.png",
+    "sha256": "d6df4a4113bea6066013fee3f7782ea93ba208d5c1747de5aa33945add132d32"
+  },
+  {
+    "path": "assets/images/shapes/become-volunteer-shape-1.png",
+    "sha256": "2b6e179fe1660b16663defc0d026b5eef48e9e89b25584908392e92ddd3af571"
+  },
+  {
+    "path": "assets/images/shapes/become-volunteer-shape-2.png",
+    "sha256": "0f8fedc016356625673232800a3debd3baa19a7464f5be4f6c6f6244c3448202"
+  },
+  {
+    "path": "assets/images/shapes/become-volunteer-shape-3.png",
+    "sha256": "259fb6385fd6936a0b3a2dce2aea25a47fdd7ebf43bd1be5338627c6f5a50e6e"
+  },
+  {
+    "path": "assets/images/shapes/brand-three-shape-1.png",
+    "sha256": "e2f1d89ece5e99eca7e765ddfe6aff9f2a3e74881312b0d8175e3ca41bdd77db"
+  },
+  {
+    "path": "assets/images/shapes/brand-two-shape-1.png",
+    "sha256": "e2f1d89ece5e99eca7e765ddfe6aff9f2a3e74881312b0d8175e3ca41bdd77db"
+  },
+  {
+    "path": "assets/images/shapes/causes-one-progress-shape-1.png",
+    "sha256": "bb45f81e76c560ed55808d2015ac0a69edc7a3937f6307e5aba2a8f4df2662f2"
+  },
+  {
+    "path": "assets/images/shapes/causes-three-shape-1-dark.png",
+    "sha256": "dfe8fbf1cc17712049b9aef1f4172dc2878b07234d83f470646c7df766fae058"
+  },
+  {
+    "path": "assets/images/shapes/causes-three-shape-1.png",
+    "sha256": "f712912248064b8362455ba63bf9a634412ae6391ca45000ee570a44678434ff"
+  },
+  {
+    "path": "assets/images/shapes/causes-two-shape-1.png",
+    "sha256": "7d1ac697ef146056e19726e50d3c484d9df45048c5e0daf88708f3d3dccc5e73"
+  },
+  {
+    "path": "assets/images/shapes/contact-three-shape.png",
+    "sha256": "a99a0bd135edf4651be1540c4f898f335e723004978643ffb3252f60000c3b06"
+  },
+  {
+    "path": "assets/images/shapes/counter-bg-3.jpg",
+    "sha256": "6b7d652d737755f1bc6cd4c6d770012b065f337ed2c29a0794cc5e7498def812"
+  },
+  {
+    "path": "assets/images/shapes/donate-shape-1.png",
+    "sha256": "3d1cebac1335c09287aab1b3b0deb73c69d0e054a839d629e987af6fe2ed0f97"
+  },
+  {
+    "path": "assets/images/shapes/donate-shape-bg-dark.png",
+    "sha256": "5502a410383171b020bd50420267add05e37db64180355c534867b00749c4f20"
+  },
+  {
+    "path": "assets/images/shapes/donate-shape-bg.png",
+    "sha256": "5799fb3765a3f52ddc8ba1c1ce3ebafb6e995a6e20949514df863d82de0aeabc"
+  },
+  {
+    "path": "assets/images/shapes/donation-details-donate-shape.png",
+    "sha256": "a5b8d92b6faeb349f5121e34fcfa5d551b0dd33b3cbe2114651a9cad92f258b1"
+  },
+  {
+    "path": "assets/images/shapes/donations-list-progress-shape-1.png",
+    "sha256": "50cc17115f296e82434113531187a2e1e840ecbcac2d3d6a320c038d4f4f53a8"
+  },
+  {
+    "path": "assets/images/shapes/error-page-shape.png",
+    "sha256": "92781084e0e70ec139fd6616fc63fae97b5a05594d728e9f5ce1ad238ef20412"
+  },
+  {
+    "path": "assets/images/shapes/events-one-shape-1.png",
+    "sha256": "2324a4142c6342d99b04301e3839202803e3a17b7d1037985a55f73cf6b99b15"
+  },
+  {
+    "path": "assets/images/shapes/events-two-shape-1.png",
+    "sha256": "1b3ebecaea6a056ad9f98138fea8d48adab299a3394cc068e4851ee38b8f4d35"
+  },
+  {
+    "path": "assets/images/shapes/events-two-shape-2.png",
+    "sha256": "4cc5d2849a475079dddc9921cbb7f8d25e49823e202a23d69143ac29144ef80f"
+  },
+  {
+    "path": "assets/images/shapes/faq-one-shape-1.png",
+    "sha256": "2324a4142c6342d99b04301e3839202803e3a17b7d1037985a55f73cf6b99b15"
+  },
+  {
+    "path": "assets/images/shapes/faq-three-icon.png",
+    "sha256": "e5b94fa24d4adbad27b7133a9b22fa3f06a8159dbc095b012aa58015f9a28b2d"
+  },
+  {
+    "path": "assets/images/shapes/feature-5-bg.png",
+    "sha256": "6e436a1c51a5edd5b62ac5f3ef91cae1fc06366629c43a5eb6e5f7ceb782dc57"
+  },
+  {
+    "path": "assets/images/shapes/feature-four-btn-shape.png",
+    "sha256": "63e3ad7e0a7857b95bd10f59b09ca1daaa8458708ebcd904342d25bab07e43ef"
+  },
+  {
+    "path": "assets/images/shapes/feature-four-shape-1.png",
+    "sha256": "a5679968534e32e2855f6ecd452eb4187f18725946162ccf9a039166e5b59727"
+  },
+  {
+    "path": "assets/images/shapes/feature-one-shape-1.png",
+    "sha256": "bff200c9f7dd00c06f3fba6c9670537145c51475828bced2c7f4c7c82f67aeb1"
+  },
+  {
+    "path": "assets/images/shapes/feature-two-shape-1.png",
+    "sha256": "65eab43e476014efc287150830e6e119031d8039465dcfb80d3b2a9728a722c7"
+  },
+  {
+    "path": "assets/images/shapes/help-shape-1-dark.png",
+    "sha256": "dfe8fbf1cc17712049b9aef1f4172dc2878b07234d83f470646c7df766fae058"
+  },
+  {
+    "path": "assets/images/shapes/help-shape-1.png",
+    "sha256": "f712912248064b8362455ba63bf9a634412ae6391ca45000ee570a44678434ff"
+  },
+  {
+    "path": "assets/images/shapes/main-menu-shape-1-rtl.png",
+    "sha256": "5e9fefd13f829a1d91029c49513f0b60c0dcd46e6667dd0d2a89134e6e1dd509"
+  },
+  {
+    "path": "assets/images/shapes/main-menu-shape-1.png",
+    "sha256": "59091486096accd5e7778f9687abb9c3143cbb3300f824139d4f9405f178d0f7"
+  },
+  {
+    "path": "assets/images/shapes/main-menu__volunteers-icon-shape.png",
+    "sha256": "96f579e7b0fe0eb490969ed9d480364961c0d208fa83fdbec3da901c37ec5952"
+  },
+  {
+    "path": "assets/images/shapes/main-slider-4-1.png",
+    "sha256": "47f28845a0828abad5b858c0b4a84652e3a8847f2980e27a2291d52464b68f48"
+  },
+  {
+    "path": "assets/images/shapes/main-slider-5-shape.png",
+    "sha256": "3be35fce19976771a97235dd74897589c47389c2f297071ec7bbcaf130d23f56"
+  },
+  {
+    "path": "assets/images/shapes/main-slider-shape-1.jpg",
+    "sha256": "f854f22853d30ba9dd19479d1ac8490c931ee8a54165c591d836f3d5e936c08c"
+  },
+  {
+    "path": "assets/images/shapes/main-slider-shape-2.png",
+    "sha256": "fe92b36725acee275daba23c6eff8b7f3e60e03fd84eb299a90a5bfbb0af18d8"
+  },
+  {
+    "path": "assets/images/shapes/main-slider-two-shape-1.png",
+    "sha256": "b0ea457b944311eb575adaebe7ebe49313bb87146cea27a287bab52114d17419"
+  },
+  {
+    "path": "assets/images/shapes/main-slider-two-shape-2.png",
+    "sha256": "3db2327eb8c3a9645d284c853e67d556ed67fbf97929c129b51f09b749606356"
+  },
+  {
+    "path": "assets/images/shapes/news-sidebar-shape-1.png",
+    "sha256": "64f190269479ea2405cae4bed4587534cf8f6ff01ed9fb2ff37cbd270a1423d9"
+  },
+  {
+    "path": "assets/images/shapes/pillar-1.png",
+    "sha256": "61af9bfa2372581c42b071d823295099c888f3b0b9aca06635667341601143d0"
+  },
+  {
+    "path": "assets/images/shapes/pillar-2.png",
+    "sha256": "1bd2cc56989082f050c55c671af851d344c8c33aac2ca7d154fff7a8c933016f"
+  },
+  {
+    "path": "assets/images/shapes/pillar-3.png",
+    "sha256": "84679ac6a90d7f13a94d2fd8f5d72fd6bbc624455bfe52cf24b98a1c8a569cb3"
+  },
+  {
+    "path": "assets/images/shapes/pillar-4.png",
+    "sha256": "e1d96d2a5f3438ab525ae9d2e3600ce4b9abdf4b2cc92d76498757db138a0cea"
+  },
+  {
+    "path": "assets/images/shapes/pillar-5.png",
+    "sha256": "50a60c1f42dbafa4170eef389c9a8f97aa28b551383f2e2a27f54d84d388a9dd"
+  },
+  {
+    "path": "assets/images/shapes/recent-donation-shape-1.png",
+    "sha256": "f9430d5998f82bdd687e42c9fc4e77f7427f75759a30c631216c219a40253660"
+  },
+  {
+    "path": "assets/images/shapes/salary.png",
+    "sha256": "aa24e050a6f2adfb9a1c5bf45ada74a27bcea12291c26329ae6d9d9c35366f31"
+  },
+  {
+    "path": "assets/images/shapes/service-bg-1-dark.jpg",
+    "sha256": "2e22c86593eacfa87ad450991709f04693be2d2392d01705a8c9e80ef862bc5d"
+  },
+  {
+    "path": "assets/images/shapes/service-bg-1.jpg",
+    "sha256": "36a980ed1d2400c75ef712a0418d60cabb007fac870126e8e6ec8f557b0ce176"
+  },
+  {
+    "path": "assets/images/shapes/service-shape-1.png",
+    "sha256": "e90d361c673f20ed8516bc5c5afb86faf1083380dc67c7b6188cba0f79547820"
+  },
+  {
+    "path": "assets/images/shapes/sidebar-shape-1.png",
+    "sha256": "a948382c0d4001b123dce3dad50fb50e60d351c56a302ac0ea7c6ceb71e09a19"
+  },
+  {
+    "path": "assets/images/shapes/site-footer-three-bg.png",
+    "sha256": "df6cd8f64fa30901a43b0dfac1df14d2c124cbc62f4d773ac84b6876333d47c5"
+  },
+  {
+    "path": "assets/images/shapes/site-footer-two-bg.png",
+    "sha256": "152ba71ddcda298529783757acf25a9af7c467a44423bd2cd73325bd7ebd7666"
+  },
+  {
+    "path": "assets/images/shapes/slider-4-border.png",
+    "sha256": "2d00f6aad692cf2d4195baace53f00a0aa12d57a57f658bb14bc0f7ba51f41f0"
+  },
+  {
+    "path": "assets/images/shapes/slider-4-shape-1.png",
+    "sha256": "0ef3c51878a7e6532baf98631fd7562e81c5f83d7e69599183cf6c7c21dd4653"
+  },
+  {
+    "path": "assets/images/shapes/slider-4-shape-2.png",
+    "sha256": "51d58f211fe355f0d5accab7fdca195ff6e44162049e939840e5de7ad235fdd9"
+  },
+  {
+    "path": "assets/images/shapes/slider-4-shape-3.png",
+    "sha256": "bf70c941f4317e87836af464d2cf3ef26e884667c1a42be2fc17cf16c309822a"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-4-shape-dark.png",
+    "sha256": "2526dca30914cc9cd23703f57281098df108905be9610f69e2098730b842e733"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-4-shape-two.png",
+    "sha256": "110b74b058478b3789d84e742981bc53ff74202157def91cfa0794644197ba82"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-4-shape.png",
+    "sha256": "9a93ecdd91e746a88fe08dbae0a257357c9bfb377c5946b0284e89514c04d57a"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-5-quote.png",
+    "sha256": "8f0a49a43ad029c518642e84856eadcddccbc75837ff76fc44863cfcd74f3121"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-5-shape-dark.png",
+    "sha256": "fe78243dd0cc765304795d4ba14868d019f974db1a80941c379676f302badf1e"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-5-shape.png",
+    "sha256": "cae2bade18f100ebb37523017a0afaad1fc539703a03b4116a031459ee56220b"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-bg-4-dark.png",
+    "sha256": "855fba0553ba6347907cbdbb5bc515e2de2b8e69910571d8512348270823b52f"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-bg-4.png",
+    "sha256": "548e78593846f324021dcd528be40114f3fac07862bd880c351b7d95c51a7ad7"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-bg-5-dark.png",
+    "sha256": "d335a1ff9a734043112d56f8eb2cd40263cd95085e642cf1596a8949b01bee5a"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-bg-5.png",
+    "sha256": "1d5507fdcb0c9f052e3e9d5bf888b0d2f5987bbad950b121da8688485e4c4b6a"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-one-shape-1.png",
+    "sha256": "9294503e6c01da123e1cf8250939777efda07ac7944c6ec08ccac8905a1c4898"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-three-shape-1-dark.png",
+    "sha256": "023291044d53ff54dc58e2328a1b8261896d09b9da003720cedb96954ffc3d9e"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-three-shape-1.png",
+    "sha256": "8394cbfe49ed798fdf386634fb8daf0f2bbce11f95b301997568fe99581e88c5"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-two-shape-1-dark.png",
+    "sha256": "825c351398e1e3a4f4d93a85fb0dc7f8cbf1f842c389bf9f0cef4f00cadc6003"
+  },
+  {
+    "path": "assets/images/shapes/testimonial-two-shape-1.png",
+    "sha256": "81b03f00dfb38ccc04add213d1ae2cba2dbd99c80957fbfbb49627203b1ce7e3"
+  },
+  {
+    "path": "assets/images/shapes/united.png",
+    "sha256": "8c30ae66c52df175d81ff437cc91bdc77351dbadb3e4a8d8c48e5c3b632baddf"
+  },
+  {
+    "path": "assets/images/shapes/why-choose-bg.png",
+    "sha256": "24b95d794856d897d774db339a93449b6e826889ac81d6df255823a4d88b2ee4"
+  },
+  {
+    "path": "assets/images/shop/cart-page-img-1.jpg",
+    "sha256": "fdd4b3c2562978a887432f7b9cd17edd87285f906716562a11f0e72098d82c64"
+  },
+  {
+    "path": "assets/images/shop/cart-page-img-2.jpg",
+    "sha256": "fdd4b3c2562978a887432f7b9cd17edd87285f906716562a11f0e72098d82c64"
+  },
+  {
+    "path": "assets/images/shop/paypal-1.jpg",
+    "sha256": "495c7e44e795218c8b8b35d5fbac1854530082d7250c8ea4f9844aab7655a59d"
+  },
+  {
+    "path": "assets/images/shop/product-details-img-1.jpg",
+    "sha256": "2b822adbce7dad98270e9baf2928018c28d0905e98f107f14fc3388dba2bb5c7"
+  },
+  {
+    "path": "assets/images/shop/review-1-1.jpg",
+    "sha256": "c3fe0123f56dccdec9d12193ef57c25cceb3e783c349888d07b80b6415deb650"
+  },
+  {
+    "path": "assets/images/shop/review-1-2.jpg",
+    "sha256": "c3fe0123f56dccdec9d12193ef57c25cceb3e783c349888d07b80b6415deb650"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-1.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-2.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-3.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-4.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-5.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-6.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-7.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-8.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/shop/shop-product-1-9.jpg",
+    "sha256": "8bb26a0aef2efab6e87e1611d400b8f4e11d5a7c88c7aa870be21fe90e7a0de4"
+  },
+  {
+    "path": "assets/images/team/become-volunteer-img-1.jpg",
+    "sha256": "25331559f0936205e65164c4d9afbc007531d5dead46f0a7854756a1ed37bea1"
+  },
+  {
+    "path": "assets/images/team/team-1-1.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-2.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-3.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-4.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-5.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-6.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-7.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-1-8.jpg",
+    "sha256": "5b940dff1d29dd5cb25ba2675bbbef628e3fad1e0135fa160881930fef1e87df"
+  },
+  {
+    "path": "assets/images/team/team-2-1.png",
+    "sha256": "aabc6d2260b515fe82a4f598dbe4e76ad70587d0089b31aabc46a615035658c6"
+  },
+  {
+    "path": "assets/images/team/team-2-2.png",
+    "sha256": "aabc6d2260b515fe82a4f598dbe4e76ad70587d0089b31aabc46a615035658c6"
+  },
+  {
+    "path": "assets/images/team/team-2-3.png",
+    "sha256": "aabc6d2260b515fe82a4f598dbe4e76ad70587d0089b31aabc46a615035658c6"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-1-1.jpg",
+    "sha256": "b3ae839226932d5c0c74ea7bfe353980878e4ee8f0b7aaa131f06fdb5f9be2d9"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-1-2.jpg",
+    "sha256": "b3ae839226932d5c0c74ea7bfe353980878e4ee8f0b7aaa131f06fdb5f9be2d9"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-1-3.jpg",
+    "sha256": "b3ae839226932d5c0c74ea7bfe353980878e4ee8f0b7aaa131f06fdb5f9be2d9"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-2-1.jpg",
+    "sha256": "687df3a0245f72a47cd4e74be6c3a1ace00fe34c27bfe6540801f7c1612dd711"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-2-2.jpg",
+    "sha256": "687df3a0245f72a47cd4e74be6c3a1ace00fe34c27bfe6540801f7c1612dd711"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-2-3.jpg",
+    "sha256": "687df3a0245f72a47cd4e74be6c3a1ace00fe34c27bfe6540801f7c1612dd711"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-3-1.jpg",
+    "sha256": "b3ae839226932d5c0c74ea7bfe353980878e4ee8f0b7aaa131f06fdb5f9be2d9"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-3-2.jpg",
+    "sha256": "b3ae839226932d5c0c74ea7bfe353980878e4ee8f0b7aaa131f06fdb5f9be2d9"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-3-3.jpg",
+    "sha256": "b3ae839226932d5c0c74ea7bfe353980878e4ee8f0b7aaa131f06fdb5f9be2d9"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-4-1.jpg",
+    "sha256": "eba9ab088473e4e18fe126ed4878628bd99e9eb18e04379ad4eef86abc2f5cff"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-4-2.jpg",
+    "sha256": "99b7ef260c4546883f9047351894d8583ea7f3c5c71ec9470170615625c6c70d"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-4-3.jpg",
+    "sha256": "99b7ef260c4546883f9047351894d8583ea7f3c5c71ec9470170615625c6c70d"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-5-1.jpg",
+    "sha256": "2c6841bb05e1b45c7bcacd600f70ba27c8956d345800e6751b9637aa85f6d54f"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-5-2.jpg",
+    "sha256": "2c6841bb05e1b45c7bcacd600f70ba27c8956d345800e6751b9637aa85f6d54f"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-5-3.jpg",
+    "sha256": "2c6841bb05e1b45c7bcacd600f70ba27c8956d345800e6751b9637aa85f6d54f"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-5-4.jpg",
+    "sha256": "2c6841bb05e1b45c7bcacd600f70ba27c8956d345800e6751b9637aa85f6d54f"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-img-1.jpg",
+    "sha256": "0a4ce7d2a304fa073036f2de8127836ebe3cebe3660b1a04f97266cf73e8207a"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-img-2.jpg",
+    "sha256": "b3c9fcda5cd5771a6ae0aa3c5b3ff74ba417e1560dd16be93998f9afd8b52a1b"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-img-3.jpg",
+    "sha256": "b3c9fcda5cd5771a6ae0aa3c5b3ff74ba417e1560dd16be93998f9afd8b52a1b"
+  },
+  {
+    "path": "assets/images/testimonial/testimonial-img-4.jpg",
+    "sha256": "f16357a9d41cbf5f4827f05de489e3edae0572815c0e4345c2f1287551042282"
+  },
+  {
+    "path": "assets/js/oxpins.js",
+    "sha256": "c5a0d11cc99359315248d35e1046e2157b07f78465a9160a703d09f0763a2f56"
+  },
+  {
+    "path": "assets/vendors/animate/animate.min.css",
+    "sha256": "dec0a3fb2183a32d80fb227dfb43d85719e459b0abdc8156659c375fc7eb940d"
+  },
+  {
+    "path": "assets/vendors/animate/custom-animate.css",
+    "sha256": "30f950addbf82607de9e038b8242ebe7f6dc25d71f57ebd5c14d219472d0cfb9"
+  },
+  {
+    "path": "assets/vendors/bootstrap/css/bootstrap.min.css",
+    "sha256": "0d4f6240127cf5d1cfda2caeb0283efb4c9c879e43031f102fa3fc09853ae1b2"
+  },
+  {
+    "path": "assets/vendors/bootstrap/css/bootstrap.min.css.map",
+    "sha256": "5ab28efe2b9b0e054221b966c9b1cc18d0d68cc0d44c7c6c32f9fb34672163cc"
+  },
+  {
+    "path": "assets/vendors/bootstrap/js/bootstrap.bundle.min.js",
+    "sha256": "05304a8f26373142efa126a87977201cbc22d408c573f151ee2907933e9099f7"
+  },
+  {
+    "path": "assets/vendors/bootstrap/js/bootstrap.bundle.min.js.map",
+    "sha256": "2a924dd133c073bcbe6fce67eb3e68c486d0d93c183566b9ab820d4521c969f6"
+  },
+  {
+    "path": "assets/vendors/bootstrap-select/css/bootstrap-select.css.map",
+    "sha256": "83d9b95a90b94e963a1052df0922e2e3304dc4e118085eddb29e113c81474f60"
+  },
+  {
+    "path": "assets/vendors/bootstrap-select/css/bootstrap-select.min.css",
+    "sha256": "5921db34d2e04dda8c1967cc98719976e8e6ce7652c48b98532b7e8f9b146456"
+  },
+  {
+    "path": "assets/vendors/bootstrap-select/js/bootstrap-select.min.js",
+    "sha256": "28afc2b102a1e916f42ec467e19f0972ce21eeb46ab9e9486f8123426ea281ee"
+  },
+  {
+    "path": "assets/vendors/bootstrap-select/js/bootstrap-select.min.js.map",
+    "sha256": "d2d31c3d22f2614fea0d9f4437ec157d07a7b1de50c5f5bf977278c5bce8d61e"
+  },
+  {
+    "path": "assets/vendors/bxslider/jquery.bxslider.css",
+    "sha256": "8e3fcfdce957e716767fa2317b9c3b3dc1427f91fe873dfa565872d4f5515ebd"
+  },
+  {
+    "path": "assets/vendors/bxslider/jquery.bxslider.min.js",
+    "sha256": "bb9e7dc822c6b7b95a6329932885c72ff2caf74b243fc1c40aca0e858123b83e"
+  },
+  {
+    "path": "assets/vendors/circleType/jquery.circleType.js",
+    "sha256": "654b2ae2e8b33c9a6cb9c167e5eec69e25b7785ab596baec02fcf911c2c421e6"
+  },
+  {
+    "path": "assets/vendors/circleType/jquery.lettering.min.js",
+    "sha256": "c9bd115d1d0d0871a3e6b701384a903d7bd378313a0504ae94949f5bb21894f0"
+  },
+  {
+    "path": "assets/vendors/countdown/countdown.min.js",
+    "sha256": "2fc7eb0cb18e09995b53e4ada6106d035a7388fbb946d84cb987a497c9305daa"
+  },
+  {
+    "path": "assets/vendors/fontawesome/LICENSE.txt",
+    "sha256": "e779748dfe75e84f974df3c7bc07f842011a100159158b0f1f49b2f2a5a515cb"
+  },
+  {
+    "path": "assets/vendors/fontawesome/attribution.js",
+    "sha256": "d65224c543af2e6c697e4f6553b815bfb525d40b7ae028a667a59a854eda308c"
+  },
+  {
+    "path": "assets/vendors/fontawesome/css/all.min.css",
+    "sha256": "af1e6edc875a382b338bb25bd7c5c3f474a7f1b36212002a5896dd06f2186325"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-brands-400.eot",
+    "sha256": "6128dd44fed3a046ff8d835d677e0a837c70c64dc1c944b7edfde04eb8d8b879"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-brands-400.svg",
+    "sha256": "e2749cb24a77208abdd9fda35f0d14f091948c44d21f977c8048a3b13e4beccb"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-brands-400.ttf",
+    "sha256": "404d6083193e569bc5c28c7b1bc0e13ece80c6e0f5a50ad8e9633f48f3c09155"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-brands-400.woff",
+    "sha256": "a0375c054a0041bd58e2a0bf7fa3df7c3904bfc4f790fd24e32ff3ee70fd0eef"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-brands-400.woff2",
+    "sha256": "71b3ce72680f4183d28db86b184542051fd533bb1146933233e4f6a20cf98cba"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-regular-400.eot",
+    "sha256": "f9853ad337d523c0b35fe7ac306268a7035ce0ff7624710ed8b39c2b88b20a33"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-regular-400.svg",
+    "sha256": "d42a64dc349a98075e8be12587943f2bd52065a8bb18960d7dc7390b535117e0"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-regular-400.ttf",
+    "sha256": "5e811f0b32d488b9a183b77cfc7ac1ef44b3ea7aaed014e83975dfe597d221f6"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-regular-400.woff",
+    "sha256": "6799c999e422710f40f70a60a6138fc38106226c44d7bd1b1023f5bb65befef9"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-regular-400.woff2",
+    "sha256": "ce20ed8a323117c8a718ff1ddc6dabb997373b575a8e896f2bf02b846c082c9d"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-solid-900.eot",
+    "sha256": "e0e3c4af28348d721f8af603595c15d273a56f2b03392f9a413255fe5635f536"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-solid-900.svg",
+    "sha256": "1a46e780ce5beb6507d62af8b20a92b33c8f042e87c612f4bbf8330bfc353419"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-solid-900.ttf",
+    "sha256": "2caded242c04139761742fe0cda7f6592df1b6686857532c8a7c2e2536b976e4"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-solid-900.woff",
+    "sha256": "aab971ade1633ab836222074ceae0aad8a082d900908f27491b221d6e83998ca"
+  },
+  {
+    "path": "assets/vendors/fontawesome/webfonts/fa-solid-900.woff2",
+    "sha256": "6b555920e358f8a25a422988b448615c33bcccb4f932e8331cebfc8e2a737fc7"
+  },
+  {
+    "path": "assets/vendors/isotope/isotope.js",
+    "sha256": "4217b832640548933d47886eff17b5624397e63d95cc1917107d9fb1fc241215"
+  },
+  {
+    "path": "assets/vendors/jarallax/jarallax.css",
+    "sha256": "57603d3bb0bbb3fb660d7075f5f53208984f36c67e757c3ec6ca06ef719ecf24"
+  },
+  {
+    "path": "assets/vendors/jarallax/jarallax.min.js",
+    "sha256": "d39d661214d7575a483451db6c1ea97aaa407a8da512444cb5755ee7d7a8f17a"
+  },
+  {
+    "path": "assets/vendors/jarallax/jarallax.min.js.map",
+    "sha256": "5d0cad2c02392dc033e36b591f58ecaf7e53cc10146a12d2c73c9174643fc97e"
+  },
+  {
+    "path": "assets/vendors/jquery/jquery-3.6.0.min.js",
+    "sha256": "ff1523fb7389539c84c65aba19260648793bb4f5e29329d2ee8804bc37a3fe6e"
+  },
+  {
+    "path": "assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js",
+    "sha256": "2dcc9f6916671ee0ee4c5f7c7b6f13c519189b65d371a39309c0d95b79050c28"
+  },
+  {
+    "path": "assets/vendors/jquery-appear/jquery.appear.min.js",
+    "sha256": "7212f627fb02a6e5780ddae7870b9b06906e322ba57b33a137444994f5fafb15"
+  },
+  {
+    "path": "assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js",
+    "sha256": "d97a637cb2f9b5160b6b7000334833e9a018d33c6f1e8803cd359e9b19133c38"
+  },
+  {
+    "path": "assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css",
+    "sha256": "45d1f5f6cf913746c45dd697b1a8f3b719c02d8b3f678dc7fc2766d54e1aaf6e"
+  },
+  {
+    "path": "assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js",
+    "sha256": "3fddc6d28aba3c13d64cfd4847c333ff48c71d4a5a58bd1a0494ca6ae8ac1bb4"
+  },
+  {
+    "path": "assets/vendors/jquery-migrate/jquery-migrate.min.js",
+    "sha256": "029e0a2e809fd6b5dbe76abe8b7a74936be306c9a8c27c814c4d44aa54623300"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+    "sha256": "c5133cc68cfeeda854b5db0898bfd90bab3c9094f6427134e3e7238b46507ec1"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png",
+    "sha256": "4fd3d07a4090783147c00c5d64c42cfd0cc0a9aaad8a6a34b8b0a8b49d314aa8"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_flat_10_000000_40x100.png",
+    "sha256": "af5092aa72972c0c3ea8b44c9b92db2009ea41607738bcc0a9da597ac6a873ea"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png",
+    "sha256": "ff0b3f37a7d869e42ca66d951d2e569be415e025e1954a12a8643e9665b7c66d"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png",
+    "sha256": "f957d54f236f7c1ca2eedd33ab7dc105bd662cee62b8806fb2ca3861edb2b17c"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png",
+    "sha256": "b7d002cee4b7e8b400085cdadb92e38a36e2c1ecb43f79d15b64b49ef5f9d07d"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png",
+    "sha256": "da6de13936b2deae332d3f3cd2c262b231c83355460ae5e728ac877c72d3e60b"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png",
+    "sha256": "e378636a905fbeafadf37bbbcf688592abaf21a720c1a093c8598d98bdbae8db"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png",
+    "sha256": "935d4736024a21483c896780f1b95543f2ec0f12d3f22e094831b8a352230f07"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png",
+    "sha256": "c418d3214ffc74d3c82ac03ea94d4c6bbe71cc952d99a9662ce74aa46657b3f6"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png",
+    "sha256": "02fe113f25a59cc9b56adfbd56a96eb5302f4ca5bbeb7eec0e541a9a0da8ccd0"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+    "sha256": "f34ac7dad709c9ba69ac7d7390720dd54fda56151c64e73d9aff4e1186af8510"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png",
+    "sha256": "dd569a5ec39365f205f51646cc54a2033c5272652b35c22e725183e673fddd7b"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png",
+    "sha256": "25163ed3af38ad894a3902914265d82796223e11d2de434f6665156b7c62de18"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_222222_256x240.png",
+    "sha256": "dda8ebdf235fb1c902438cb913d5153d2fe9e8a6aa8bafc57da4b1ff28e37abc"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_228ef1_256x240.png",
+    "sha256": "67c7aadb2788338e635dedee31b88aa8ea908c0d8c291db4b567014d573a6c2f"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_2e83ff_256x240.png",
+    "sha256": "ac8f582b72b2232584677381b45781538a8714e38699cf858b9e073b80e4c44e"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_454545_256x240.png",
+    "sha256": "d7936d7ef4737af71cdeaf8ece6132c71c2396e8ebb701d4097006d32224557a"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_888888_256x240.png",
+    "sha256": "93cd9a93630098bdaf8c70a3cd5f6024883487f3bf99e88e8dafe7defbfe28de"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_cd0a0a_256x240.png",
+    "sha256": "0e45cac02cc752e1d8e009e21970744435126e86ae380caa9b18ca28550bb520"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_ef8c08_256x240.png",
+    "sha256": "968122f881f9a322fc3d24a30063d3e78f6d72919f47321b1446aa3c5851f1c9"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_ffd27a_256x240.png",
+    "sha256": "3be7441b1ad0721b99c537694094382c48ab40b4f5380e6504d60ef4ef26268f"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/images/ui-icons_ffffff_256x240.png",
+    "sha256": "b1589c0c09fb248216fa8b0d1e1812a9af9b49158eb52e06f78062b4ffcc01db"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/jquery-ui.css",
+    "sha256": "f3f198bd3505f9244df739ccddc4fece7a3036aa9f268548f49364e9a5d3060c"
+  },
+  {
+    "path": "assets/vendors/jquery-ui/jquery-ui.js",
+    "sha256": "7b747c28dbc530303016e0e6c102c07a7aa3ed4b4bcc4ffe70276a7c0febee39"
+  },
+  {
+    "path": "assets/vendors/jquery-validate/jquery.validate.min.js",
+    "sha256": "2e3e3b2660cbfaac5febf7a50b31d0494159989626a84102b2c3792cffe27d13"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/css/layerdrops-toolbar.css",
+    "sha256": "a8a61ccd2c3805943789f1db72f7109184f3d9abf1b290707a5333d356fe905a"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/css/layerdrops-toolbar.css.map",
+    "sha256": "7946ee003fad72687391f4690a5a12e089544a1f4a44bad1b5206ccbb2514a36"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/css/layerdrops-toolbar.scss",
+    "sha256": "deb20b31f5c226e67f8421c4195da0939a62668082916fe588dc43c43d5e6a4f"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/js/jQuery.style.switcher.min.js",
+    "sha256": "2d75935b4147dff5207a04e938b974b49219bc4d80d3e5ce5dee417537afcc8e"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/js/js.cookie.min.js",
+    "sha256": "d19f114e2f68e898ce052c846a5e71016a6d4fd4ffadd15de051f07c45dabdf2"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/js/lang.js",
+    "sha256": "e3b00bd9dcebb1d649d4f3f1b66b00f1e132884c11fce72dbcc0573471d65302"
+  },
+  {
+    "path": "assets/vendors/layerdrops-toolbar/js/layerdrops-toolbar.js",
+    "sha256": "451f2ccc224e5292f3c6c15d82c585b6eae1f2b10d73cf066e61f73c46c5f701"
+  },
+  {
+    "path": "assets/vendors/nice-select/jquery.nice-select.min.js",
+    "sha256": "66bdef0724e5306421bcc7e0910e41b5645228119ad9096ca4a6099e48d94e6a"
+  },
+  {
+    "path": "assets/vendors/nice-select/nice-select.css",
+    "sha256": "62a2cec51f07353682a160862a527fc2e38ccf9d1e3fc07e93f287ca5388eed3"
+  },
+  {
+    "path": "assets/vendors/nouislider/nouislider.min.css",
+    "sha256": "347e86e4b92da337d36430c13182e0aab76a6ee48c6a27d14fd722063c538fe4"
+  },
+  {
+    "path": "assets/vendors/nouislider/nouislider.min.js",
+    "sha256": "cb59254bd27d846c3195462d1ca61bbb76d72e7d7ee2bf4d401a0e99a0d25644"
+  },
+  {
+    "path": "assets/vendors/nouislider/nouislider.pips.css",
+    "sha256": "c99602a2969104d3b9374661f47ddcc831954b7e0f807b7a3b76585e8f4bc872"
+  },
+  {
+    "path": "assets/vendors/odometer/odometer.min.css",
+    "sha256": "c023b507dce43045404d4f737df6672956dc2cb3dfca9dc61b74480219315ef0"
+  },
+  {
+    "path": "assets/vendors/odometer/odometer.min.js",
+    "sha256": "03c1e188b884240e56a79c39b6918e16e9cfdf9b4ed4e84d5d8efe71fef778ae"
+  },
+  {
+    "path": "assets/vendors/owl-carousel/owl.carousel.min.css",
+    "sha256": "521410e1fc44780061e09adc980275fb5ea277fd5d9e538454214ec4379ff4bc"
+  },
+  {
+    "path": "assets/vendors/owl-carousel/owl.carousel.min.js",
+    "sha256": "a53c43f834b32309b084ea9314df8307e9c78cee2202c6e07f216ae4ae5b704d"
+  },
+  {
+    "path": "assets/vendors/owl-carousel/owl.theme.default.min.css",
+    "sha256": "924b0dc630d1c5dff9fa31aead9509775b1d476bfe0a5ac2977b2f11205a26ac"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons/fonts/icomoon.eot",
+    "sha256": "320fb8544db28f9595d583ae0ee835906f58a8188f944c9fa5854348b87e43ff"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons/fonts/icomoon.svg",
+    "sha256": "13212d3f9d88d89ebf91f1bde782c1b91277c2ac85d3a54d577e61545aa5660e"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons/fonts/icomoon.ttf",
+    "sha256": "518ce5efedc0eb66fe2119d337fffd648e70607be0a9312bc71222c09ccf557a"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons/fonts/icomoon.woff",
+    "sha256": "e9a44c4a767094391ac28197f6b19c13ba0e0f41165031c03a62ddd2afceab1c"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons/style.css",
+    "sha256": "1aca327c9ae95eba51d38e8321a6bf9b84def6916118d5eec2006f99aabaf183"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/Read Me.txt",
+    "sha256": "ef408de5a2bcfc444553ce81ad1da8a31c0c41f95dde8377ae71edf7c86c2900"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/demo-files/demo.css",
+    "sha256": "9e66886ce305efe4a3c6e1fc0ab810d7235534fe6b3947a8c06a8bd38c91541b"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/demo-files/demo.js",
+    "sha256": "0be96f5313e7a51e9bc30b7587ee149b54c7cb36a1959842875ed7454677b367"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/fonts/oxpins-icon-two.eot",
+    "sha256": "21436c98c5a4c1ccc9d455186db5744e442032e588b5266ebfc8bee5641b2bea"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/fonts/oxpins-icon-two.svg",
+    "sha256": "70a82ddf4cc223fe581a68ebe839af2f3b7739500609aeab065fbbf943b98527"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/fonts/oxpins-icon-two.ttf",
+    "sha256": "b9466add6662cf1da25619f96ac7cf21ba1fbb44861f9f6addd8cdcd8049dd45"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/fonts/oxpins-icon-two.woff",
+    "sha256": "3dbaed1f0697c43331b1a11b7c0b9b9e62f0d56821bad59cc95104c53b3c418e"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/selection.json",
+    "sha256": "26f508e26fe4f4d34a0620557a73eb3c467a659408d1838b4c0d9ba21a6d0603"
+  },
+  {
+    "path": "assets/vendors/oxpins-icons-two/style.css",
+    "sha256": "77a2698085ce027d319395dae1dc669befe83bf338db8181861447ca48e5fd12"
+  },
+  {
+    "path": "assets/vendors/reey-font/generator_config.txt",
+    "sha256": "b99aaa6e04ad7cb454b7443b0703e6db95518d4d4790d1f8648558af95caf823"
+  },
+  {
+    "path": "assets/vendors/reey-font/reey-regular-webfont.woff",
+    "sha256": "aa1936a61855ff4e96a3107e36a5ad359cb20bdb8a7dee56d487ecfa414bfa7d"
+  },
+  {
+    "path": "assets/vendors/reey-font/reey-regular-webfont.woff2",
+    "sha256": "3a11dbac7c51485250cea57d51856430529bb00276e55728d7cd7ef635fe0776"
+  },
+  {
+    "path": "assets/vendors/reey-font/specimen_files/grid_12-825-55-15.css",
+    "sha256": "5585eee74e0673cd87ad82b2e6503bf32e922d0d8b721fe082ee89f926dd7c73"
+  },
+  {
+    "path": "assets/vendors/reey-font/specimen_files/specimen_stylesheet.css",
+    "sha256": "d2f745bd0b23364275d3bf2a249924ffce94597c2a391cbd37bc5ca6974b27c5"
+  },
+  {
+    "path": "assets/vendors/reey-font/stylesheet.css",
+    "sha256": "e8f81b8ce18219826153202885daeebd041013ffd2b69d3d403a19f6dd3187a1"
+  },
+  {
+    "path": "assets/vendors/slick/slick.css",
+    "sha256": "58023f0aaa39c2e92e4c00e18b1225d85ea70edc0ce1d413c4e8ca7c1411ba14"
+  },
+  {
+    "path": "assets/vendors/slick/slick.js",
+    "sha256": "eaba7d4b896f1246c62d2cd3079c4a311b99c7834e0984d9935bdd35a0c79029"
+  },
+  {
+    "path": "assets/vendors/swiper/swiper-bundle.min.css",
+    "sha256": "ab4620524f7a08c502887be3119a9174305cce8939e89b4c7f365a8043b4dd54"
+  },
+  {
+    "path": "assets/vendors/swiper/swiper-bundle.min.js",
+    "sha256": "9134d7339572e8528974863492e41962d0eb10362053f83305e49bb4a7e8f280"
+  },
+  {
+    "path": "assets/vendors/swiper/swiper.min.css",
+    "sha256": "906ba97c9e3365be3f9b418f3d56349e0ec5c128d99b5134c0c586d5a4586f09"
+  },
+  {
+    "path": "assets/vendors/swiper/swiper.min.js",
+    "sha256": "36231d9ccbf4581029b3733c99c07b587ce56a7113b74ae7c0c0a083aec38029"
+  },
+  {
+    "path": "assets/vendors/the-sayinistic-font/generator_config.txt",
+    "sha256": "1dc692b6c433488fb1c2545831646aa684327ad7c8427c82492b9597134cb3dc"
+  },
+  {
+    "path": "assets/vendors/the-sayinistic-font/specimen_files/grid_12-825-55-15.css",
+    "sha256": "5585eee74e0673cd87ad82b2e6503bf32e922d0d8b721fe082ee89f926dd7c73"
+  },
+  {
+    "path": "assets/vendors/the-sayinistic-font/specimen_files/specimen_stylesheet.css",
+    "sha256": "d2f745bd0b23364275d3bf2a249924ffce94597c2a391cbd37bc5ca6974b27c5"
+  },
+  {
+    "path": "assets/vendors/the-sayinistic-font/stylesheet.css",
+    "sha256": "8bb57731d40a5998d9f828669984fe3612837569260b74574fc0b5231ab0e406"
+  },
+  {
+    "path": "assets/vendors/the-sayinistic-font/the_sayinistic_demo-webfont.woff",
+    "sha256": "9d5a8f6d2da079105dc9d74d70368e14bb89096b57fd2e4ec816acddf4e718e9"
+  },
+  {
+    "path": "assets/vendors/the-sayinistic-font/the_sayinistic_demo-webfont.woff2",
+    "sha256": "e3b78e9aa09a82596a106f61a21b4099027c34e0f75dad76e8b4ec2e4199a8ba"
+  },
+  {
+    "path": "assets/vendors/timepicker/timePicker.css",
+    "sha256": "2e61fee1cc5e7f7244b71168d4cc26bad41450d7f6557066cb0f4d9ae1f56427"
+  },
+  {
+    "path": "assets/vendors/timepicker/timePicker.js",
+    "sha256": "279a36b000b08e4edebac14a23946e9c11bc6250a16888bc03967fd6572ef206"
+  },
+  {
+    "path": "assets/vendors/tiny-slider/tiny-slider.min.css",
+    "sha256": "c5310fe55b411c576b30cda56f82773bc7227cf7dc069cbd80810968d9172ba8"
+  },
+  {
+    "path": "assets/vendors/tiny-slider/tiny-slider.min.js",
+    "sha256": "3db1c98f2e86802d0344159b2f9c1b05d50a87a24bc1c6072f5f2e399a6cbe21"
+  },
+  {
+    "path": "assets/vendors/typed-2.0.11/typed-2.0.11.js",
+    "sha256": "49b8cd37d709cd17dda686bcd9ba97282e6e320fa8a9b5af540ccf96e6c274d7"
+  },
+  {
+    "path": "assets/vendors/vegas/vegas.min.css",
+    "sha256": "4bcee76930d7f33223d1ad3e4c5c7f8dac59b2b336c2ac23f71105b2ace24b7b"
+  },
+  {
+    "path": "assets/vendors/vegas/vegas.min.js",
+    "sha256": "45d47af6a3378fa67b31eae0bd56d028ec3f94ba6bcce961d5e559c7dcf5e9ed"
+  },
+  {
+    "path": "assets/vendors/wnumb/wNumb.min.js",
+    "sha256": "0e41c81542907ea43b8c0e869d647d67207825bfa3f9d3ae635daf9d8abcc639"
+  },
+  {
+    "path": "assets/vendors/wow/wow.js",
+    "sha256": "704ae255ab62df5481884eb0db69b552c686e7094b21581b1cbc86a9b6c3800b"
+  },
+  {
+    "path": "cop-logo.png",
+    "sha256": "31b63df278dbaf483ce92e9033be73875c8c50a95193707ce7a1961576b1f2be"
+  },
+  {
+    "path": "favicon-16.png",
+    "sha256": "1a385f4c964fb9b35f759856003b7e018daf002e27653776b9dff9598f78c09b"
+  },
+  {
+    "path": "favicon-32.png",
+    "sha256": "baaff64e8489da55b4dbf7ffc3d27b59330cde721d239b00b5da737e4bda4ff0"
+  },
+  {
+    "path": "favicon.ico",
+    "sha256": "baaff64e8489da55b4dbf7ffc3d27b59330cde721d239b00b5da737e4bda4ff0"
+  },
+  {
+    "path": "icon-512.png",
+    "sha256": "8ebb0deadc7a246d6e3db1038e22a53c17efcbbbf3cb74be2ed22ec7d9d3ae8f"
+  },
+  {
+    "path": "og-image.png",
+    "sha256": "d824909c23c1aafacf10e38ef28b9baf0fe0db5fdf058899010469ef1b896a40"
+  }
+]

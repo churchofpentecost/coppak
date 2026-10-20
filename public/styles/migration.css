@@ -1,0 +1,2 @@
+/* Preserve theme while allowing keyboard navigation. */
+a:focus-visible, button:focus-visible {outline:3px solid #1f4fa8;outline-offset:4px;}
