@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import LegacyScripts from "../../components/LegacyScripts";
+import DonationMethods from "../../components/DonationMethods";
 export const metadata: Metadata = {
   title: "Donate | COPPAK.ORG",
   description:
@@ -41,514 +42,237 @@ const scripts = [
   "/assets/js/oxpins.js",
   "/scripts/migrated/donate-25.js",
 ];
+const projects = [
+  {
+    title: "Freedom for families",
+    category: "RESTORING DIGNITY",
+    description:
+      "Help families leave bonded labour behind and begin a new chapter of freedom.",
+    image: "/assets/images/coppak/projects/brick-kiln/01.jpg",
+    alt: "COPPAK gathering with families at a brick kiln",
+    href: "/projects/brick-kiln-deliverance",
+  },
+  {
+    title: "Care within reach",
+    category: "HEALTH & COMPASSION",
+    description:
+      "Support free medical camps bringing doctors, medicines, and care to underserved communities.",
+    image: "/assets/images/coppak/projects/medical-camps/01.jpg",
+    alt: "A doctor caring for a patient at a COPPAK medical camp",
+    href: "/projects/free-medical-camps",
+  },
+  {
+    title: "A future through learning",
+    category: "EDUCATION & OPPORTUNITY",
+    description:
+      "Help women, widows, and brick-kiln workers build confidence through reading and writing.",
+    image: "/assets/images/coppak/projects/adult-literacy/01.jpg",
+    alt: "COPPAK adult literacy programme",
+    href: "/projects/adult-literacy",
+  },
+];
+const moreWays = [
+  ["Bible translation", "/projects/bible-translation"],
+  ["Collective marriages", "/projects/collective-marriages"],
+  ["Disaster & persecution relief", "/projects/natural-disaster-recovery"],
+  ["The Lord’s Table", "/ministries/compassion"],
+  ["Children, women & youth", "/ministries"],
+];
+
 export default function Page() {
   return (
     <>
       <link rel="stylesheet" href="/styles/pages/donate.css" />
-      <div>
-        <section
-          className="page-hero"
-          style={{
-            backgroundImage:
-              "linear-gradient(178deg, rgba(13,22,52,0.86) 0%, rgba(13,22,52,0.9) 55%, rgba(10,20,48,0.94) 100%), url(/assets/images/coppak/projects/medical-camps/01.jpg)",
-          }}
-        >
-          {" "}
-          <div className="page-hero__glow" aria-hidden="true" />{" "}
-          <div className="container">
-            {" "}
-            <div className="page-hero__inner">
-              {" "}
-              <ul className="page-hero__crumbs list-unstyled">
-                {" "}
-                <li className="">
-                  {" "}
-                  <a href="/">Home</a>{" "}
-                </li>{" "}
-                <li className="page-hero__crumb-sep" aria-hidden="true">
-                  /
-                </li>{" "}
-                <li className="is-current">
-                  {" "}
-                  <span>Donate</span>{" "}
-                </li>
-              </ul>{" "}
-              <h1 className="page-hero__title">Donate</h1>{" "}
-              <p className="page-hero__subtitle">
-                Partner with the work God is doing across Pakistan.
-              </p>{" "}
-            </div>{" "}
-          </div>{" "}
-        </section>
-        <section style={{ padding: "100px 0" }} data-astro-cid-vfkcmhic="">
-          {" "}
-          <div className="container" data-astro-cid-vfkcmhic="">
-            {" "}
-            <div className="row" data-astro-cid-vfkcmhic="">
-              {" "}
-              <div className="col-xl-7 col-lg-7" data-astro-cid-vfkcmhic="">
-                {" "}
-                <div
-                  className="section-title text-left"
-                  data-astro-cid-vfkcmhic=""
-                >
-                  {" "}
-                  <span
-                    className="section-title__tagline"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    Partner with us
-                  </span>{" "}
-                  <h2
-                    className="section-title__title"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    Your giving changes lives
-                  </h2>{" "}
-                </div>{" "}
-                <p style={{ marginTop: 24 }} data-astro-cid-vfkcmhic="">
-                  The Church of Pentecost Pakistan is committed to ministry,
-                  outreach, and serving communities across Pakistan. Every
-                  contribution — large or small — directly supports the work of
-                  the Gospel and our humanitarian projects.
-                </p>{" "}
-                <div className="donate-causes" data-astro-cid-vfkcmhic="">
-                  {" "}
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-bible"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Bible translation
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Marwari, Hindko, Saraiki, Potohari &amp; Kashmiri (with
-                        Wycliffe Associates).
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-unlock-alt"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Brick-kiln deliverance
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Paying off debts and restoring freedom to bonded
-                        Christian families.
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-stethoscope"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Free medical camps
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Bringing doctors, medicines, and prayer to underserved
-                        communities.
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-book-open"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Adult literacy classes
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Empowering women, widows, and brick-kiln workers with
-                        reading &amp; writing.
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-ring"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Collective marriages
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Restoring dignity to vulnerable young women with
-                        dignified weddings.
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-house-damage"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Disaster recovery
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Persecution relief and rebuilding for families affected
-                        by crisis.
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-utensils"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        The Lord's Table
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Daily meals for 100+ people each day (relaunching in our
-                        new building).
-                      </p>{" "}
-                    </div>{" "}
-                  </div>
-                  <div
-                    className="donate-causes__item"
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    {" "}
-                    <div
-                      className="donate-causes__icon"
-                      data-astro-cid-vfkcmhic=""
-                    >
-                      {" "}
-                      <i
-                        className="fas fa-heart"
-                        aria-hidden="true"
-                        data-astro-cid-vfkcmhic=""
-                      />{" "}
-                    </div>{" "}
-                    <div data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <h4
-                        className="donate-causes__title"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Children, Women, Youth &amp; Compassion
-                      </h4>{" "}
-                      <p
-                        className="donate-causes__text"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        Discipleship and care across our eight national
-                        ministries.
-                      </p>{" "}
-                    </div>{" "}
-                  </div>{" "}
-                </div>{" "}
-                <h3 style={{ marginTop: 48 }} data-astro-cid-vfkcmhic="">
-                  Bank transfer (Pakistan)
-                </h3>{" "}
-                <div
-                  style={{
-                    marginTop: 16,
-                    padding: 28,
-                    background: "#f7f4ef",
-                    borderRadius: 12,
-                  }}
-                  data-astro-cid-vfkcmhic=""
-                >
-                  {" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">
-                      Account Title:
-                    </strong>{" "}
-                    The Church of Pentecost Lahore Pakistan
-                  </p>{" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">
-                      Account Number:
-                    </strong>{" "}
-                    2091007218150001
-                  </p>{" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">IBAN:</strong>{" "}
-                    PK36MCIB2091007218150001
-                  </p>{" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">SWIFT Code:</strong>{" "}
-                    MCIBPKKI
-                  </p>{" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    <strong data-astro-cid-vfkcmhic="">Bank Name:</strong> MCB
-                    Islamic Bank Ltd
-                  </p>{" "}
-                  <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                    <strong data-astro-cid-vfkcmhic="">Branch Code:</strong> 209
-                  </p>{" "}
-                  <p style={{ margin: 0 }} data-astro-cid-vfkcmhic="">
-                    {" "}
-                    <strong data-astro-cid-vfkcmhic="">
-                      Branch Address:
-                    </strong>{" "}
-                    Property No. S-86-R-800/C/Hall, Saroba Ferozpur Road,
-                    Lahore, Pakistan
-                  </p>{" "}
-                </div>{" "}
-                <h3 style={{ marginTop: 40 }} data-astro-cid-vfkcmhic="">
-                  PayPal
-                </h3>{" "}
-                <div
-                  className="paypal-donation"
-                  style={{
-                    marginTop: 16,
-                    padding: 28,
-                    background: "#f7f4ef",
-                    borderRadius: 12,
-                  }}
-                  data-astro-cid-vfkcmhic=""
-                >
-                  <a
-                    className="paypal-donation__qr"
-                    href="https://www.paypal.com/qrcodes/managed/bf7b2486-1c8c-41d8-a016-a323be464ed2?utm_source=payandgetpaid"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Open PayPal donation page (opens in a new tab)"
-                  >
-                    <img
-                      src="/assets/images/paypal-donation-qr.png"
-                      alt="PayPal donation QR code for Church of Pentecost Pakistan"
-                      width={240}
-                      height={240}
-                      loading="lazy"
-                    />
-                  </a>
-                  <div className="paypal-donation__details">
-                    <h4>Scan to give with PayPal</h4>
-                    <p>
-                      Scan this QR code with your phone camera, or use the
-                      button below to open PayPal.
-                    </p>{" "}
-                    <p style={{ margin: "0 0 6px" }} data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <strong data-astro-cid-vfkcmhic="">
-                        Recipient:
-                      </strong>{" "}
-                      Church of Pentecost Pakistan
-                    </p>{" "}
-                    <p style={{ margin: 0 }} data-astro-cid-vfkcmhic="">
-                      {" "}
-                      <strong data-astro-cid-vfkcmhic="">Email:</strong>{" "}
-                      <a
-                        href="mailto:rev.jamil.nasir@gmail.com"
-                        data-astro-cid-vfkcmhic=""
-                      >
-                        rev.jamil.nasir@gmail.com
-                      </a>{" "}
-                    </p>{" "}
-                    <a
-                      className="thm-btn paypal-donation__button"
-                      href="https://www.paypal.com/qrcodes/managed/bf7b2486-1c8c-41d8-a016-a323be464ed2?utm_source=payandgetpaid"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Donate with PayPal
-                      <span className="visually-hidden">
-                        {" "}
-                        (opens in a new tab)
-                      </span>
-                    </a>
-                  </div>
-                </div>{" "}
-              </div>{" "}
-              <div className="col-xl-5 col-lg-5" data-astro-cid-vfkcmhic="">
-                {" "}
-                <div
-                  style={{
-                    background:
-                      "linear-gradient(135deg, var(--oxpins-base) 0%, var(--oxpins-secondary) 100%)",
-                    color: "#fff",
-                    padding: 36,
-                    borderRadius: 14,
-                    marginTop: 60,
-                  }}
-                  data-astro-cid-vfkcmhic=""
-                >
-                  {" "}
-                  <h3
-                    style={{ color: "#fff", margin: "0 0 16px" }}
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    Talk to us first
-                  </h3>{" "}
-                  <p
-                    style={{ color: "rgba(255,255,255,0.92)" }}
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    Have a question about giving, sponsoring a specific project,
-                    or partnering with a particular ministry? We'd love to talk
-                    before you give — and to thank you personally for standing
-                    with us.
-                  </p>{" "}
-                  <a
-                    href="/contact"
-                    className="thm-btn"
-                    style={{
-                      marginTop: 16,
-                      background: "#fff !important",
-                      color: "var(--oxpins-base) !important",
-                    }}
-                    data-astro-cid-vfkcmhic=""
-                  >
-                    Contact us
-                  </a>{" "}
-                </div>{" "}
+      <div className="giving-page">
+        <section className="giving-hero" aria-labelledby="giving-title">
+          <div className="giving-shell giving-hero__grid">
+            <div className="giving-hero__story">
+              <nav className="giving-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page">Give</span>
+              </nav>
+              <p className="giving-eyebrow">THE CHURCH OF PENTECOST PAKISTAN</p>
+              <h1 id="giving-title">
+                Your generosity.
+                <br />
+                Someone’s <em>hope.</em>
+              </h1>
+              <p className="giving-hero__intro">
+                Together, we can share the Gospel, restore dignity, and bring
+                practical care to families across Pakistan.
+              </p>
+              <a className="giving-story-link" href="#your-impact">
+                See the work you support <span aria-hidden="true">↓</span>
+              </a>
+              <figure className="giving-hero__photo">
                 <img
                   src="/assets/images/coppak/projects/brick-kiln/01.jpg"
-                  alt="Brick-kiln deliverance"
-                  style={{ width: "100%", marginTop: 32, borderRadius: 12 }}
-                  data-astro-cid-vfkcmhic=""
-                />{" "}
-              </div>{" "}
-            </div>{" "}
-          </div>{" "}
+                  alt="COPPAK serving families in a brick-kiln community in Pakistan"
+                  width={1600}
+                  height={1200}
+                  fetchPriority="high"
+                />
+                <figcaption>
+                  <span className="giving-photo-dot" aria-hidden="true" />
+                  Faith in action. Love in everyday life.
+                </figcaption>
+              </figure>
+            </div>
+            <DonationMethods />
+          </div>
+        </section>
+
+        <div className="giving-values">
+          <div className="giving-shell giving-values__inner">
+            <span>
+              <i className="fas fa-cross" aria-hidden="true" /> Rooted in faith
+            </span>
+            <span>
+              <i className="fas fa-hands-helping" aria-hidden="true" /> Serving
+              communities
+            </span>
+            <span>
+              <i className="fas fa-heart" aria-hidden="true" /> Giving with
+              purpose
+            </span>
+          </div>
+        </div>
+
+        <section
+          className="giving-impact giving-shell"
+          id="your-impact"
+          aria-labelledby="impact-title"
+        >
+          <div className="giving-section-heading">
+            <div>
+              <p className="giving-eyebrow">LOVE THAT REACHES PEOPLE</p>
+              <h2 id="impact-title">
+                A gift can become
+                <br />a new beginning.
+              </h2>
+            </div>
+            <p>
+              Every contribution, large or small, helps sustain the ministry and
+              humanitarian work of COPPAK. These are some of the lives and
+              communities you can stand alongside.
+            </p>
+          </div>
+          <div className="giving-projects">
+            {projects.map((project) => (
+              <a
+                className="giving-project"
+                href={project.href}
+                key={project.href}
+              >
+                <div className="giving-project__image">
+                  <img
+                    src={project.image}
+                    alt={project.alt}
+                    width={600}
+                    height={450}
+                    loading="lazy"
+                  />
+                </div>
+                <div className="giving-project__body">
+                  <p className="giving-eyebrow">{project.category}</p>
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <span className="giving-project__link">
+                    Explore this work <span aria-hidden="true">↗</span>
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+          <div className="giving-more">
+            <p>Your partnership also supports</p>
+            <div>
+              {moreWays.map(([label, href]) => (
+                <a key={href} href={href}>
+                  {label}
+                  <span aria-hidden="true">↗</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="giving-questions" aria-labelledby="questions-title">
+          <div className="giving-shell giving-questions__grid">
+            <div>
+              <p className="giving-eyebrow">WE’RE HERE TO HELP</p>
+              <h2 id="questions-title">
+                Giving is personal.
+                <br />
+                Let’s talk.
+              </h2>
+              <p>
+                Whether you are making a gift or exploring a ministry
+                partnership, we would love to hear from you.
+              </p>
+              <a className="giving-text-link" href="/contact">
+                Contact our team <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div className="giving-faqs">
+              <details>
+                <summary>
+                  How can I give?<span aria-hidden="true">+</span>
+                </summary>
+                <p>
+                  Use the PayPal button or scan the QR code above to continue on
+                  PayPal. For a bank transfer, select the Bank transfer tab and
+                  use the account details shown there.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  Can I support a specific project?
+                  <span aria-hidden="true">+</span>
+                </summary>
+                <p>
+                  Yes. Please{" "}
+                  <a href="/contact">contact our team before giving</a> to
+                  discuss the project or ministry you would like to support and
+                  how to identify your gift.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  Where do I complete my PayPal gift?
+                  <span aria-hidden="true">+</span>
+                </summary>
+                <p>
+                  The button and QR code open PayPal, where you can review and
+                  complete your gift. You do not enter payment details on this
+                  website.
+                </p>
+              </details>
+              <details>
+                <summary>
+                  Who can help with a giving question?
+                  <span aria-hidden="true">+</span>
+                </summary>
+                <p>
+                  Reach us through our <a href="/contact">contact page</a> or
+                  email{" "}
+                  <a href="mailto:rev.jamil.nasir@gmail.com">
+                    rev.jamil.nasir@gmail.com
+                  </a>
+                  . We can help with questions about giving, sponsorship, or
+                  partnership.
+                </p>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section className="giving-thanks giving-shell">
+          <p>Thank you for standing with Pakistan.</p>
+          <span>Your kindness is part of the story.</span>
+          <a href="#give">
+            Make a gift <span aria-hidden="true">↑</span>
+          </a>
         </section>
       </div>
       <LegacyScripts sources={scripts} />
