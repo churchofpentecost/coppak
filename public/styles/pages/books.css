@@ -274,3 +274,60 @@
     padding-bottom: 45px;
   }
 }
+
+/* Each book can be reached directly from the collection links. */
+.books-feature[id] {
+  scroll-margin-top: 125px;
+}
+.books-feature--additional {
+  margin-top: 32px;
+}
+.books-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: -10px 0 30px;
+}
+.books-jump-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+  border: 1px solid #d9d2c2;
+  border-radius: 30px;
+  padding: 8px 17px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.books-jump-links a:hover {
+  background: #eee9dd;
+}
+.books-cover-stage--alcohol {
+  background: radial-gradient(ellipse at center, #eadfc4, #cfc3a6);
+}
+/* Display the front of the supplied full cover spread without changing its artwork. */
+.books-spread-front {
+  position: relative;
+  width: min(100%, 278px);
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 12px 18px 28px #25304440;
+}
+.books-spread-front img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  .books-spread-front {
+    width: min(100%, 240px);
+  }
+  .books-feature[id] {
+    scroll-margin-top: 105px;
+  }
+}

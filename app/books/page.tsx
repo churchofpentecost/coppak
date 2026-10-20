@@ -4,12 +4,12 @@ import LegacyScripts from "../../components/LegacyScripts";
 export const metadata: Metadata = {
   title: "Books by Dr. Jamil Nasir | COPPAK.ORG",
   description:
-    "Explore Did Jesus Turn Water Into Alcoholic Wine? by Jamil Nasir — a Christian apologetic response to Muslim questions about the miracle at Cana.",
+    "Explore books by Jamil Nasir: Did Jesus Turn Water Into Alcoholic Wine? and Does the Bible Prohibit Alcohol?",
   alternates: { canonical: "/books" },
   openGraph: {
     title: "Books by Dr. Jamil Nasir | COPPAK.ORG",
     description:
-      "Explore Scripture, history and the miracle at Cana with Dr. Jamil Nasir.",
+      "Explore Scripture, the miracle at Cana, Christian liberty and abstinence with Dr. Jamil Nasir.",
     url: "/books",
     images: [
       {
@@ -51,6 +51,8 @@ const scripts = [
 ];
 
 const amazonUrl = "https://www.amazon.com/dp/B0HK3NZWLH";
+// Search by title and author until the direct product listing is verified.
+const alcoholBookAmazonUrl = `https://www.amazon.com/s?k=${encodeURIComponent('"Does the Bible Prohibit Alcohol" "Jamil Nasir"')}&i=stripbooks`;
 
 export default function BooksPage() {
   return (
@@ -81,8 +83,17 @@ export default function BooksPage() {
               with Rev. Dr. Jamil Nasir.
             </p>
           </div>
+          <nav className="books-jump-links" aria-label="Browse books">
+            <a href="#cana-book">
+              The miracle at Cana <span aria-hidden="true">↓</span>
+            </a>
+            <a href="#does-the-bible-prohibit-alcohol">
+              The Bible &amp; alcohol <span aria-hidden="true">↓</span>
+            </a>
+          </nav>
         </section>
         <section
+          id="cana-book"
           className="books-shell books-feature"
           aria-labelledby="featured-book-title"
         >
@@ -130,11 +141,60 @@ export default function BooksPage() {
           </div>
         </section>
         <section
+          id="does-the-bible-prohibit-alcohol"
+          className="books-shell books-feature books-feature--additional"
+          aria-labelledby="alcohol-book-title"
+        >
+          <div className="books-cover-stage books-cover-stage--alcohol">
+            <div className="books-spread-front">
+              <img
+                src="/assets/images/books/does-the-bible-prohibit-alcohol.webp"
+                width={1800}
+                height={1296}
+                loading="lazy"
+                alt="Front cover of Does the Bible Prohibit Alcohol? by Jamil Nasir"
+              />
+            </div>
+          </div>
+          <div className="books-feature__body">
+            <p className="books-eyebrow">
+              ALSO BY JAMIL NASIR · CHRISTIAN APOLOGETICS
+            </p>
+            <h2 id="alcohol-book-title">Does the Bible Prohibit Alcohol?</h2>
+            <p className="books-subtitle">
+              An Apologetic Examination of Wine, Drunkenness, Christian Liberty,
+              and Abstinence
+            </p>
+            <p className="books-author">
+              By <strong>Jamil Nasir</strong>
+            </p>
+            <p className="books-description">
+              How should Christians understand the Bible’s teaching on alcohol?
+              Jamil Nasir examines Scripture, ancient history and Hebrew and
+              Greek vocabulary, addressing Muslim objections and differing
+              Christian views. He presents a case for abstinence with attention
+              to conscience, leadership and care for others.
+            </p>
+            <a
+              className="books-button"
+              href={alcoholBookAmazonUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Find on Amazon <span aria-hidden="true">↗</span>
+              <span className="books-sr-only"> (opens in a new tab)</span>
+            </a>
+            <p className="books-purchase-note">
+              Search Amazon for this title and author.
+            </p>
+          </div>
+        </section>
+        <section
           className="books-shell books-explore"
           aria-labelledby="explore-book-title"
         >
           <div>
-            <p className="books-eyebrow">INSIDE THE BOOK</p>
+            <p className="books-eyebrow">EXPLORE THE COLLECTION</p>
             <h2 id="explore-book-title">
               An invitation to
               <br />

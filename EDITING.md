@@ -54,3 +54,5 @@ Commit to `main`. Vercel publishes the article at `/news/your-slug`, adds its ca
 ## Update the Books page
 
 The Books page is at `/books`, with links in the desktop menu, mobile menu and footer. Edit `app/books/page.tsx` to update the book description or Amazon destination. Book covers are stored in `public/assets/images/books/`; page styles are in `public/styles/pages/books.css`. The featured book links to Amazon ASIN `B0HK3NZWLH`. Prices are shown on Amazon so they stay current.
+
+The second book, **Does the Bible Prohibit Alcohol?**, uses the supplied `Alcohol_Book_Cover.jpg` artwork, optimized as `public/assets/images/books/does-the-bible-prohibit-alcohol.webp`. The page displays the front panel of the full cover spread. Its subtitle follows the supplied cover. Its **Find on Amazon** button searches by exact title and author because the direct product listing has not been verified. When the correct listing is available, replace `alcoholBookAmazonUrl` in `app/books/page.tsx`, change the button to **View on Amazon**, and update the search explanation beneath it. Do not reuse the Cana book’s ASIN for this title.
