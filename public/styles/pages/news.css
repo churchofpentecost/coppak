@@ -5,7 +5,7 @@
   background: #f8f6f1;
   color: var(--news-ink);
   font-family: Manrope, sans-serif;
-  padding-bottom: 80px;
+  padding: 0 0 80px;
 }
 .news-shell {
   width: min(1180px, calc(100% - 64px));
