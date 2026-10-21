@@ -4,12 +4,12 @@ import DonationMethods from "../../components/DonationMethods";
 export const metadata: Metadata = {
   title: "Donate | COPPAK.ORG",
   description:
-    "Partner with The Church of Pentecost Pakistan — bank transfer details, PayPal, JazzCash, and how your giving fuels Bible translation, medical camps, brick-kiln deliverance, and more.",
+    "Partner with The Church of Pentecost Pakistan — bank transfer, PayPal, JazzCash, Interac e-Transfer, and how your giving fuels Bible translation, medical camps, brick-kiln deliverance, and more.",
   alternates: { canonical: "/donate" },
   openGraph: {
     title: "Donate | COPPAK.ORG",
     description:
-      "Partner with The Church of Pentecost Pakistan — bank transfer details, PayPal, JazzCash, and how your giving fuels Bible translation, medical camps, brick-kiln deliverance, and more.",
+      "Partner with The Church of Pentecost Pakistan — bank transfer, PayPal, JazzCash, Interac e-Transfer, and how your giving fuels Bible translation, medical camps, brick-kiln deliverance, and more.",
     url: "/donate",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
@@ -225,7 +225,9 @@ export default function Page() {
                   PayPal. For a bank transfer, select the Bank transfer tab and
                   use the account details shown there. For JazzCash, select the
                   JazzCash tab, copy the mobile account number, and complete
-                  your transfer in the JazzCash app.
+                  your transfer in the JazzCash app. Canadian donors can select
+                  the Interac e-Transfer tab and send their gift to
+                  churchofpentecostpakistan@gmail.com through their banking app.
                 </p>
               </details>
               <details>
