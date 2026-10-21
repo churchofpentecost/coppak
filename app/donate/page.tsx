@@ -259,8 +259,8 @@ export default function Page() {
                 <p>
                   Reach us through our <a href="/contact">contact page</a> or
                   email{" "}
-                  <a href="mailto:rev.jamil.nasir@gmail.com">
-                    rev.jamil.nasir@gmail.com
+                  <a href="mailto:info@coppak.org">
+                    info@coppak.org
                   </a>
                   . We can help with questions about giving, sponsorship, or
                   partnership.
