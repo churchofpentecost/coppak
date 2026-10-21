@@ -106,7 +106,7 @@ export default function Page() {
             <div className="contact-page__form-box" data-astro-cid-uw5kdbxl="">
               {" "}
               <form
-                action="mailto:rev.jamil.nasir@gmail.com"
+                action="mailto:info@coppak.org"
                 method="GET"
                 className="contact-page__form"
                 data-astro-cid-uw5kdbxl=""
