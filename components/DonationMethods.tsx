@@ -18,7 +18,7 @@ const bankDetails = [
   },
 ];
 const jazzCash = { name: "Jamil Nasir", number: "03004179633" };
-const methods = ["PayPal", "Bank transfer", "JazzCash"];
+const methods = ["PayPal", "Bank transfer", "JazzCash", "Interac e-Transfer"];
 
 export default function DonationMethods() {
   const [active, setActive] = useState(0);
@@ -227,6 +227,43 @@ export default function DonationMethods() {
           </ol>
           <p className="giving-payment-note">
             Complete your transfer in the JazzCash app.
+          </p>
+        </div>
+      </div>
+      <div
+        id="giving-panel-3"
+        role="tabpanel"
+        aria-labelledby="giving-tab-3"
+        hidden={active !== 3}
+        tabIndex={0}
+      >
+        <div className="giving-bank">
+          <p className="giving-bank__intro">
+            Giving from Canada? Send your donation by Interac e-Transfer
+            through your Canadian banking app.
+          </p>
+          <dl>
+            <div className="giving-bank__row">
+              <dt>Interac e-Transfer email</dt>
+              <dd>
+                <span>churchofpentecostpakistan@gmail.com</span>
+                <button
+                  type="button"
+                  onClick={() => void copyDetail("Interac e-Transfer email", "churchofpentecostpakistan@gmail.com")}
+                  aria-label="Copy Interac e-Transfer email"
+                  title="Copy Interac e-Transfer email"
+                >
+                  {copied === "Interac e-Transfer email" ? "Copied" : "Copy"}
+                </button>
+              </dd>
+            </div>
+          </dl>
+          <p className="giving-copy-status" role="status" aria-live="polite">
+            {active === 3 ? notice : ""}
+          </p>
+          <p className="giving-payment-note">
+            Enter this address as the recipient in your bank’s Interac e-Transfer service.
+            Verify the recipient details shown by your bank before sending.
           </p>
         </div>
       </div>
