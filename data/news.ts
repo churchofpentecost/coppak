@@ -7,6 +7,7 @@ export type NewsPost = {
   image: string;
   imageAlt: string;
   paragraphs: string[];
+  gallery?: { image: string; alt: string; caption: string }[];
 };
 
 // Stories are dated by publication; the event dates appear in the articles.
@@ -20,6 +21,11 @@ export const newsPosts: NewsPost[] = [
       "From prayer and worship on August 13 to a peaceful Gospel rally on August 14, young believers brought a message of Christ-centred hope, peace and love for Pakistan into the streets of Lahore.",
     image: "/assets/images/coppak/outreach/public-rallies/01.jpg",
     imageAlt: "Church of Pentecost Pakistan public outreach and prayer rally (ministry archive photograph)",
+    gallery: [
+      { image: "/assets/images/coppak/outreach/public-rallies/01.jpg", alt: "Church public outreach procession", caption: "Faith beyond the church walls — proclaiming Christ with peace and respect." },
+      { image: "/assets/images/coppak/outreach/public-rallies/02.jpg", alt: "Church public prayer and rally ministry", caption: "Praying for our communities and the peace of Pakistan." },
+      { image: "/assets/images/coppak/outreach/public-rallies/03.jpg", alt: "Public Gospel witness in Pakistan", caption: "Sharing a message of hope and love with our neighbours." }
+    ],
     paragraphs: [
       "LAHORE, PAKISTAN | Event: 14 August 2026 | Report: PENT Media Pakistan.",
       "In a peaceful expression of Christian faith, Youth & PENSA Pakistan of The Church of Pentecost Pakistan carried the Gospel beyond the church walls and into the streets of Lahore on August 14, 2026. Young people, pastors and church leaders marched with wooden crosses, Pakistan's national flags, Church of Pentecost flags and banners proclaiming hope, peace, purpose, prayer and the love of Christ.",
@@ -41,6 +47,14 @@ export const newsPosts: NewsPost[] = [
       "A Youth & PENSA gathering in Lahore brought hundreds together for sports, worship, Gospel preaching, prayer, discipleship and a shared call to serve Christ beyond the playing field.",
     image: "/assets/images/coppak/ministries/pensa-youth/01.jpg",
     imageAlt: "Youth & PENSA Pakistan ministry gathering (ministry archive photograph)",
+    gallery: [
+      { image: "/assets/images/coppak/ministries/pensa-youth/02.jpg", alt: "Youth and PENSA Pakistan ministry photograph", caption: "A generation united in faith and purpose." },
+      { image: "/assets/images/coppak/ministries/pensa-youth/03.jpg", alt: "Young Christians taking part in Youth and PENSA ministry", caption: "Growing together through fellowship and discipleship." },
+      { image: "/assets/images/coppak/ministries/pensa-youth/04.jpg", alt: "Youth and PENSA Pakistan activity", caption: "Every gathering can become an opportunity for mission." },
+      { image: "/assets/images/coppak/ministries/pensa-youth/05.jpg", alt: "Youth ministry participants", caption: "Equipping the next generation to serve Christ and society." },
+      { image: "/assets/images/coppak/ministries/pensa-youth/06.jpg", alt: "Church youth ministry in Pakistan", caption: "Prayer, courage and Christian unity." },
+      { image: "/assets/images/coppak/ministries/pensa-youth/07.jpg", alt: "Young believers in the Church of Pentecost Pakistan", caption: "From the playing field to a life of witness." }
+    ],
     paragraphs: [
       "LAHORE, PAKISTAN | Event: 14 August 2026 | Report: PENT Media Pakistan.",
       "What began as a youth sports gathering in Lahore grew into a time of Gospel proclamation, prayer, fellowship, worship and mission. Hundreds gathered through Youth & PENSA Pakistan of The Church of Pentecost Pakistan, demonstrating how sport can create opportunities for Christian discipleship and public witness.",
