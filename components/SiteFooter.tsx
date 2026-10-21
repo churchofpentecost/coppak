@@ -127,8 +127,8 @@ export default function SiteFooter() {
                     <div className="text">
                       {" "}
                       <p>
-                        <a href="mailto:rev.jamil.nasir@gmail.com">
-                          rev.jamil.nasir@gmail.com
+                        <a href="mailto:info@coppak.org">
+                          info@coppak.org
                         </a>
                       </p>{" "}
                     </div>{" "}
