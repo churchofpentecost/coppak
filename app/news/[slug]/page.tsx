@@ -55,6 +55,22 @@ export default async function NewsArticle({ params }: Props) {
           {post.paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
+          {post.gallery && post.gallery.length > 0 && (
+            <section aria-label="Ministry photo gallery" style={{ margin: "2.5rem 0" }}>
+              <h2 style={{ marginBottom: "1.25rem" }}>Faith in action — photo gallery</h2>
+              <p style={{ marginBottom: "1.5rem" }}>
+                Photographs from the Church of Pentecost Pakistan ministry archive, illustrating the prayer, outreach and youth ministry described in this report.
+              </p>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))", gap: "1.25rem" }}>
+                {post.gallery.map((photo) => (
+                  <figure key={photo.image} style={{ margin: 0 }}>
+                    <img src={photo.image} alt={photo.alt} width={640} height={430} loading="lazy" style={{ width: "100%", height: "auto", aspectRatio: "3 / 2", objectFit: "cover", borderRadius: "12px" }} />
+                    <figcaption style={{ fontSize: "0.92rem", lineHeight: 1.5, paddingTop: "0.65rem" }}>{photo.caption}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          )}
           <a className="news-text-link" href="/news">
             ← All news & stories
           </a>
