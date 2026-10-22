@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.excerpt,
       url: `/news/${post.slug}`,
-      publishedTime: post.date,
+      publishedTime: post.publishedAt,
       images: [{ url: post.image, alt: post.imageAlt }],
     },
   };
@@ -40,37 +40,38 @@ export default async function NewsArticle({ params }: Props) {
         <header>
           <p className="news-eyebrow">{post.category}</p>
           <h1>{post.title}</h1>
-          <time dateTime={post.date}>{formatNewsDate(post.date)}</time>
+          <div className="news-article__meta">
+            <span>Event date: <time dateTime={post.date}>{formatNewsDate(post.date)}</time></span>
+            <span>{post.location}</span><span>By {post.author}</span>
+          </div>
           <p className="news-article__intro">{post.excerpt}</p>
+          <a className="news-button news-report-download" href={post.reportFile} download>Download full report <span>PDF · {post.reportPages} pages ↓</span></a>
         </header>
         <img
           className="news-article__photo"
           src={post.image}
           alt={post.imageAlt}
-          width={1200}
-          height={800}
+          width={post.imageWidth}
+          height={post.imageHeight}
           fetchPriority="high"
         />
         <div className="news-article__content">
           {post.paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
-          {post.gallery && post.gallery.length > 0 && (
-            <section aria-label="Ministry photo gallery" style={{ margin: "2.5rem 0" }}>
-              <h2 style={{ marginBottom: "1.25rem" }}>Faith in action — photo gallery</h2>
-              <p style={{ marginBottom: "1.5rem" }}>
-                Photographs from the Church of Pentecost Pakistan ministry archive, illustrating the prayer, outreach and youth ministry described in this report.
-              </p>
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))", gap: "1.25rem" }}>
-                {post.gallery.map((photo) => (
-                  <figure key={photo.image} style={{ margin: 0 }}>
-                    <img src={photo.image} alt={photo.alt} width={640} height={430} loading="lazy" style={{ width: "100%", height: "auto", aspectRatio: "3 / 2", objectFit: "cover", borderRadius: "12px" }} />
-                    <figcaption style={{ fontSize: "0.92rem", lineHeight: 1.5, paddingTop: "0.65rem" }}>{photo.caption}</figcaption>
-                  </figure>
-                ))}
-              </div>
-            </section>
-          )}
+          {post.sections.map((section) => <section key={section.heading} className="news-article__section">
+            <h2>{section.heading}</h2>
+            {section.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+          </section>)}
+          <section aria-labelledby="gallery-title"><h2 id="gallery-title">In photographs</h2><p>Original photographs from this PENT Media Pakistan report. Select a photograph to view it in full.</p><div className="news-article__gallery">{post.gallery.map((photo) => <figure key={photo.src}>
+            <a href={photo.src} target="_blank" rel="noopener noreferrer" aria-label={`View full photograph: ${photo.alt}`}><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" /></a>
+            <figcaption>{photo.caption}</figcaption>
+          </figure>)}</div></section>
+          <aside className="news-article__source">
+            <h2>Read the complete report</h2>
+            <p>Adapted from the {post.author} report. Download the original {post.reportPages}-page PDF for the complete photo story, reflections and prayer requests.</p>
+            <a className="news-button news-report-download" href={post.reportFile} download>Download full report <span>PDF ↓</span></a>
+          </aside>
           <a className="news-text-link" href="/news">
             ← All news & stories
           </a>

@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     url: "/news",
     images: [
       {
-        url: "/assets/images/coppak/outreach/alpha-groups/01.jpg",
-        width: 1600,
-        height: 900,
+        url: "/assets/images/news/youth-pensa-august-2026/rally/rally-19.jpeg",
+        width: 2048,
+        height: 1365,
       },
     ],
   },
@@ -75,31 +75,7 @@ export default function NewsPage() {
             Discover the people and ministries bringing hope across Pakistan.
           </p>
         </div>
-        <a className="news-feature" href="/outreach/alpha-groups">
-          <div className="news-feature__image">
-            <img
-              src="/assets/images/coppak/outreach/alpha-groups/01.jpg"
-              alt="People gathering around tables at an Alpha Pakistan event"
-              width={1600}
-              height={900}
-              fetchPriority="high"
-            />
-          </div>
-          <div className="news-feature__body">
-            <p className="news-eyebrow">MINISTRY SPOTLIGHT · ALPHA PAKISTAN</p>
-            <h2>
-              A space for questions.
-              <br />A journey of faith.
-            </h2>
-            <p>
-              Food, conversation and connection. Discover how Alpha brings
-              people together to explore the Christian faith.
-            </p>
-            <span className="news-link">
-              Explore Alpha Pakistan <span aria-hidden="true">↗</span>
-            </span>
-          </div>
-        </a>
+
       </section>
       <section
         className="news-updates news-shell"
@@ -108,14 +84,14 @@ export default function NewsPage() {
         <div className="news-heading">
           <div>
             <p className="news-eyebrow">FROM OUR CHURCH FAMILY</p>
-            <h2 id="updates-title">Latest announcements</h2>
+            <h2 id="updates-title">News & ministry reports</h2>
           </div>
           <a className="news-text-link" href="/events">
             Explore events <span aria-hidden="true">↗</span>
           </a>
         </div>
         {posts.length ? (
-          <div className="news-grid">
+          <div className="news-grid news-grid--reports">
             {posts.map((post) => (
               <a
                 className="news-card"
@@ -157,6 +133,33 @@ export default function NewsPage() {
             </div>
           </div>
         )}
+      </section>
+      <section className="news-spotlight news-shell" aria-label="Ministry spotlight">
+        <a className="news-feature" href="/outreach/alpha-groups">
+          <div className="news-feature__image">
+            <img
+              src="/assets/images/coppak/outreach/alpha-groups/01.jpg"
+              alt="People gathering around tables at an Alpha Pakistan event"
+              width={1600}
+              height={900}
+              fetchPriority="high"
+            />
+          </div>
+          <div className="news-feature__body">
+            <p className="news-eyebrow">MINISTRY SPOTLIGHT · ALPHA PAKISTAN</p>
+            <h2>
+              A space for questions.
+              <br />A journey of faith.
+            </h2>
+            <p>
+              Food, conversation and connection. Discover how Alpha brings
+              people together to explore the Christian faith.
+            </p>
+            <span className="news-link">
+              Explore Alpha Pakistan <span aria-hidden="true">↗</span>
+            </span>
+          </div>
+        </a>
       </section>
       <section
         className="news-stories news-shell"
