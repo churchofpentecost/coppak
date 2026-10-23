@@ -1,3 +1,4 @@
+import AlphaNewsReport from "../../../components/AlphaNewsReport";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import NewsLayout from "../../../components/NewsLayout";
@@ -29,6 +30,7 @@ export default async function NewsArticle({ params }: Props) {
   const { slug } = await params;
   const post = newsPosts.find((item) => item.slug === slug);
   if (!post) notFound();
+  if (post.slug === "alpha-leadership-training-pakistan-october-2026") return <AlphaNewsReport />;
   return (
     <NewsLayout>
       <article className="news-article news-shell">
