@@ -1,3 +1,5 @@
+import { alphaPost } from "./alpha-report";
+
 export type NewsPost = {
   slug: string;
   title: string;
@@ -20,6 +22,7 @@ export type NewsPost = {
 
 // Sort reports by their event date; publication time is recorded separately.
 export const newsPosts: NewsPost[] = [
+  alphaPost,
   {
     "slug": "youth-pensa-gospel-outreach-rally-lahore-august-2026",
     "title": "Youth & PENSA Pakistan Takes the Gospel to the Streets of Lahore",

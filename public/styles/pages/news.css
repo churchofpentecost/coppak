@@ -422,3 +422,7 @@
 
 .news-article__gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
 @media (max-width: 600px) { .news-article__gallery { grid-template-columns: 1fr; } }
+
+.news-card--alpha .news-card__image { aspect-ratio: auto; }
+.news-card--alpha img { height: auto; object-fit: contain; transform: none !important; }
+.news-card--alpha .news-eyebrow { color: #b62435; }
