@@ -6,3 +6,6 @@ out/
 *.tsbuildinfo
 test-results/
 playwright-report/
+
+# Reassembled byte-for-byte from source-reports/vbs-2026 during build
+/public/reports/vbs-pakistan-2026-impact-report.pdf

@@ -1,3 +1,4 @@
+import { vbsPost } from "./vbs-report";
 import { alphaPost } from "./alpha-report";
 
 export type NewsPost = {
@@ -23,6 +24,7 @@ export type NewsPost = {
 // Sort reports by their event date; publication time is recorded separately.
 export const newsPosts: NewsPost[] = [
   alphaPost,
+  vbsPost,
   {
     "slug": "youth-pensa-gospel-outreach-rally-lahore-august-2026",
     "title": "Youth & PENSA Pakistan Takes the Gospel to the Streets of Lahore",

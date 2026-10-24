@@ -1,0 +1,8 @@
+{
+  "parts": [
+    "report.part1",
+    "report.part2",
+    "report.part3"
+  ],
+  "sha256": "db2fd6d0d77d95992734fe3cef3515385223050aaf203e325838af022b44f7e1"
+}

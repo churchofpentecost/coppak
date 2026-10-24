@@ -94,7 +94,7 @@ export default function NewsPage() {
           <div className="news-grid news-grid--reports">
             {posts.map((post) => (
               <a
-                className={`news-card${post.slug === "alpha-leadership-training-pakistan-october-2026" ? " news-card--alpha" : ""}`}
+                className={`news-card${post.slug === "alpha-leadership-training-pakistan-october-2026" ? " news-card--alpha" : post.slug === "vacation-bible-school-pakistan-2026" ? " news-card--vbs" : ""}`}
                 key={post.slug}
                 href={`/news/${post.slug}`}
               >

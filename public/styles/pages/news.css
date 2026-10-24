@@ -426,3 +426,7 @@
 .news-card--alpha .news-card__image { aspect-ratio: auto; }
 .news-card--alpha img { height: auto; object-fit: contain; transform: none !important; }
 .news-card--alpha .news-eyebrow { color: #b62435; }
+
+.news-card--vbs .news-card__image { aspect-ratio: auto; background: #eeeee8; }
+.news-card--vbs img { height: auto; object-fit: contain; transform: none !important; }
+.news-card--vbs .news-eyebrow { color: #17645f; }

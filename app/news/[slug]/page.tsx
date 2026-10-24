@@ -1,3 +1,4 @@
+import VbsNewsReport from "../../../components/VbsNewsReport";
 import AlphaNewsReport from "../../../components/AlphaNewsReport";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -31,6 +32,7 @@ export default async function NewsArticle({ params }: Props) {
   const post = newsPosts.find((item) => item.slug === slug);
   if (!post) notFound();
   if (post.slug === "alpha-leadership-training-pakistan-october-2026") return <AlphaNewsReport />;
+  if (post.slug === "vacation-bible-school-pakistan-2026") return <VbsNewsReport />;
   return (
     <NewsLayout>
       <article className="news-article news-shell">
