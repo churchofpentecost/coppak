@@ -134,6 +134,7 @@ export default function SiteHeader() {
                 </li>{" "}
               </ul>{" "}
             </li>{" "}
+            <li><a href="/sermons">Sermons</a></li>
             <li><a href="/news">News</a></li>
             <li><a href="/books">Books</a></li>
           </ul>{" "}
