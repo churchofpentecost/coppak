@@ -59,6 +59,7 @@ export default function SiteFooter() {
                   <li>
                     <a href="/about/leadership">Leadership</a>
                   </li>{" "}
+                  <li><a href="/sermons">Sermons &amp; Teachings</a></li>
                   <li><a href="/news">News</a></li>
                   <li><a href="/books">Books</a></li>
                   <li>
