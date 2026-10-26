@@ -143,7 +143,7 @@ export default function SiteHeader() {
           {" "}
           <span className="coppak-header__logo-badge">
             {" "}
-            <img src="/icon-512.png" alt="Church of Pentecost — COPPAK" />{" "}
+            <img src="/assets/images/resources/coppak-pakistan-logo.jpg" alt="The Church of Pentecost Lahore Pakistan" />{" "}
           </span>{" "}
         </a>{" "}
         <nav
