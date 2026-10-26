@@ -42,7 +42,6 @@ const scripts = [
   "/assets/vendors/circleType/jquery.lettering.min.js",
   "/assets/js/oxpins.js",
   "/scripts/migrated/contact-27.js",
-  "/scripts/contact-draft.js",
 ];
 export default function Page() {
   return (
@@ -106,11 +105,10 @@ export default function Page() {
             <div className="contact-page__form-box" data-astro-cid-uw5kdbxl="">
               {" "}
               <form
-                action="mailto:info@coppak.org"
-                method="GET"
+                action="https://formsubmit.co/info@coppak.org"
+                method="POST"
                 className="contact-page__form"
                 data-astro-cid-uw5kdbxl=""
-                data-email-draft="true"
               >
                 {" "}
                 <div className="row" data-astro-cid-uw5kdbxl="">
@@ -200,13 +198,17 @@ export default function Page() {
                         defaultValue={""}
                       />{" "}
                     </div>{" "}
+                    <input type="hidden" name="_subject" value="New message from COPPAK.org contact form" />
+                    <input type="hidden" name="_next" value="https://coppak.org/contact/thank-you" />
+                    <input type="hidden" name="_url" value="https://coppak.org/contact" />
+                    <input type="hidden" name="_template" value="table" />
                     <input
                       type="text"
-                      name="_gotcha"
+                      name="_honey"
+                      aria-hidden="true"
                       style={{ display: "none" }}
                       tabIndex={-1}
                       autoComplete="off"
-                      data-astro-cid-uw5kdbxl=""
                     />{" "}
                     <div
                       className="contact-form__btn-box"
@@ -218,15 +220,15 @@ export default function Page() {
                         className="thm-btn contact-form__btn"
                         data-astro-cid-uw5kdbxl=""
                       >
-                        Open email draft
+                        Send message
                       </button>{" "}
                     </div>{" "}
                   </div>{" "}
                 </div>{" "}
               </form>{" "}
               <p>
-                This opens your email app with a draft. Review and send it there
-                to contact us.
+                Your message will be forwarded to info@coppak.org using our
+                form-delivery provider. Please do not include passwords or sensitive financial information.
               </p>
             </div>{" "}
           </div>{" "}
