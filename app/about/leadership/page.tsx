@@ -45,48 +45,8 @@ export default function Page() {
   return (
     <>
       <link rel="stylesheet" href="/_astro/leadership.B2k1OVpq.css" />
-      <div>
-        <section
-          className="page-hero"
-          style={{
-            backgroundImage:
-              "linear-gradient(178deg, rgba(13,22,52,0.86) 0%, rgba(13,22,52,0.9) 55%, rgba(10,20,48,0.94) 100%), url(/assets/images/coppak/conferences/01.jpg)",
-          }}
-        >
-          {" "}
-          <div className="page-hero__glow" aria-hidden="true" />{" "}
-          <div className="container">
-            {" "}
-            <div className="page-hero__inner">
-              {" "}
-              <ul className="page-hero__crumbs list-unstyled">
-                {" "}
-                <li className="">
-                  {" "}
-                  <a href="/">Home</a>{" "}
-                </li>{" "}
-                <li className="page-hero__crumb-sep" aria-hidden="true">
-                  /
-                </li>{" "}
-                <li className="">
-                  {" "}
-                  <a href="/about">About</a>{" "}
-                </li>{" "}
-                <li className="page-hero__crumb-sep" aria-hidden="true">
-                  /
-                </li>{" "}
-                <li className="is-current">
-                  {" "}
-                  <span>Leadership</span>{" "}
-                </li>
-              </ul>{" "}
-              <h1 className="page-hero__title">Leadership</h1>{" "}
-              <p className="page-hero__subtitle">
-                The leaders God has raised to shepherd COPPAK across Pakistan.
-              </p>{" "}
-            </div>{" "}
-          </div>{" "}
-        </section>
+      <link rel="stylesheet" href="/styles/pages/leadership-refresh.css" />
+      <div className="leadership-refresh">
         <section className="leader-bio" data-astro-cid-3rtgp5cp="">
           {" "}
           <div className="container" data-astro-cid-3rtgp5cp="">
@@ -101,7 +61,7 @@ export default function Page() {
                   data-astro-cid-3rtgp5cp=""
                 />{" "}
                 <img
-                  src="/assets/images/coppak/about/team/jamil-nasir.jpg"
+                  src="/assets/images/coppak/about/team/jamil-nasir-2026.webp"
                   alt="Rev. Dr. Jamil Nasir"
                   data-astro-cid-3rtgp5cp=""
                 />{" "}
@@ -111,9 +71,9 @@ export default function Page() {
                 <span className="leader-eyebrow" data-astro-cid-3rtgp5cp="">
                   National Head
                 </span>{" "}
-                <h2 className="leader-bio__name" data-astro-cid-3rtgp5cp="">
+                <h1 className="leader-bio__name" data-astro-cid-3rtgp5cp="">
                   Rev. Dr. Jamil Nasir
-                </h2>{" "}
+                </h1>{" "}
                 <p className="leader-bio__lead" data-astro-cid-3rtgp5cp="">
                   A visionary leader whose life stands as a powerful testimony
                   of faith, courage, and unwavering commitment to the call of
@@ -222,7 +182,45 @@ export default function Page() {
             </div>{" "}
           </div>{" "}
         </section>
-        <section className="leader-section" data-astro-cid-3rtgp5cp="">
+<section className="leader-story" aria-labelledby="leader-story-title">
+          <div className="container">
+            <div className="leader-story__grid">
+              <div className="leader-story__text">
+                <span className="leader-story__eyebrow">About the National Head</span>
+                <h2 id="leader-story-title">A Life of Faith and Service</h2>
+                <p>
+                  Rev. Dr. Jamil Nasir is the first National Head of The Church of
+                  Pentecost Pakistan. His ministry is rooted in preaching the Gospel,
+                  nurturing disciples, equipping pastors, and serving communities
+                  throughout Pakistan.
+                </p>
+                <p>
+                  Since beginning ministry in Lahore in 2000, he has helped develop
+                  assemblies, leadership training, theological education, outreach,
+                  and compassionate service. His work also supports South Asian
+                  congregations in Canada.
+                </p>
+                <a className="leader-story__link" href="#early-life">
+                  Explore the biography <span aria-hidden="true">→</span>
+                </a>
+              </div>
+              <div className="leader-story__media">
+                <img
+                  className="leader-story__image"
+                  src="/assets/images/coppak/outreach/mass-evangelism/02.jpg"
+                  alt="The Church of Pentecost Pakistan proclaiming the Gospel at a public gathering"
+                  loading="lazy"
+                />
+                <blockquote className="leader-story__quote">
+                  “From the streets of Lahore to a public park to our own building —
+                  God taught us that we are a church without walls but with mission.”
+                  <cite>— Rev. Dr. Jamil Nasir</cite>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="early-life" className="leader-section" data-astro-cid-3rtgp5cp="">
           {" "}
           <div className="container" data-astro-cid-3rtgp5cp="">
             {" "}
@@ -910,7 +908,7 @@ export default function Page() {
                 <div className="leader-team__avatar" data-astro-cid-3rtgp5cp="">
                   {" "}
                   <img
-                    src="/assets/images/coppak/about/team/jamil-nasir.jpg"
+                    src="/assets/images/coppak/about/team/jamil-nasir-2026.webp"
                     alt="Dr. Apostle Jamil Nasir"
                     data-initials="JN"
                     data-astro-cid-3rtgp5cp=""
