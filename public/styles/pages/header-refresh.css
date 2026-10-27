@@ -1,3 +1,4 @@
+.page-wrapper { padding-top: 86px !important; }
 /* International-style COP Pakistan header: left logo, six headings, donate CTA. */
 .coppak-header--refreshed .coppak-header__inner {
   max-width: 1460px;
