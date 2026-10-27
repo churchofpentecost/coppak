@@ -159,3 +159,26 @@
  .leadership-refresh .leader-story__image{height:265px;}
  .leadership-refresh .leader-section{padding-block:55px;}
 }
+
+/* Ensure the portrait crop and role icons override the older Astro-scoped theme. */
+.leadership-refresh .leader-bio__photo[data-astro-cid-3rtgp5cp] img[data-astro-cid-3rtgp5cp]{
+  width:100%;height:min(570px,48vw);min-height:440px;object-fit:cover;
+  object-position:center 29%;border-radius:16px;
+}
+.leadership-refresh .leader-bio__roles[data-astro-cid-3rtgp5cp] li[data-astro-cid-3rtgp5cp]{
+  gap:18px;line-height:1.6;
+}
+.leadership-refresh .leader-bio__roles[data-astro-cid-3rtgp5cp] i[data-astro-cid-3rtgp5cp]{
+  width:36px;height:36px;margin-top:-3px;background:#e7eff9;color:#1a4f9b;font-size:14px;
+}
+.leadership-refresh .leader-team__avatar[data-astro-cid-3rtgp5cp] img[data-astro-cid-3rtgp5cp]{
+  object-position:center 22%;
+}
+@media (max-width:991px){
+  .leadership-refresh .leader-bio__photo[data-astro-cid-3rtgp5cp] img[data-astro-cid-3rtgp5cp]{
+    height:500px;min-height:0;
+  }
+}
+@media (max-width:575px){
+  .leadership-refresh .leader-bio__photo[data-astro-cid-3rtgp5cp] img[data-astro-cid-3rtgp5cp]{height:405px;}
+}
