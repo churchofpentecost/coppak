@@ -108,6 +108,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/coppak-brand.css" />
         <link rel="stylesheet" href="/_astro/index.C953w-Oo.css" />
         <link rel="stylesheet" href="/styles/migration.css" />
+        <link rel="stylesheet" href="/styles/pages/header-refresh.css" />
       </head>
       <body>
         <div className="page-wrapper">

@@ -1,0 +1,151 @@
+.page-wrapper { padding-top: 86px !important; }
+/* International-style COP Pakistan header: left logo, six headings, donate CTA. */
+.coppak-header--refreshed .coppak-header__inner {
+  max-width: 1460px;
+  height: 86px !important;
+  padding: 0 36px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.coppak-header--refreshed .coppak-header__logo {
+  flex: 0 0 auto;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 11px;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 244px;
+  max-width: 270px;
+}
+.coppak-header--refreshed .coppak-header__logo-badge {
+  height: 66px;
+  width: 66px;
+  padding: 2px;
+  transform: none;
+  flex: 0 0 66px;
+  box-shadow: none;
+  border: 2px solid rgba(19,42,85,.08);
+}
+.coppak-header--refreshed .coppak-header__logo-badge img {
+  object-fit: contain;
+  border-radius: 50%;
+}
+.coppak-header__wordmark {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #17294a;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+  white-space: nowrap;
+}
+.coppak-header__wordmark strong {
+  font-size: 10px;
+  letter-spacing: .045em;
+  font-weight: 800;
+  line-height: 1.35;
+}
+.coppak-header__wordmark > span {
+  color: #b28b21;
+  font-weight: 800;
+  font-size: 10px;
+  letter-spacing: .31em;
+}
+.coppak-header--refreshed .coppak-nav--refreshed {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.coppak-header--refreshed .coppak-nav--refreshed > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(0px, .5vw, 10px);
+}
+.coppak-header--refreshed .coppak-nav--refreshed > ul > li > a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #17294a;
+  padding: 13px clamp(7px, .85vw, 15px);
+}
+.coppak-header--refreshed .coppak-nav--refreshed .submenu {
+  left: 0;
+  transform: translateY(-8px) scale(.98);
+  width: 290px;
+  min-width: 260px;
+  max-height: min(73vh, 620px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.coppak-header--refreshed .coppak-nav--refreshed .has-submenu:hover > .submenu,
+.coppak-header--refreshed .coppak-nav--refreshed .has-submenu:focus-within > .submenu {
+  transform: translateY(0) scale(1);
+}
+.coppak-header--refreshed .coppak-nav--refreshed .coppak-menu-heading:not(:first-child) {
+  margin-top: 7px;
+  border-top: 1px solid #e7e9ee;
+  padding-top: 7px;
+}
+.coppak-header--refreshed .coppak-nav--refreshed .coppak-menu-heading > a {
+  color: #174b9a;
+  font-weight: 800;
+}
+.coppak-header--refreshed .coppak-header__donate {
+  flex: 0 0 auto;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  padding: 11px 20px !important;
+  margin-left: 8px;
+  text-decoration: none;
+}
+.coppak-header--refreshed .coppak-burger { display: none; }
+@media (max-width: 1160px) {
+  .coppak-header--refreshed .coppak-header__inner {
+    height: 72px !important;
+    padding: 0 20px;
+  }
+  .coppak-header--refreshed .coppak-nav--refreshed { display: none !important; }
+  .coppak-header--refreshed .coppak-burger {
+    display: inline-flex !important;
+    order: initial;
+    margin-left: 0;
+  }
+  .coppak-header--refreshed .coppak-header__logo {
+    justify-self: start;
+    order: initial;
+    margin-right: auto;
+  }
+  .coppak-header--refreshed .coppak-header__logo-badge {
+    width: 55px;
+    height: 55px;
+    flex-basis: 55px;
+    transform: none;
+  }
+  .page-wrapper { padding-top: 72px !important; }
+}
+@media (max-width: 575px) {
+  .coppak-header--refreshed .coppak-header__inner {
+    padding: 0 12px;
+    gap: 8px;
+  }
+  .coppak-header--refreshed .coppak-header__logo {
+    min-width: 0;
+    max-width: none;
+    gap: 7px;
+  }
+  .coppak-header__wordmark strong {
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+  .coppak-header__wordmark > span { font-size: 8px; }
+  .coppak-header--refreshed .coppak-header__donate {
+    padding: 8px 10px !important;
+    font-size: 11px;
+    margin: 0;
+  }
+  .coppak-header--refreshed .coppak-burger { font-size: 19px; }
+}
