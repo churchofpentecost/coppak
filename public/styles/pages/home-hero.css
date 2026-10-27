@@ -477,3 +477,102 @@
     transition: none;
   }
 }
+
+/* Video-first homepage: no photo-carousel controls, statistics overlay or
+   below-the-video promotional cards. Keep the original ministry photograph
+   as a reliable accessible fallback. */
+.home-hero--video .home-hero__scene {
+  min-height: min(750px, 82vh);
+  display: flex;
+  align-items: center;
+  isolation: isolate;
+  background: #11243b;
+  touch-action: auto;
+}
+.home-hero--video .home-hero__image {
+  z-index: 0;
+  opacity: 1;
+  object-position: center 53%;
+}
+.home-hero__video-wrap {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.home-hero__video-wrap iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, 1340px);
+  height: auto;
+  min-height: 110%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.home-hero--video .home-hero__shade {
+  z-index: 2;
+  background:
+    linear-gradient(90deg, rgba(7,22,43,.96) 0%, rgba(9,27,49,.90) 31%, rgba(9,25,46,.55) 58%, rgba(10,27,44,.16) 100%),
+    linear-gradient(0deg, rgba(8,23,42,.6) 0%, transparent 30%);
+}
+.home-hero--video .home-hero__content {
+  position: relative;
+  z-index: 3;
+  padding-block: 125px 110px;
+}
+.home-hero--video .home-hero__intro {
+  min-height: 0;
+  max-width: 510px;
+}
+.home-hero__video-actions {
+  margin-top: 39px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.home-hero__watch,
+.home-hero__video-toggle {
+  color: #fff !important;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 0;
+  background: none;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.home-hero__watch > span {
+  width: 33px;
+  height: 33px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 50%;
+  font-size: 10px;
+}
+.home-hero__watch:hover,
+.home-hero__video-toggle:hover { color: #f3d37a !important; }
+.home-hero__video-toggle {
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 999px;
+  padding: 8px 12px;
+}
+@media (max-width: 767px) {
+  .home-hero--video .home-hero__scene { min-height: 675px; align-items: flex-end; }
+  .home-hero--video .home-hero__image { object-position: 62% center; }
+  .home-hero--video .home-hero__shade {
+    background: linear-gradient(0deg, rgba(8,23,43,.98) 0%, rgba(8,23,43,.88) 48%, rgba(8,23,43,.38) 100%);
+  }
+  .home-hero--video .home-hero__content { padding: 120px 0 55px; }
+  .home-hero__video-actions { margin-top: 26px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-hero__video-wrap { display: none; }
+}
