@@ -237,7 +237,7 @@ export default function Page() {
                 <p style={{ marginTop: 32 }} data-astro-cid-kh7btl4r="">
                   In the year 2000,{" "}
                   <strong data-astro-cid-kh7btl4r="">Jamil Nasir</strong> and
-                  his wife,
+                  his wife,{" "}
                   <strong data-astro-cid-kh7btl4r="">Rose Mary</strong>, opened
                   the doors of their living room to a small group of believers
                   in Lahore, Pakistan. God had placed a burning vision in their
@@ -262,14 +262,12 @@ export default function Page() {
                   opened a supernatural door.
                 </p>{" "}
                 <p data-astro-cid-kh7btl4r="">
-                  That same year, Pastor Jamil traveled to Singapore to attend a
-                  Facility Development Seminar with Haggai Institute. There, he
-                  met the late Chairman of The Church of Pentecost,{" "}
-                  <strong data-astro-cid-kh7btl4r="">
-                    Apostle Dr. Michael Kwabena Ntumy
-                  </strong>
-                  . This divine encounter changed the direction of the ministry
-                  forever and paved the way for a new identity —{" "}
+                  In 2007, Pastor Jamil traveled to Singapore to attend a seminar
+                  at the Haggai Institute. During this visit, he established
+                  a meaningful connection with the international leadership of
+                  The Church of Pentecost. This important encounter marked a
+                  turning point in the ministry's journey and helped pave the
+                  way for the establishment of{" "}
                   <strong data-astro-cid-kh7btl4r="">
                     The Church of Pentecost Pakistan
                   </strong>
@@ -296,7 +294,7 @@ export default function Page() {
                   What began as a simple act of obedience in a living room has
                   now grown into a powerful Pentecostal movement impacting
                   thousands across Pakistan. Today, The Church of Pentecost
-                  Pakistan serves
+                  Pakistan serves{" "}
                   <strong data-astro-cid-kh7btl4r="">
                     eight districts with 71 assemblies and 28,479 members
                   </strong>
