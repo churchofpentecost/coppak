@@ -1,0 +1,161 @@
+
+/* COP Pakistan Leadership 2026 — editorial refresh.
+   Scoped to the leadership page; every biography and team URL stays intact. */
+.leadership-refresh {
+  --lr-navy:#112747;--lr-gold:#e6b83d;--lr-ink:#14284e;--lr-muted:#576681;
+  background:#fff;color:var(--lr-ink);overflow-x:clip;
+}
+.leadership-refresh .leader-bio{
+  background:
+   radial-gradient(circle at 98% 10%,rgba(232,189,80,.15),transparent 25%),
+   radial-gradient(circle at 72% 0%,rgba(182,209,239,.28),transparent 39%),
+   linear-gradient(135deg,#fff 25%,#f1f6fc 100%);
+  padding:92px 0 68px;
+  position:relative;
+}
+.leadership-refresh .leader-bio:after{
+  content:"✝";position:absolute;right:6%;top:11%;font-family:Georgia,serif;font-size:155px;
+  line-height:1;opacity:.035;color:var(--lr-navy);pointer-events:none;
+}
+.leadership-refresh .leader-bio__grid{
+  position:relative;z-index:1;
+  grid-template-columns:minmax(280px,.9fr) minmax(0,1.15fr);
+  gap:clamp(38px,6vw,104px);
+  max-width:1170px;margin:auto;
+}
+.leadership-refresh .leader-bio__photo {max-width:460px;margin-inline:auto;width:100%;}
+.leadership-refresh .leader-bio__photo img {
+  display:block;width:100%;height:min(570px,48vw);min-height:440px;
+  object-fit:cover;object-position:center 32%;border-radius:16px;
+  box-shadow:0 28px 65px rgba(12,33,67,.2);
+}
+.leadership-refresh .leader-bio__photo-accent{
+  background:#eec34b;width:128px;height:128px;left:-18px;top:21px;
+}
+.leadership-refresh .leader-bio__info{max-width:660px;}
+.leadership-refresh .leader-bio__info:before{
+  content:"LEADERSHIP";display:block;color:#bf8c1e;font-weight:800;
+  letter-spacing:.23em;font-size:11px;margin-bottom:17px;
+}
+.leadership-refresh .leader-eyebrow{
+ background:#e9f0fa;color:#1c4c93;font-weight:800;letter-spacing:.12em;
+ padding:9px 17px;font-size:11px;margin-bottom:18px;
+}
+.leadership-refresh .leader-bio__name{
+  color:#0f2649;font-size:clamp(35px,4.1vw,56px);
+  letter-spacing:-.042em;line-height:1.1;margin:0 0 24px;
+  position:relative;padding-bottom:22px;
+}
+.leadership-refresh .leader-bio__name:after{
+ content:"";display:block;width:74px;height:4px;border-radius:4px;
+ background:#edbf40;position:absolute;left:0;bottom:0;
+}
+.leadership-refresh .leader-bio__lead{
+ color:#4b5b78;font-size:clamp(16px,1.55vw,19px);line-height:1.8;max-width:585px;
+}
+.leadership-refresh .leader-bio__roles{gap:15px;margin-top:26px;}
+.leadership-refresh .leader-bio__roles li{gap:18px;line-height:1.55;font-size:15px;}
+.leadership-refresh .leader-bio__roles i{
+ width:36px;height:36px;display:inline-flex;justify-content:center;align-items:center;
+ margin-top:-4px;background:#e7eff9;color:#1a4f9b;font-size:14px;
+}
+.leadership-refresh .leader-stats{
+  background:#f4f8fc;color:var(--lr-navy);padding:0 0 42px;
+}
+.leadership-refresh .leader-stats:before{display:none;}
+.leadership-refresh .leader-stats__row{
+  position:relative;z-index:1;gap:0;text-align:left;
+  padding:27px 10px;background:#fff;border:1px solid rgba(20,54,98,.08);
+  border-radius:18px;box-shadow:0 8px 35px rgba(20,46,84,.075);
+}
+.leadership-refresh .leader-stats__item{padding:8px 27px;}
+.leadership-refresh .leader-stats__item + .leader-stats__item{border-left:1px solid #dae3ef;}
+.leadership-refresh .leader-stats__value{
+  color:var(--lr-navy);font-size:clamp(22px,2.4vw,32px);letter-spacing:-.04em;
+}
+.leadership-refresh .leader-stats__label{color:#66738a;font-size:13px;margin-top:8px;}
+.leadership-refresh .leader-story{
+ background:linear-gradient(130deg,#f4f8fc,#fff);padding:64px 0 92px;
+}
+.leadership-refresh .leader-story__grid{
+ display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center;
+}
+.leadership-refresh .leader-story__eyebrow{
+ color:#ae7e16;letter-spacing:.19em;font-size:12px;font-weight:800;text-transform:uppercase;
+}
+.leadership-refresh .leader-story h2{
+ margin:19px 0 22px;color:var(--lr-navy);font-size:clamp(29px,3.15vw,44px);
+ line-height:1.16;letter-spacing:-.04em;
+}
+.leadership-refresh .leader-story p{
+ color:#53627e;line-height:1.82;font-size:15.5px;margin-bottom:19px;
+}
+.leadership-refresh .leader-story__link{
+ display:inline-flex;align-items:center;gap:16px;color:#fff;text-decoration:none;
+ background:#112d53;padding:14px 21px;border-radius:9px;
+ font-size:13px;font-weight:800;margin-top:8px;
+}
+.leadership-refresh .leader-story__link:hover{color:#fff;background:#214c8c;}
+.leadership-refresh .leader-story__image{
+ display:block;width:100%;height:385px;object-fit:cover;border-radius:16px;
+ box-shadow:0 18px 45px rgba(17,39,71,.14);
+}
+.leadership-refresh .leader-story__quote{
+ background:#fff;border-radius:14px;padding:21px 24px;margin:14px 0 0;
+ box-shadow:0 6px 24px rgba(14,38,68,.07);border-left:3px solid #e9bd44;
+ font:italic 15px/1.7 Georgia,serif;color:#203a61;
+}
+.leadership-refresh .leader-story__quote cite{
+ display:block;color:#294d7a;font:800 12px Manrope,sans-serif;
+ margin-top:8px;font-style:normal;
+}
+.leadership-refresh .leader-section{
+ padding-block:77px;
+}
+.leadership-refresh .leader-section--alt{
+ background:linear-gradient(135deg,#eef4fb,#fbfdff);
+}
+.leadership-refresh .leader-section__title{
+ color:#10284d;font-size:clamp(28px,3.05vw,40px);letter-spacing:-.035em;
+}
+.leadership-refresh .leader-section__head{margin-bottom:36px;}
+.leadership-refresh .leader-timeline__card,
+.leadership-refresh .leader-edu__item,
+.leadership-refresh .leader-intl__card,
+.leadership-refresh .leader-pillars__item{
+ border:1px solid #e9eef5;border-radius:16px;
+ box-shadow:0 12px 32px rgba(13,41,72,.055);
+}
+.leadership-refresh .leader-timeline__year,
+.leadership-refresh .leader-edu__year{color:#26529c;}
+.leadership-refresh .leader-team__card{
+ border:1px solid #e9eef5;border-radius:18px;
+ box-shadow:0 12px 36px rgba(17,41,72,.08);transition:transform .2s ease;
+}
+.leadership-refresh .leader-team__card:hover{transform:translateY(-3px);}
+.leadership-refresh .leader-team__avatar{aspect-ratio:5/4;background:#e7edf8;}
+.leadership-refresh .leader-team__avatar img{object-position:center 22%;}
+.leadership-refresh .leader-team__name{color:#11294b;}
+.leadership-refresh .leader-quote{border-left:4px solid #e8bd43;}
+@media(max-width:991px){
+ .leadership-refresh .leader-bio{padding:60px 0 45px;}
+ .leadership-refresh .leader-bio__grid{grid-template-columns:1fr;gap:35px;}
+ .leadership-refresh .leader-bio__photo{max-width:450px;}
+ .leadership-refresh .leader-bio__photo img{min-height:0;height:500px;}
+ .leadership-refresh .leader-story__grid{grid-template-columns:1fr;gap:30px;}
+ .leadership-refresh .leader-stats__row{grid-template-columns:repeat(2,1fr);}
+ .leadership-refresh .leader-stats__item:nth-child(3){border-left:0;}
+ .leadership-refresh .leader-stats__item:nth-child(n+3){border-top:1px solid #dae3ef;padding-top:23px;margin-top:20px;}
+}
+@media(max-width:575px){
+ .leadership-refresh .leader-bio{padding:42px 0 34px;}
+ .leadership-refresh .leader-bio__photo{max-width:330px;}
+ .leadership-refresh .leader-bio__photo img{height:405px;}
+ .leadership-refresh .leader-bio__name{font-size:36px;}
+ .leadership-refresh .leader-stats__row{padding:15px 4px;}
+ .leadership-refresh .leader-stats__item{padding:12px 14px;}
+ .leadership-refresh .leader-stats__value{font-size:22px;}
+ .leadership-refresh .leader-story{padding:45px 0 60px;}
+ .leadership-refresh .leader-story__image{height:265px;}
+ .leadership-refresh .leader-section{padding-block:55px;}
+}
