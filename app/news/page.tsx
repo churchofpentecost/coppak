@@ -96,11 +96,8 @@ export default function NewsPage() {
               className="news-card news-card--asif"
               href="/news/breaking-the-chains-asif-family-freedom"
             >
-              <div className="news-card__image" style={{ minHeight: 250, background: "#17383a", display: "grid", placeItems: "center", padding: 25 }}>
-                <div style={{ textAlign: "center", color: "#fff" }}>
-                  <div style={{ fontSize: 12, letterSpacing: "0.16em", color: "#e5c996", fontWeight: 750, marginBottom: 14 }}>PENTSOS · HUMANITARIAN IMPACT</div>
-                  <div style={{ fontFamily: "Georgia,serif", fontSize: "clamp(2.1rem,3.5vw,3.2rem)", lineHeight: 1.1 }}>Breaking<br />the Chains</div>
-                </div>
+              <div className="news-card__image">
+                <img src="/assets/images/coppak/projects/brick-kiln/14.jpg" alt="Asif receiving a rickshaw from The Church of Pentecost Pakistan, with his family present" width={1600} height={900} loading="lazy" />
               </div>
               <div className="news-card__body">
                 <p className="news-eyebrow">PENTSOS · Humanitarian impact</p>
