@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import NewsLayout from "../../components/NewsLayout";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { getNewsPosts, formatNewsDate } from "../../data/news";
 
 export const metadata: Metadata = {
@@ -54,6 +56,8 @@ const stories = [
 
 export default function NewsPage() {
   const posts = getNewsPosts();
+  const originalAsifCover = existsSync(join(process.cwd(), "public/assets/images/news/asif-breaking-the-chains/IMG_6471.jpeg"));
+  const asifCover = originalAsifCover ? "/assets/images/news/asif-breaking-the-chains/IMG_6471.jpeg" : "/assets/images/coppak/projects/brick-kiln/14.jpg";
   return (
     <NewsLayout>
       <section className="news-hero news-shell" aria-labelledby="news-title">
@@ -97,7 +101,7 @@ export default function NewsPage() {
               href="/news/breaking-the-chains-asif-family-freedom"
             >
               <div className="news-card__image">
-                <img src="/assets/images/coppak/projects/brick-kiln/14.jpg" alt="Asif receiving a rickshaw from The Church of Pentecost Pakistan, with his family present" width={1600} height={900} loading="lazy" />
+                <img src={asifCover} alt={originalAsifCover ? "Asif and his family at the Sheikhupura brick kiln" : "Church of Pentecost Pakistan bonded-labour outreach"} width={1600} height={900} loading="lazy" />
               </div>
               <div className="news-card__body">
                 <p className="news-eyebrow">PENTSOS · Humanitarian impact</p>
