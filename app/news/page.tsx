@@ -92,27 +92,6 @@ export default function NewsPage() {
         </div>
         {posts.length ? (
           <div className="news-grid news-grid--reports">
-            <a
-              className="news-card news-card--asif"
-              href="/news/breaking-the-chains-asif-family-freedom"
-            >
-              <div className="news-card__image">
-                <img
-                  src="/assets/images/coppak/projects/brick-kiln/01.jpg"
-                  alt="Brick-kiln community featured in the Church's bonded-labour outreach"
-                  width={800}
-                  height={600}
-                  loading="lazy"
-                />
-              </div>
-              <div className="news-card__body">
-                <p className="news-eyebrow">PENTSOS · Humanitarian impact</p>
-                <time dateTime="2026-10-27">27 October 2026</time>
-                <h3>Breaking the Chains: Asif's Family Finds Freedom</h3>
-                <p>After three generations of debt at a brick kiln, Asif's family receives help to secure freedom and begin a new livelihood.</p>
-                <span className="news-text-link">Read story <span aria-hidden="true">↗</span></span>
-              </div>
-            </a>
             {posts.map((post) => (
               <a
                 className={`news-card${post.slug === "alpha-leadership-training-pakistan-october-2026" ? " news-card--alpha" : post.slug === "vacation-bible-school-pakistan-2026" ? " news-card--vbs" : ""}`}
