@@ -92,6 +92,24 @@ export default function NewsPage() {
         </div>
         {posts.length ? (
           <div className="news-grid news-grid--reports">
+            <a
+              className="news-card news-card--asif"
+              href="/news/breaking-the-chains-asif-family-freedom"
+            >
+              <div className="news-card__image" style={{ minHeight: 250, background: "#17383a", display: "grid", placeItems: "center", padding: 25 }}>
+                <div style={{ textAlign: "center", color: "#fff" }}>
+                  <div style={{ fontSize: 12, letterSpacing: "0.16em", color: "#e5c996", fontWeight: 750, marginBottom: 14 }}>PENTSOS · HUMANITARIAN IMPACT</div>
+                  <div style={{ fontFamily: "Georgia,serif", fontSize: "clamp(2.1rem,3.5vw,3.2rem)", lineHeight: 1.1 }}>Breaking<br />the Chains</div>
+                </div>
+              </div>
+              <div className="news-card__body">
+                <p className="news-eyebrow">PENTSOS · Humanitarian impact</p>
+                <time dateTime="2026-10-27">27 October 2026</time>
+                <h3>Breaking the Chains: Asif's Family Finds Freedom</h3>
+                <p>Three generations of bonded labour, a documented debt settlement, and a new rickshaw for an independent livelihood.</p>
+                <span className="news-text-link">Read story <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
             {posts.map((post) => (
               <a
                 className={`news-card${post.slug === "alpha-leadership-training-pakistan-october-2026" ? " news-card--alpha" : post.slug === "vacation-bible-school-pakistan-2026" ? " news-card--vbs" : ""}`}
