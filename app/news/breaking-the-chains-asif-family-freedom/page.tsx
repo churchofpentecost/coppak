@@ -39,6 +39,27 @@ export default function AsifImpactStory() {
         <p style={{ fontSize: "clamp(1.1rem,2.4vw,1.55rem)", color: "#59716f" }}>Three generations of bondage. One family's journey to freedom, dignity, and a new beginning.</p>
         <p style={{ color: "#667977", fontSize: 13 }}>27 October 2026 · The Church of Pentecost Pakistan · Pentecost Social Services (PENTSOS)</p>
       </header>
+      <section id="watch-full-story" aria-labelledby="asif-video-title" style={{ borderTop: "1px solid #e6e5df", padding: "36px 0 48px" }}>
+        <p style={{ color: "#9b7950", fontWeight: 800, fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase" }}>Watch the full report</p>
+        <h2 id="asif-video-title" style={{ color: "#163638", fontSize: "clamp(1.8rem,4.1vw,2.9rem)", lineHeight: 1.15, marginBottom: 12 }}>Asif's Family's Journey to Freedom</h2>
+        <p style={{ fontSize: 18, color: "#576c69", lineHeight: 1.65 }}>Watch the full video of this story, then explore the written report and original photographs below.</p>
+        <div style={{ position: "relative", width: "100%", aspectRatio: "16 / 9", overflow: "hidden", borderRadius: 8, background: "#102b2d", marginTop: 24 }}>
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/Cr9wKgdgy98"
+            title="Breaking the Chains: Asif's Family's Journey to Freedom — full video report"
+            width={560}
+            height={315}
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+          />
+        </div>
+        <p style={{ marginTop: 14, fontSize: 15 }}>
+          <a href="https://www.youtube.com/watch?v=Cr9wKgdgy98" target="_blank" rel="noopener noreferrer" style={{ color: "#163638", fontWeight: 700, textDecoration: "underline" }}>Watch on YouTube ↗</a>
+        </p>
+      </section>
       {chapters.map((chapter, index) => (
         <section key={index} id={"chapter-" + String(index + 1).padStart(2, "0")} style={{ borderTop: "1px solid #e6e5df", padding: "48px 0 55px" }}>
           <p style={{ color: "#9b7950", fontWeight: 800, fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase" }}>{String(index + 1).padStart(2, "0")} / {chapter[0]}</p>
