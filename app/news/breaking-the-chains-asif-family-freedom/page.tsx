@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import NewsLayout from "../../../components/NewsLayout";
 
 export const metadata: Metadata = {
@@ -19,9 +20,9 @@ const paragraphs = [
   "Asif and his wife, Javeria, were raising seven children in conditions shaped by hard physical labour and financial insecurity. Brickmaking filled their days. Their hopes, however, were not extravagant: they wanted to provide food, educate their children, and earn a living without the weight of inherited debt.",
 ];
 
-const shell: React.CSSProperties = { maxWidth: 850, margin: "0 auto" };
-const sectionStyle: React.CSSProperties = { marginTop: 48 };
-const noteStyle: React.CSSProperties = { padding: "18px 22px", background: "#f4f7f6", borderLeft: "4px solid #b59151", margin: "25px 0" };
+const shell: CSSProperties = { maxWidth: 850, margin: "0 auto" };
+const sectionStyle: CSSProperties = { marginTop: 48 };
+const noteStyle: CSSProperties = { padding: "18px 22px", background: "#f4f7f6", borderLeft: "4px solid #b59151", margin: "25px 0" };
 
 export default function AsifImpactStory() {
   return (
