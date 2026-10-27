@@ -1,98 +1,57 @@
 import type { Metadata } from "next";
-import type { CSSProperties } from "react";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import NewsLayout from "../../../components/NewsLayout";
 
 export const metadata: Metadata = {
-  title: "Breaking the Chains: Asif's Journey to Freedom | COPPAK",
-  description:
-    "How The Church of Pentecost Pakistan and PENTSOS helped release Asif's family from generational brick-kiln bondage and gave them a rickshaw for an independent livelihood.",
-  alternates: { canonical: "/news/breaking-the-chains-asif-family-freedom" },
-  openGraph: {
-    type: "article",
-    title: "Breaking the Chains: Asif's Family Finds Freedom",
-    description: "Three generations of bondage. One family's journey to freedom, dignity, and a new beginning.",
-    url: "/news/breaking-the-chains-asif-family-freedom",
-  },
+ title: "Breaking the Chains: Asif's Family Finds Freedom | COPPAK",
+ description: "The documentary story of Asif and his family, from generational bonded labour in Sheikhupura to debt settlement and a new livelihood through PENTSOS.",
+ alternates: { canonical: "/news/breaking-the-chains-asif-family-freedom" },
+ openGraph: { type: "article", title: "Breaking the Chains: Asif's Family Finds Freedom", description: "Three generations of bondage. One family's journey to freedom.", url: "/news/breaking-the-chains-asif-family-freedom" }
 };
 
-const paragraphs = [
-  "For three generations, the same family had worked under the burden of debt at a brick kiln in Sheikhupura, Pakistan. What began as a loan taken by Asif's grandfather was passed down to his father and then to Asif himself. Work continued, yet the family found it almost impossible to escape the obligation.",
-  "Asif and his wife, Javeria, were raising seven children in conditions shaped by hard physical labour and financial insecurity. Brickmaking filled their days. Their hopes, however, were not extravagant: they wanted to provide food, educate their children, and earn a living without the weight of inherited debt.",
-];
-
-const shell: CSSProperties = { maxWidth: 850, margin: "0 auto" };
-const sectionStyle: CSSProperties = { marginTop: 48 };
-const noteStyle: CSSProperties = { padding: "18px 22px", background: "#f4f7f6", borderLeft: "4px solid #b59151", margin: "25px 0" };
+const photoFolder = "/assets/images/news/asif-breaking-the-chains";
+const photoUrl = (name: string) => photoFolder + "/" + name;
+const hasPhoto = (name: string) => existsSync(join(process.cwd(), "public", photoFolder.slice(1), name));
+const chapters: string[][] = [["The family","Breaking the Chains","Three generations of bondage. One family's journey to freedom.","IMG_6471.jpeg","Asif with family members at the Sheikhupura brick kiln.","Asif and his wife Javeria were raising seven children while living with a debt that, according to their account, had burdened three generations of their family.","Through Pentecost Social Services (PENTSOS), The Church of Pentecost Pakistan sought to respond with more than temporary relief: settling the debt and helping the family begin a new livelihood."],["The workplace","A Life Built Around Bricks","The working conditions behind the story.","IMG_6417.jpeg","A woman works among rows of freshly moulded bricks as the team observes.","For years, brickmaking defined the family's working days. Mud was pressed into moulds, bricks were laid out to dry, and the work continued in heat and dust.","The family described insecurity of living on small daily earnings while deductions were made toward their outstanding debt. In bad weather, production—and income—could stop altogether."],["The next generation","Seven Children, One Hope","Their parents wanted a different future for them.","IMG_6570.jpeg","Javeria and several children seated together during the ministry team's visit.","The hardest part of this struggle was watching the children grow up under the shadow of the brick kiln. Asif and Javeria wanted them to have access to education, safety and opportunities that had been beyond their reach.","For this family, freedom was never only about an old debt. It was about the possibility of giving the next generation a different inheritance."],["The church visit","Listening Before Acting","Understanding the family's needs and aspirations.","IMG_6451.jpeg","Church representatives speak with Asif and family members.","The family's experience came to the attention of The Church of Pentecost Pakistan through its humanitarian ministry, PENTSOS. The team visited the kiln, met the family and heard their story directly.","When asked what kind of work he could pursue independently, Asif explained that he knew how to drive a rickshaw. His answer helped shape a practical response: freedom from debt accompanied by a means of earning a living."],["The children","A Different Tomorrow","Every child deserves the chance to dream.","IMG_6471.jpeg","The team spends time with Asif's family and children at the kiln.","The children were present throughout the Church's visit. Their faces and voices were a reminder that the consequences of inherited debt extend beyond the adults who originally borrowed the money.","The Church's aim was to support a fresh start in which the family could pursue a stable home life and greater educational opportunities for their children."],["Prayer and support","Faith Expressed in Action","Standing with the family in prayer.","IMG_6465.jpeg","Asif's family and Church representatives join together in prayer.","The visit also included a time of Christian prayer. The Church's humanitarian ministry expresses its faith through practical compassion, respect and support for people living under economic pressure.","As Luke 4:18 reminds Christians, Jesus proclaimed good news to the poor and freedom for the oppressed. PENTSOS seeks to reflect this calling by addressing practical needs alongside spiritual care."],["Debt settlement","The Payment Was Made","A decisive step toward the family's release.","IMG_6582.jpeg","The kiln owner is photographed counting banknotes as the debt is settled.","The Church arranged for the outstanding debt to be paid to the person to whom the family was financially bound. The photographs document the payment process, with cash being counted in front of the people involved.","The settlement addressed the burden that had followed Asif's family through three generations and created an opening for the family to begin again."],["Payment documentation","Witnessing the Settlement","The transaction was documented on site.","IMG_6579.jpeg","A second photograph shows cash counted during the settlement.","These photographs are an important part of the story. They show a real financial settlement, not a staged illustration or a symbolic gesture.","The Church's intervention was intended to remove the obligation that had kept the family in bonded work and support their transition to an independent livelihood."],["Rickshaw handover","A New Source of Income","Freedom needed a sustainable next step.","IMG_6508.jpeg","Asif and the ministry team stand beside the new green rickshaw.","Paying the debt was an essential first step. Without new income, however, the family could remain vulnerable to another cycle of borrowing and hardship.","Because Asif knew how to drive, PENTSOS provided a rickshaw to help him begin earning independently. The vehicle was presented to the family in the presence of the Church team."],["The first journey","A Rickshaw, a Fresh Start","A practical gift became a symbol of independence.","IMG_6533.jpeg","Asif drives the Church of Pentecost Pakistan-branded rickshaw with family members aboard.","For Asif, the bright green rickshaw was more than transport. It represented the opportunity to work for himself, make decisions about his livelihood and provide for his children.","The photographs of him driving with members of his family mark a significant moment: after years shaped by inherited debt, a different kind of working life was finally within reach."],["Shared joy","A Family Celebrates","The atmosphere of the family gathering changed.","IMG-20251014-WA0019.jpg","Asif's family and Church representatives share a celebratory moment.","At the conclusion of the visit, the family and ministry representatives gathered in a moment of visible joy and thanksgiving. For those present, the story had moved from hardship and uncertainty to relief and renewed hope.","The photographs do not by themselves prove every future outcome; what they do document is a tangible intervention and a family looking toward a new beginning."],["The invitation","One Family. A New Future.","Help write the next chapter for other families.","IMG_6486.jpeg","The family holds a thank-you banner for The Church of Pentecost Pakistan.","Asif's family is one of many whose lives have been affected by the risks of inherited debt and exploitation. The Church invites churches and humanitarian partners to support families seeking financial independence, education and dignity.","This is the heart of PENTSOS: practical compassion rooted in the love of Jesus Christ. To learn more or discuss partnership, visit coppak.org or write to info@coppak.org."]];
 
 export default function AsifImpactStory() {
-  return (
-    <NewsLayout>
-      <article className="news-article news-shell">
-        <nav className="news-breadcrumb" aria-label="Breadcrumb">
-          <a href="/">Home</a>
-          <span aria-hidden="true">/</span>
-          <a href="/news">News</a>
-          <span aria-hidden="true">/</span>
-          <span>Breaking the Chains</span>
-        </nav>
-        <header style={shell}>
-          <p className="news-eyebrow">PENTSOS · HUMANITARIAN IMPACT STORY · SHEIKHUPURA, PAKISTAN</p>
-          <h1>Breaking the Chains: Three Generations of Bondage Come to an End</h1>
-          <div className="news-article__meta">
-            <span>Published: <time dateTime="2026-10-27">27 October 2026</time></span>
-            <span>Sheikhupura, Pakistan</span>
-            <span>The Church of Pentecost Pakistan</span>
+ return <NewsLayout>
+   <article className="news-article news-shell">
+    <nav className="news-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/news">News</a><span aria-hidden="true">/</span><span>Breaking the Chains</span></nav>
+    <div className="news-article__content" style={{ width: "100%", maxWidth: 1050, margin: "0 auto", padding: "22px 12px 70px" }}>
+      <header style={{ padding: "30px 0 44px" }}>
+        <p className="news-eyebrow">PENTSOS · DOCUMENTARY HUMANITARIAN IMPACT · SHEIKHUPURA, PAKISTAN</p>
+        <h1 style={{ fontSize: "clamp(2.75rem,6vw,5rem)", lineHeight: 1.08, color: "#163638" }}>Breaking the Chains</h1>
+        <p style={{ fontSize: "clamp(1.1rem,2.4vw,1.55rem)", color: "#59716f" }}>Three generations of bondage. One family's journey to freedom, dignity, and a new beginning.</p>
+        <p style={{ color: "#667977", fontSize: 13 }}>27 October 2026 · The Church of Pentecost Pakistan · Pentecost Social Services (PENTSOS)</p>
+      </header>
+      {chapters.map((chapter, index) => (
+        <section key={index} id={"chapter-" + String(index + 1).padStart(2, "0")} style={{ borderTop: "1px solid #e6e5df", padding: "48px 0 55px" }}>
+          <p style={{ color: "#9b7950", fontWeight: 800, fontSize: 12, letterSpacing: "0.12em", textTransform: "uppercase" }}>{String(index + 1).padStart(2, "0")} / {chapter[0]}</p>
+          <h2 style={{ color: "#163638", fontSize: "clamp(1.8rem,4.1vw,2.9rem)", lineHeight: 1.15, marginBottom: 6 }}>{chapter[1]}</h2>
+          <p style={{ fontSize: 18, color: "#576c69", marginTop: 0 }}>{chapter[2]}</p>
+          {hasPhoto(chapter[3]) && (
+             <figure style={{ margin: "25px 0 31px" }}>
+                <a href={photoUrl(chapter[3])} target="_blank" rel="noopener noreferrer">
+                   <img src={photoUrl(chapter[3])} alt={chapter[4]} loading={index === 0 ? "eager" : "lazy"} width={2048} height={1152} style={{ display: "block", width: "100%", height: "auto", aspectRatio: "16 / 9", objectFit: "contain", borderRadius: 6, background: "#f5f2ec" }} />
+                </a>
+                <figcaption style={{ marginTop: 10, color: "#657575", fontSize: 13 }}>{chapter[4]}</figcaption>
+             </figure>
+          )}
+          <div style={{ maxWidth: 870, margin: "0 auto", fontSize: 18, lineHeight: 1.75 }}>
+             <p>{chapter[5]}</p>
+             <p>{chapter[6]}</p>
           </div>
-          <p className="news-article__intro">
-            The story of Asif, Javeria and their seven children—and how practical Christian compassion helped a family find freedom and a new way to earn a living.
-          </p>
-        </header>
-        <div className="news-article__content" style={shell}>
-          <section style={sectionStyle}>
-            <h2>Born into a debt he never chose</h2>
-            {paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-            <p>Across brick-kiln communities, families can become trapped in the peshgi, or advance-loan, system. As labour continues and deductions accumulate, a debt intended to meet a temporary need can shape a family's entire future. Asif's experience illustrates the human cost of that cycle.</p>
-          </section>
-          <section style={sectionStyle}>
-            <h2>Seven children, and a longing for a different childhood</h2>
-            <p>Asif and Javeria's deepest concern was for their children. As they worked among countless rows of freshly moulded bricks, the family watched precious years pass without the education and opportunities they wished they could offer the next generation.</p>
-            <p>Their dream was simple: children should carry books rather than burdens, and their future should not be determined by loans taken decades before they were born.</p>
-          </section>
-          <section style={sectionStyle}>
-            <h2>When the Church listened—and acted</h2>
-            <p>The family's situation came to the attention of The Church of Pentecost Pakistan through Pentecost Social Services (PENTSOS). Led by Apostle Dr. Jamil Nasir, the ministry met with Asif and his family, listened to their account, and sought a practical path towards a different future.</p>
-            <p>Asif explained that he could drive a rickshaw. What he lacked was an opportunity to obtain one and earn a livelihood independently. Javeria expressed her hope of developing sewing skills to help support their home. These were not demands for luxury; they were aspirations to provide for their children through their own work.</p>
-          </section>
-          <section style={sectionStyle}>
-            <h2>The debt was paid. The bondage was broken.</h2>
-            <p>In an important step towards securing the family's release, The Church of Pentecost Pakistan arranged the settlement of their outstanding bonded-labour debt. Photographs taken during the intervention document the cash payment process with the person to whom the debt was owed.</p>
-            <p>For Asif, the payment meant that a debt which had followed his grandfather, his father, and then himself no longer had to define the next generation. The family could begin to look beyond the brick kiln.</p>
-            <div style={noteStyle}><strong>Three generations affected by debt. Seven children offered a new horizon. One family beginning again.</strong></div>
-          </section>
-          <section style={sectionStyle}>
-            <h2>A green rickshaw—and a chance to earn freely</h2>
-            <p>Freedom from debt was only the beginning. PENTSOS also provided Asif with a green rickshaw, visibly bearing The Church of Pentecost Pakistan's name, to help him start an independent livelihood. Photographs of the handover show Asif at the vehicle with his family and the ministry team.</p>
-            <p>The rickshaw is more than a means of transport. It represents a father's opportunity to work independently, a family's hope for stable income, and children's chance to grow up with possibilities beyond the kiln.</p>
-          </section>
-          <section style={sectionStyle}>
-            <h2>Prayer, dignity and the Gospel in action</h2>
-            <p>During the ministry visit, church representatives also prayed with Asif's family. For The Church of Pentecost Pakistan, the work of compassion is rooted in Jesus Christ's concern for those who are poor, vulnerable and oppressed (Luke 4:18).</p>
-            <p>Christian love is not only expressed in words. It can be seen in debts settled, livelihoods supported, children encouraged, and families treated with dignity and respect.</p>
-          </section>
-          <section style={sectionStyle}>
-            <h2>The mission continues</h2>
-            <p>Asif's journey is one family story within a wider challenge. Other workers and children still face financial exploitation, interrupted education, and uncertainty about the future. PENTSOS seeks to stand with vulnerable communities through practical assistance, sustainable livelihoods, educational opportunity, and pastoral care.</p>
-            <p>Churches, Christian organisations, humanitarian partners and compassionate individuals are invited to help extend that work. Together, we can support families seeking freedom and help ensure that children inherit opportunity—not generations of debt.</p>
-          </section>
-          <aside className="news-article__source" style={sectionStyle}>
-            <h2>Be part of someone's freedom story</h2>
-            <p>Help PENTSOS support families escaping bonded labour and rebuilding independent lives.</p>
-            <p><a className="news-button" href="mailto:info@coppak.org?subject=PENTSOS%20Partnership%20-%20Asif%20Story">Contact our ministry team</a></p>
-            <p>Learn more about our <a href="/projects/brick-kiln-deliverance">brick-kiln deliverance ministry</a>.</p>
-          </aside>
-          <p style={{ marginTop: 34 }}><a className="news-text-link" href="/news">← All news & stories</a></p>
-        </div>
-      </article>
-    </NewsLayout>
-  );
+        </section>
+      ))}
+      <aside style={{ background: "#17383a", color: "#fff", padding: "32px 28px", borderRadius: 8, marginTop: 25 }}>
+         <h2 style={{ color: "#fff" }}>Be part of someone's freedom story</h2>
+         <p>Partner with PENTSOS to help families facing bonded labour find freedom, education and independent livelihoods.</p>
+         <p><a href="mailto:info@coppak.org?subject=PENTSOS%20Partnership%20-%20Asif%20Story" style={{ color: "#efd5a1", fontWeight: 700 }}>Contact the ministry team</a></p>
+      </aside>
+      <p style={{ marginTop: 32 }}><a href="/news">← Back to news &amp; ministry reports</a></p>
+    </div>
+   </article>
+ </NewsLayout>;
 }
