@@ -77,4 +77,22 @@ a{text-decoration:none;color:inherit}
 @media(max-width:620px){.wrap{width:calc(100% - 36px)}.site-header{height:72px}.brand{gap:9px}.logo-mark{width:44px;height:44px}.logo-mark:before{top:8px;height:27px;width:5px}.logo-mark:after{top:18px;width:23px;height:5px}.wordmark strong{font-size:12px;letter-spacing:.6px}.wordmark span{font-size:9px;letter-spacing:2.1px;margin-top:1px}.hero-inner{padding:39px 0 48px}.breadcrumb{margin-bottom:32px}.hero h1{font-size:50px}.hero p{font-size:13px}.hero-meta{gap:14px;font-size:9px;flex-wrap:wrap}.intro{padding:50px 0}.intro-inner{grid-template-columns:1fr;gap:27px}.intro h2{font-size:34px}.intro-copy{padding-left:19px}.directory{padding:53px 0 65px}.directory-head{display:block;margin-bottom:26px}.directory-head h2{font-size:33px}.directory-note{text-align:left;max-width:100%;margin-top:11px}.head-card{width:100%;max-width:400px}.photo-area{height:308px}.card-info{min-height:0;padding:23px 23px 26px}.head-card h3{min-height:0;margin-bottom:15px;font-size:24px}.closing{padding:44px 0}.closing-inner{display:block}.closing h2{font-size:30px}.closing .secondary-cta{margin-top:25px}.footer-inner{display:block}.footer-right{text-align:left;margin-top:18px}}
 @media(prefers-reduced-motion:reduce){.head-card{transition:none}}
 
+/* Featured National Head, approved 2026 design */
+.national-feature{background:#fff;padding:57px 0 63px}
+.national-feature-card{display:grid;grid-template-columns:46% 54%;background:#fff;border:1px solid #dec9a2;box-shadow:0 14px 35px rgba(24,40,57,.045);overflow:hidden;min-height:474px}
+.national-feature-photo{position:relative;background:#f2eee7;display:flex;justify-content:center;align-items:stretch;overflow:hidden;min-height:474px;padding:0 44px}
+.national-feature-photo img{display:block;width:100%;height:474px;max-width:530px;object-fit:cover;object-position:center center}
+.national-feature-badge{position:absolute;left:24px;bottom:0;background:linear-gradient(115deg,#102133,#1d2737);color:#eec98a;font-weight:900;font-size:11px;letter-spacing:1.35px;padding:19px 22px;box-shadow:0 -8px 20px rgba(0,0,0,.08)}
+.national-feature-body{padding:53px 55px 51px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.national-feature-eyebrow{color:var(--burgundy);text-transform:uppercase;font-size:11px;font-weight:900;letter-spacing:1.8px;line-height:1.65}
+.national-feature-body h2{font:normal clamp(36px,3.35vw,50px)/1.15 Georgia,'Times New Roman',serif;letter-spacing:-.8px;color:#132c45;margin:28px 0 25px}
+.national-feature-body h2 span{white-space:nowrap}
+.national-feature-line{height:3px;width:63px;background:#c8a36b;margin:0 0 22px}
+.national-feature-location{margin:0;color:#52657b;font-size:15px;line-height:1.7}
+.national-feature-location span{color:var(--burgundy);font-size:25px;vertical-align:middle;line-height:1;margin-right:6px}
+.national-feature-caption{font-size:13px;color:#7b8490;line-height:1.75;max-width:380px;margin:15px 0 0}
+@media(max-width:1100px){.national-feature-card{grid-template-columns:45% 55%;min-height:420px}.national-feature-photo{min-height:420px;padding:0 23px}.national-feature-photo img{height:420px}.national-feature-body{padding:36px 35px}.national-feature-body h2{font-size:37px}}
+@media(max-width:720px){.national-feature{padding:30px 0 40px}.national-feature-card{display:block;min-height:0}.national-feature-photo{padding:0 24px;min-height:0}.national-feature-photo img{width:100%;max-width:480px;height:410px;object-fit:cover}.national-feature-body{padding:30px 25px 35px}.national-feature-body h2{font-size:clamp(30px,8vw,42px);margin:16px 0 21px}.national-feature-eyebrow{font-size:9px;letter-spacing:1.2px}.national-feature-badge{left:12px;font-size:9px;padding:13px 15px;letter-spacing:1px}.national-feature-caption{font-size:12px}}
+@media(max-width:420px){.national-feature-photo img{height:340px}.national-feature-photo{padding:0 13px}.national-feature-body{padding:27px 21px 30px}.national-feature-body h2{font-size:33px}.national-feature-caption{font-size:12px}}
+
 }
