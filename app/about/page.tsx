@@ -516,13 +516,6 @@ export default function Page() {
                 >
                   Leadership
                 </a>{" "}
-                <a
-                  href="/about/our-team"
-                  className="thm-btn"
-                  data-astro-cid-kh7btl4r=""
-                >
-                  Full team
-                </a>{" "}
               </div>{" "}
             </div>{" "}
           </div>{" "}
