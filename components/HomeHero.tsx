@@ -3,9 +3,8 @@
 import { useEffect, useState } from "react";
 
 /**
- * Cinematic homepage video hero. YouTube is used as the background stream
- * until the original MP4 has been published to a permanent site asset URL.
- * A real ministry photograph remains visible while loading, on small screens,
+ * Cinematic homepage video hero with a locally hosted ministry MP4.
+ * A ministry photograph remains visible while loading, if video fails,
  * and for visitors who prefer reduced motion.
  */
 export default function HomeHero() {
@@ -13,14 +12,11 @@ export default function HomeHero() {
   const [playing, setPlaying] = useState(true);
   useEffect(() => {
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const desktop = window.matchMedia("(min-width: 768px)");
-    const update = () => setAllowVideo(!reducedMotion.matches && desktop.matches);
+    const update = () => setAllowVideo(!reducedMotion.matches);
     update();
     reducedMotion.addEventListener("change", update);
-    desktop.addEventListener("change", update);
     return () => {
       reducedMotion.removeEventListener("change", update);
-      desktop.removeEventListener("change", update);
     };
   }, []);
 
@@ -40,13 +36,17 @@ export default function HomeHero() {
           />
           {allowVideo && playing && (
             <div className="home-hero__video-wrap" aria-hidden="true">
-              <iframe
-                title="Mass evangelism ministry footage"
-                src="https://www.youtube-nocookie.com/embed/d43Aza_YUK8?autoplay=1&mute=1&controls=0&loop=1&playlist=d43Aza_YUK8&playsinline=1&rel=0&disablekb=1"
-                tabIndex={-1}
-                allow="autoplay; encrypted-media"
-                referrerPolicy="strict-origin-when-cross-origin"
-              />
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster="/assets/images/coppak/outreach/mass-evangelism/01.jpg"
+                onError={() => setPlaying(false)}
+              >
+                <source src="/assets/video/mass-evangelism-hero.mp4" type="video/mp4" />
+              </video>
             </div>
           )}
           <div className="home-hero__shade" aria-hidden="true" />
@@ -74,7 +74,7 @@ export default function HomeHero() {
             </div>
             <div className="home-hero__video-actions">
               <a
-                href="https://www.youtube.com/watch?v=d43Aza_YUK8"
+                href="/assets/video/mass-evangelism-hero.mp4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="home-hero__watch"

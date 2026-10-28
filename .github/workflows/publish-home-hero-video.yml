@@ -1,0 +1,47 @@
+name: Publish homepage Mass Evangelism video
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/hero-video-chunks/**"
+      - ".github/workflows/publish-home-hero-video.yml"
+permissions:
+  contents: write
+concurrency:
+  group: publish-home-hero-video
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Assemble and verify original Mass Evangelism MP4
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          from pathlib import Path
+
+          parts = sorted(Path("scripts/hero-video-chunks").glob("part-*.txt"))
+          if len(parts) != 14:
+              raise SystemExit(f"Expected 14 video parts, found {len(parts)}")
+          payload = "".join(p.read_text() for p in parts)
+          video = base64.b64decode(payload, validate=True)
+          checksum = hashlib.sha256(video).hexdigest()
+          expected = "43906ada3eed25704f05073b889c1a18b514cd35a098425dad519be2b8587e8a"
+          if checksum != expected:
+              raise SystemExit(f"Video checksum mismatch: {checksum}")
+          target = Path("public/assets/video/mass-evangelism-hero.mp4")
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_bytes(video)
+          print(f"Verified {len(video)} video bytes: {target}")
+          PY
+      - name: Commit original video and remove transfer pieces
+        run: |
+          git rm -r -- scripts/hero-video-chunks
+          git add public/assets/video/mass-evangelism-hero.mp4
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish original Mass Evangelism video for homepage hero'
+          git push origin HEAD:main
