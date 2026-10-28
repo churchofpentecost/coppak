@@ -51,7 +51,7 @@ export default function FirstMinistryBlogPost() {
           </div>
         </div>
       </header>
-      <main className="bj-story-area">
+      <section className="bj-story-area">
         <div className="bj-container bj-article-grid">
           <article className="bj-story">
             <figure className="bj-figure">
@@ -121,7 +121,7 @@ export default function FirstMinistryBlogPost() {
             </div>
           </aside>
         </div>
-      </main>
+      </section>
       <div className="bj-article-footer">
         <div className="bj-container bj-article-footer-inner">
           <p>Thank you for reading. Explore more stories of faith and service.</p>
