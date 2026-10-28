@@ -74,6 +74,7 @@ const navigation = [
   { title: "Resources", label: "Resources", links: [
     ["Sermons & Teachings", "/sermons"],
     ["News & Stories", "/news"],
+    ["Ministry Blog", "/blog"],
     ["Books", "/books"],
     ["Events", "/events"],
     ["Media Gallery", "/media"],
