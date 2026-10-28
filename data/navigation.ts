@@ -10,6 +10,7 @@ export const siteNavigation: NavSection[] = [
   { label: "About", href: "/about", items: [
     { label: "Who we are", href: "/about" },
     { label: "Leadership", href: "/about/leadership" },
+    { label: "National Executive Council", href: "/about/national-executive-council" },
     { label: "Our team", href: "/about/our-team" },
     { label: "Bible college", href: "/bible-college" },
   ] },
