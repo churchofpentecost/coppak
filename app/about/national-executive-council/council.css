@@ -49,4 +49,21 @@ footer{background:#132131;color:#bdc5ce;padding:26px 0}footer .wrap{display:flex
 @media(max-width:480px){.nav-links a.active{display:none}.brand-copy strong{font-size:15px}.profile-grid{grid-template-columns:1fr;max-width:370px;margin:auto}.portrait{height:360px}.person-meta h3{font-size:23px;min-height:auto}.person-meta{min-height:110px}.hero h1{font-size:39px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.profile-card{transition:none}}
 
+
+/* 2026-10-28: high-contrast National Executive Council hero preview */
+.hero {
+  background: linear-gradient(112deg, #073477 0%, #0a408f 44%, #392987 76%, #791455 120%);
+}
+.hero::before {
+  border-color: rgba(255, 255, 255, .15);
+  box-shadow: 0 0 0 100px rgba(255, 255, 255, .05), 0 0 0 200px rgba(255, 255, 255, .025);
+}
+.hero::after { background: #ffbf35; }
+.hero h1 { color: #ffffff !important; text-shadow: 0 2px 12px rgba(4, 17, 56, .17); }
+.hero h1 .nec-title-accent { color: #ffc247 !important; }
+.hero .overline, .hero .crumb strong { color: #ffd47d; }
+.hero p { color: #f8faff; }
+.hero .hero-meta span { color: #ffffff; }
+.hero .hero-meta b { background: #ffd47d; }
+
 }
