@@ -9,7 +9,6 @@ export type NavSection = { label: string; href: string; items?: NavItem[] };
 export const siteNavigation: NavSection[] = [
   { label: "About", href: "/about", items: [
     { label: "Who we are", href: "/about" },
-    { label: "Leadership", href: "/about/leadership" },
     { label: "Bible college", href: "/bible-college" },
   ] },
   { label: "Ministries", href: "/ministries", items: [
