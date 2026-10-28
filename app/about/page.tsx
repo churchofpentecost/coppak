@@ -508,14 +508,6 @@ export default function Page() {
                   and the global Church of Pentecost leadership, meet the people
                   God has raised to lead this work.
                 </p>{" "}
-                <a
-                  href="/about/leadership"
-                  className="thm-btn"
-                  style={{ marginRight: 12 }}
-                  data-astro-cid-kh7btl4r=""
-                >
-                  Leadership
-                </a>{" "}
               </div>{" "}
             </div>{" "}
           </div>{" "}
