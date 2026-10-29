@@ -125,7 +125,7 @@ export function HomeExplore() {
             <a className="cop-home-explore__feature-link" href="/about">Discover Our Story <span aria-hidden="true">↗</span></a>
           </div>
           <div className="cop-home-explore__feature-image">
-            <img src="/assets/images/coppak/building/cop-pakistan-church-2026.webp" alt="Actual Church of Pentecost Pakistan church building in Lahore, with gold-trimmed arched windows and crosses" loading="lazy" />
+            <img src="/assets/images/coppak/building/cop-pakistan-church-2026-clear.webp" alt="Actual Church of Pentecost Pakistan church building in Lahore, with gold-trimmed arched windows and crosses" loading="lazy" />
             <span className="cop-home-explore__image-caption">Our Church Building · Lahore, Pakistan</span>
           </div>
         </div>
