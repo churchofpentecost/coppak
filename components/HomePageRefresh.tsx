@@ -39,6 +39,38 @@ const homeRefreshStyles = `
 @media(max-width:1050px){.cop-home-explore__grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cop-home-leadership__heading{align-items:start;flex-direction:column;gap:17px}.cop-home-leadership__heading p{max-width:700px}.cop-home-leadership__card{padding:25px}}
 @media(max-width:750px){.cop-home-leadership{padding:65px 0}.cop-home-leadership__grid{grid-template-columns:1fr;gap:13px;margin-top:28px}.cop-home-leadership__card{min-height:auto;padding:25px}.cop-home-leadership__icon{margin-bottom:17px}.cop-home-leadership__card p{margin-bottom:20px}.cop-home-leadership__foot{flex-direction:column;align-items:start}}
 @media(max-width:520px){.cop-home-explore{padding:18px 0 25px}.cop-home-explore__grid{gap:9px}.cop-home-explore__card{min-height:113px;display:flex;flex-direction:column;align-items:start;gap:9px;padding:13px}.cop-home-explore__icon{width:35px;height:35px;flex-basis:35px;font-size:16px}.cop-home-explore__arrow{display:none}.cop-home-explore__label{font-size:12.5px}.cop-home-explore__detail{font-size:11px}.cop-home-leadership__heading h2{font-size:32px}}
+
+/* Authentic building — one-photo Explore Our Church section, desktop and mobile */
+.cop-home-explore{background:linear-gradient(136deg,#f7faff 6%,#edf3fa 100%);padding:68px 0 72px;border-bottom:1px solid #e4ebf5;position:relative}
+.cop-home-explore__header{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:26px}
+.cop-home-explore__eyebrow{display:block;font-size:11px;letter-spacing:.18em;font-weight:850;color:#ad7e26;text-transform:uppercase;margin:0 0 11px}
+.cop-home-explore__title{font:700 clamp(35px,3.7vw,53px)/1.18 Georgia,serif;letter-spacing:-.035em;color:#102b4d;margin:0}
+.cop-home-explore__title em{color:#b38b3b;font-style:normal}
+.cop-home-explore__header>p{font-size:14px;line-height:1.75;color:#5c7490;max-width:360px;margin:0 0 4px}
+.cop-home-explore__feature{display:grid;grid-template-columns:1.09fr .91fr;min-height:375px;border-radius:21px;overflow:hidden;background:#102b4d;box-shadow:0 20px 55px rgba(15,47,87,.16)}
+.cop-home-explore__feature-copy{padding:clamp(32px,4vw,58px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;position:relative;background:linear-gradient(115deg,#071c3a,#153c6d);color:#fff}
+.cop-home-explore__feature-copy:before{content:'';position:absolute;right:-130px;top:-120px;width:320px;height:320px;border:1px solid rgba(233,203,131,.15);border-radius:50%;pointer-events:none}
+.cop-home-explore__feature-eyebrow{position:relative;display:flex;align-items:center;gap:9px;font-size:11px;font-weight:850;color:#e4c273;text-transform:uppercase;letter-spacing:.18em;margin-bottom:16px}
+.cop-home-explore__feature-eyebrow span{font-size:19px}
+.cop-home-explore__feature-copy h3{position:relative;font:700 clamp(28px,2.6vw,41px)/1.2 Georgia,serif;color:#fff;margin:0 0 16px;letter-spacing:-.02em}
+.cop-home-explore__feature-copy p{position:relative;max-width:470px;color:#c7d8eb;font-size:14px;line-height:1.9;margin:0 0 24px}
+.cop-home-explore__feature-link{position:relative;display:inline-flex;gap:19px;align-items:center;min-height:47px;border-radius:9px;background:#dfb657;color:#0b2749!important;padding:12px 21px;font-size:13px;font-weight:850;text-decoration:none;transition:transform .2s,background .2s}
+.cop-home-explore__feature-link:hover{transform:translateY(-2px);background:#f5cb6e;text-decoration:none}
+.cop-home-explore__feature-image{position:relative;min-width:0;overflow:hidden;background:#203b59}
+.cop-home-explore__feature-image img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:center 24%;filter:saturate(.96) contrast(1.035)}
+.cop-home-explore__feature-image:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,22,47,.45),transparent 36%);pointer-events:none}
+.cop-home-explore__image-caption{position:absolute;z-index:1;bottom:17px;right:17px;padding:9px 12px;border-radius:7px;background:rgba(4,21,44,.79);border:1px solid rgba(255,255,255,.23);color:#fff;text-transform:uppercase;font-weight:800;font-size:10px;letter-spacing:.09em}
+.cop-home-explore__cards-heading{margin:29px 0 16px;display:flex;align-items:center;gap:16px;color:#607995;text-transform:uppercase;letter-spacing:.16em;font-size:11px;font-weight:850}
+.cop-home-explore__cards-heading:after{content:'';height:1px;flex:1;background:#d9e4f1}
+.cop-home-explore__grid{gap:14px}
+.cop-home-explore__card{min-height:110px;background:#fff;box-shadow:0 8px 27px rgba(18,52,94,.05);border-color:#dce5f1;padding:17px 16px}
+.cop-home-explore__card:hover{border-color:#c5a264;box-shadow:0 17px 34px rgba(18,52,94,.12)}
+.cop-home-explore__icon{width:50px;height:50px;flex:0 0 50px;border:1px solid #e1eaf7;font-size:20px}
+.cop-home-explore__label{font-size:14px}
+.cop-home-explore__detail{font-size:11.5px}
+.cop-home-explore__arrow{flex:0 0 28px;width:28px;height:28px;border:1px solid #e4c98a;border-radius:50%;display:grid;place-items:center;font-size:17px;margin-left:auto}
+@media(max-width:1000px){.cop-home-explore{padding:52px 0}.cop-home-explore__feature{min-height:335px}.cop-home-explore__feature-copy{padding:30px}.cop-home-explore__header{align-items:flex-start;flex-direction:column;gap:10px}.cop-home-explore__header>p{max-width:700px}.cop-home-explore__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:660px){.cop-home-explore{padding:37px 0 43px}.cop-home-explore__header{margin-bottom:20px}.cop-home-explore__title{font-size:35px}.cop-home-explore__feature{display:flex;flex-direction:column}.cop-home-explore__feature-copy{padding:31px 27px;min-height:290px}.cop-home-explore__feature-copy h3{font-size:29px}.cop-home-explore__feature-copy p{font-size:13px;margin-bottom:21px}.cop-home-explore__feature-image{height:310px;flex:0 0 310px}.cop-home-explore__feature-image img{object-position:center 18%}.cop-home-explore__grid{gap:10px}.cop-home-explore__card{min-height:117px}.cop-home-explore__icon{width:42px;height:42px;flex:0 0 42px}.cop-home-explore__label{font-size:13px}.cop-home-explore__arrow{display:none}.cop-home-explore__image-caption{font-size:9px;right:9px;bottom:10px}}
 `;
 
 const quickRoutes = [
@@ -74,21 +106,42 @@ const leadershipRoutes = [
 
 export function HomeExplore() {
   return (
-    <nav className="cop-home-explore" aria-label="Explore The Church of Pentecost Pakistan">
+    <section className="cop-home-explore" aria-labelledby="cop-home-explore-heading">
       <style dangerouslySetInnerHTML={{ __html: homeRefreshStyles }} />
       <div className="container">
-        <p className="cop-home-explore__eyebrow">Explore our church</p>
-        <div className="cop-home-explore__grid">
+        <div className="cop-home-explore__header">
+          <div>
+            <span className="cop-home-explore__eyebrow">The Church of Pentecost · Pakistan</span>
+            <h2 id="cop-home-explore-heading" className="cop-home-explore__title">Explore <em>Our Church</em></h2>
+          </div>
+          <p>Discover our story, the people we serve, and the mission that brings our community together.</p>
+        </div>
+
+        <div className="cop-home-explore__feature">
+          <div className="cop-home-explore__feature-copy">
+            <span className="cop-home-explore__feature-eyebrow"><span aria-hidden="true">✝</span> Faith has a home here</span>
+            <h3>A House of Worship.<br />A Mission of Hope.</h3>
+            <p>From humble beginnings in Lahore to a growing community across Pakistan, our story is built on faith, prayer, and the transforming love of Jesus Christ.</p>
+            <a className="cop-home-explore__feature-link" href="/about">Discover Our Story <span aria-hidden="true">↗</span></a>
+          </div>
+          <div className="cop-home-explore__feature-image">
+            <img src="/assets/images/coppak/building/cop-pakistan-church-2026.webp" alt="Actual Church of Pentecost Pakistan church building in Lahore, with gold-trimmed arched windows and crosses" loading="lazy" />
+            <span className="cop-home-explore__image-caption">Our Church Building · Lahore, Pakistan</span>
+          </div>
+        </div>
+
+        <div className="cop-home-explore__cards-heading"><span>Find your way</span></div>
+        <nav className="cop-home-explore__grid" aria-label="Explore The Church of Pentecost Pakistan">
           {quickRoutes.map((item) => (
             <a key={item.href} href={item.href} className="cop-home-explore__card">
               <span className="cop-home-explore__icon" aria-hidden="true"><i className={item.icon} /></span>
               <span className="cop-home-explore__text"><span className="cop-home-explore__label">{item.title}</span><span className="cop-home-explore__detail">{item.detail}</span></span>
-              <span className="cop-home-explore__arrow" aria-hidden="true">↗</span>
+              <span className="cop-home-explore__arrow" aria-hidden="true">→</span>
             </a>
           ))}
-        </div>
+        </nav>
       </div>
-    </nav>
+    </section>
   );
 }
 
