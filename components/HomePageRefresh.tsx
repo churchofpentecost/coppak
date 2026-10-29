@@ -71,6 +71,17 @@ const homeRefreshStyles = `
 .cop-home-explore__arrow{flex:0 0 28px;width:28px;height:28px;border:1px solid #e4c98a;border-radius:50%;display:grid;place-items:center;font-size:17px;margin-left:auto}
 @media(max-width:1000px){.cop-home-explore{padding:52px 0}.cop-home-explore__feature{min-height:335px}.cop-home-explore__feature-copy{padding:30px}.cop-home-explore__header{align-items:flex-start;flex-direction:column;gap:10px}.cop-home-explore__header>p{max-width:700px}.cop-home-explore__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:660px){.cop-home-explore{padding:37px 0 43px}.cop-home-explore__header{margin-bottom:20px}.cop-home-explore__title{font-size:35px}.cop-home-explore__feature{display:flex;flex-direction:column}.cop-home-explore__feature-copy{padding:31px 27px;min-height:290px}.cop-home-explore__feature-copy h3{font-size:29px}.cop-home-explore__feature-copy p{font-size:13px;margin-bottom:21px}.cop-home-explore__feature-image{height:310px;flex:0 0 310px}.cop-home-explore__feature-image img{object-position:center 18%}.cop-home-explore__grid{gap:10px}.cop-home-explore__card{min-height:117px}.cop-home-explore__icon{width:42px;height:42px;flex:0 0 42px}.cop-home-explore__label{font-size:13px}.cop-home-explore__arrow{display:none}.cop-home-explore__image-caption{font-size:9px;right:9px;bottom:10px}}
+
+/* Full, uncropped original church photograph — portrait image keeps natural aspect ratio */
+.cop-home-explore__feature{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);min-height:0;align-items:stretch}
+.cop-home-explore__feature-image{aspect-ratio:3/4;min-height:0;min-width:0;width:100%;position:relative;background:#1e3856}
+.cop-home-explore__feature-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center center;filter:none}
+.cop-home-explore__image-caption{bottom:auto;top:12px;right:12px;background:rgba(4,21,44,.72)}
+@media(max-width:660px){
+ .cop-home-explore__feature{display:flex;flex-direction:column}
+ .cop-home-explore__feature-image{aspect-ratio:3/4;height:auto;flex:0 0 auto;min-height:0}
+ .cop-home-explore__feature-image img{object-fit:contain;object-position:center center}
+}
 `;
 
 const quickRoutes = [
@@ -125,7 +136,7 @@ export function HomeExplore() {
             <a className="cop-home-explore__feature-link" href="/about">Discover Our Story <span aria-hidden="true">↗</span></a>
           </div>
           <div className="cop-home-explore__feature-image">
-            <img src="/assets/images/coppak/building/cop-pakistan-church-2026-clear.webp" alt="Actual Church of Pentecost Pakistan church building in Lahore, with gold-trimmed arched windows and crosses" loading="lazy" />
+            <img src="/assets/images/coppak/building/cop-pakistan-church-complete-2026.avif" width={1200} height={1600} decoding="async" alt="Actual Church of Pentecost Pakistan church building in Lahore, with gold-trimmed arched windows and crosses" loading="lazy" />
             <span className="cop-home-explore__image-caption">Our Church Building · Lahore, Pakistan</span>
           </div>
         </div>
