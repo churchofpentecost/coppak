@@ -94,6 +94,15 @@ export default function NewsPage() {
             Explore events <span aria-hidden="true">↗</span>
           </a>
         </div>
+        <a href="/news/brick-kiln-collective-marriages-2024" aria-label="Read the brick kiln collective marriages impact story" style={{display:"grid",gridTemplateColumns:"minmax(0,1fr)",margin:"18px 0 38px",background:"#153c35",color:"#fff",borderRadius:8,overflow:"hidden",textDecoration:"none",boxShadow:"0 14px 35px rgba(16,46,41,.12)"}}>
+          <img src="/assets/images/coppak/projects/collective-marriages/01.jpg" alt="The Church of Pentecost Pakistan collective marriage celebration in Sheikhupura" width={1600} height={900} style={{display:"block",width:"100%",maxHeight:410,objectFit:"cover"}} loading="eager" />
+          <span style={{display:"block",padding:"28px 32px 33px"}}>
+            <span style={{fontSize:12,color:"#f7d6a4",fontWeight:800,letterSpacing:".12em",textTransform:"uppercase"}}>FEATURED IMPACT STORY · SHEIKHUPURA · DECEMBER 2024</span>
+            <strong style={{display:"block",fontFamily:"Georgia,serif",fontSize:"clamp(2rem,5vw,3.5rem)",lineHeight:1.13,margin:"11px 0",color:"#fff"}}>Breaking the Chains: 18 Daughters, 18 New Beginnings</strong>
+            <span style={{display:"block",fontSize:"clamp(1rem,1.8vw,1.2rem)",lineHeight:1.6,maxWidth:760,color:"#e3eee8"}}>One mother's plea became a collective act of faith: eighteen weddings, new households and thirty-six families reached. See the photographs, the story and the invitation to partner.</span>
+            <span style={{display:"inline-block",marginTop:18,fontWeight:800,color:"#ffe3b5"}}>Read the impact report ↗</span>
+          </span>
+        </a>
         {posts.length ? (
           <div className="news-grid news-grid--reports">
             <a
