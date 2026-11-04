@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "The Church of Pentecost Pakistan",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/assets/images/resources/coppak-pakistan-logo.jpg?v=20261104", alt: "Official Church of Pentecost Pakistan logo" }],
   },
-  twitter: { card: "summary_large_image", images: ["/og-image.png"] },
+  twitter: { card: "summary_large_image", images: ["/assets/images/resources/coppak-pakistan-logo.jpg?v=20261104"] },
 };
 export default function RootLayout({
   children,
