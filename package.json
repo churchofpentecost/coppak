@@ -19,7 +19,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "prebuild": "node scripts/prepare-vbs-report.mjs"
+    "prebuild": "node scripts/prepare-vbs-report.mjs && node scripts/prepare-collective-report.mjs"
   },
   "engines": {
     "node": ">=22"
