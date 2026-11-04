@@ -41,6 +41,12 @@ export default function CollectiveWeddingReport() {
           <p style={{ fontSize: "clamp(1.15rem, 2.4vw, 1.5rem)", lineHeight: 1.5, color: "#526a69" }}>Eighteen weddings bring hope and practical support to families in Sheikhupura.</p>
           <p style={{ color: "#677575" }}>Event: December 6, 2024 · The Church of Pentecost – Pakistan</p>
         </header>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center", margin: "0 0 26px" }}>
+          <a className="news-button news-report-download" href="/reports/breaking-the-chains-collective-weddings-web-edition.pdf" download>
+            Download illustrated report (PDF) <span>11-page website edition ↓</span>
+          </a>
+          <span style={{ fontSize: 13, color: "#61716e" }}>Website edition illustrated with photos from the COP Pakistan archive.</span>
+        </div>
         <figure style={{ margin: "0 0 28px" }}><img src={base + "01.jpg"} width={1400} height={850} alt="The Church of Pentecost Pakistan collective marriage celebration" style={{ width: "100%", height: "auto", maxHeight: 650, objectFit: "cover", borderRadius: 8 }} /><figcaption style={{ fontSize: 13, color: "#647674", paddingTop: 9 }}>A collective celebration of marriage and new beginnings in Sheikhupura District.</figcaption></figure>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(145px, 1fr))", gap: 12, padding: "18px 0 36px" }}>
           {([["18", "Couples married"], ["36", "Families reached"], ["2,000+", "Guests welcomed"], ["18", "Households equipped"]] as const).map(([value, label]) =>
