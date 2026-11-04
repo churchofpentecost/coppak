@@ -12,8 +12,9 @@ export const metadata: Metadata = {
     description:
       "The Church of Pentecost Pakistan — 71 assemblies and 28,479 members serving eight districts across Pakistan.",
     url: "/",
-    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    images: [{ url: "/assets/images/resources/coppak-pakistan-logo.jpg?v=20261104", alt: "The Church of Pentecost Pakistan" }],
   },
+  twitter: { card: "summary_large_image", images: ["/assets/images/resources/coppak-pakistan-logo.jpg?v=20261104"] },
 };
 const scripts = [
   "/assets/vendors/jquery/jquery-3.6.0.min.js",

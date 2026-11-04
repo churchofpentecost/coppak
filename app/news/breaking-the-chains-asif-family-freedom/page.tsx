@@ -8,7 +8,8 @@ export const metadata: Metadata = {
  title: "Breaking the Chains: Asif's Family Finds Freedom | COPPAK",
  description: "The documentary story of Asif and his family, from generational bonded labour in Sheikhupura to debt settlement and a new livelihood through PENTSOS.",
  alternates: { canonical: "/news/breaking-the-chains-asif-family-freedom" },
- openGraph: { type: "article", title: "Breaking the Chains: Asif's Family Finds Freedom", description: "Three generations of bondage. One family's journey to freedom.", url: "/news/breaking-the-chains-asif-family-freedom" }
+ openGraph: { type: "article", title: "Breaking the Chains: Asif's Family Finds Freedom", description: "Three generations of bondage. One family's journey to freedom.", url: "/news/breaking-the-chains-asif-family-freedom", images: [{ url: "/assets/images/coppak/projects/brick-kiln/14.jpg?v=20261104", alt: "The Church of Pentecost Pakistan supports a family at the brick kiln" }] },
+ twitter: { card: "summary_large_image", images: ["/assets/images/coppak/projects/brick-kiln/14.jpg?v=20261104"] }
 };
 
 const photoFolder = "/assets/images/news/asif-breaking-the-chains";
