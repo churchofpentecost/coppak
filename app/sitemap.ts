@@ -20,7 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "https://coppak.org/events" },
     { url: "https://coppak.org/media" },
     { url: "https://coppak.org/news" },
-    { url: "https://coppak.org/news/eighteen-new-beginnings-sheikhupura-2024.html" },
     { url: "https://coppak.org/sermons" },
     { url: "https://coppak.org/sermons/what-is-in-your-hand" },
     { url: "https://coppak.org/books" },
