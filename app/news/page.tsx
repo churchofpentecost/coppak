@@ -16,12 +16,13 @@ export const metadata: Metadata = {
     url: "/news",
     images: [
       {
-        url: "/assets/images/news/youth-pensa-august-2026/rally/rally-19.jpeg",
+        url: "/assets/images/news/youth-pensa-august-2026/rally/rally-19.jpeg?v=20261104",
         width: 2048,
         height: 1365,
       },
     ],
   },
+  twitter: { card: "summary_large_image", images: ["/assets/images/news/youth-pensa-august-2026/rally/rally-19.jpeg?v=20261104"] },
 };
 
 const stories = [
