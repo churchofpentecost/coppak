@@ -61,26 +61,48 @@ export default function NewsPage() {
   const asifCover = originalAsifCover ? "/assets/images/news/asif-breaking-the-chains/IMG_6471.jpeg" : "/assets/images/coppak/projects/brick-kiln/14.jpg";
   return (
     <NewsLayout>
-      <section className="news-hero news-shell" aria-labelledby="news-title">
+      <section className="news-hero news-hero--editorial news-shell" aria-labelledby="news-title">
         <nav className="news-breadcrumb" aria-label="Breadcrumb">
           <a href="/">Home</a>
           <span aria-hidden="true">/</span>
-          <span aria-current="page">News</span>
+          <span aria-current="page">News &amp; Stories</span>
         </nav>
-        <div className="news-intro">
-          <div>
-            <p className="news-eyebrow">THE COPPAK JOURNAL</p>
+        <div className="news-hero__panel">
+          <div className="news-hero__content">
+            <p className="news-eyebrow news-hero__eyebrow">
+              <span className="news-hero__eyebrow-mark" aria-hidden="true" />
+              THE COPPAK JOURNAL
+            </p>
             <h1 id="news-title">
-              News & <em>stories.</em>
+              Stories of <em>faith.</em>
+              <br />
+              Lives of <em>impact.</em>
             </h1>
+            <p className="news-hero__description">
+              Discover how faith is transforming lives across Pakistan through
+              worship, education, outreach and compassionate care.
+            </p>
+            <a className="news-hero__action" href="#updates-title">
+              Read the latest stories <span aria-hidden="true">↗</span>
+            </a>
+            <p className="news-hero__footnote">
+              The Church of Pentecost Pakistan <span aria-hidden="true">·</span> News &amp; ministry reports
+            </p>
           </div>
-          <p>
-            Life, faith and community.
-            <br />
-            Discover the people and ministries bringing hope across Pakistan.
-          </p>
+          <div className="news-hero__visual">
+            <img
+              src="/assets/images/news/youth-pensa-august-2026/rally/rally-19.jpeg"
+              alt="Young people gathered during a Church of Pentecost Pakistan youth and PENSA rally"
+              width={2048}
+              height={1365}
+              fetchPriority="high"
+            />
+            <div className="news-hero__image-caption">
+              <span className="news-hero__caption-rule" aria-hidden="true" />
+              <span>People. Purpose. Hope.</span>
+            </div>
+          </div>
         </div>
-
       </section>
       <section
         className="news-updates news-shell"
