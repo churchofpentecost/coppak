@@ -61,26 +61,29 @@ export default function NewsPage() {
   const asifCover = originalAsifCover ? "/assets/images/news/asif-breaking-the-chains/IMG_6471.jpeg" : "/assets/images/coppak/projects/brick-kiln/14.jpg";
   return (
     <NewsLayout>
-      <section className="news-hero news-shell" aria-labelledby="news-title">
+      <section className="news-hero news-hero--editorial news-shell" aria-labelledby="news-title">
         <nav className="news-breadcrumb" aria-label="Breadcrumb">
           <a href="/">Home</a>
           <span aria-hidden="true">/</span>
-          <span aria-current="page">News</span>
+          <span aria-current="page">News &amp; Stories</span>
         </nav>
-        <div className="news-intro">
-          <div>
-            <p className="news-eyebrow">THE COPPAK JOURNAL</p>
-            <h1 id="news-title">
-              News & <em>stories.</em>
-            </h1>
+        <div className="news-hero__panel">
+          <p className="news-eyebrow news-hero__eyebrow">THE CHURCH OF PENTECOST PAKISTAN <span aria-hidden="true">/</span> JOURNAL</p>
+          <h1 id="news-title">
+            Faith in action.<br />
+            <em>Stories that matter.</em>
+          </h1>
+          <div className="news-hero__bottom">
+            <p className="news-hero__description">
+              Behind every ministry is a human story. Read the latest news,
+              testimonies and reports of lives being changed through faith,
+              service and compassion across Pakistan.
+            </p>
+            <a className="news-hero__action" href="#updates-title">
+              Explore our latest stories <span aria-hidden="true">↗</span>
+            </a>
           </div>
-          <p>
-            Life, faith and community.
-            <br />
-            Discover the people and ministries bringing hope across Pakistan.
-          </p>
         </div>
-
       </section>
       <section
         className="news-updates news-shell"

@@ -430,3 +430,79 @@
 .news-card--vbs .news-card__image { aspect-ratio: auto; background: #eeeee8; }
 .news-card--vbs img { height: auto; object-fit: contain; transform: none !important; }
 .news-card--vbs .news-eyebrow { color: #17645f; }
+
+
+/* Text-only News header — scoped to the News landing page */
+.news-hero--editorial { padding-top: 28px; }
+.news-hero--editorial .news-breadcrumb { margin-bottom: 25px; }
+.news-hero__panel {
+  border-top: 2px solid #c5a35c;
+  border-bottom: 1px solid #d9d4c9;
+  padding: 43px 0 48px;
+  background: transparent;
+}
+.news-page .news-hero__eyebrow {
+  color: #8a6a31;
+  font-size: 11px;
+  letter-spacing: .18em;
+  margin-bottom: 23px;
+}
+.news-hero__eyebrow span { padding: 0 8px; color: #b7a57e; }
+.news-hero__panel h1 {
+  color: #14243b;
+  font-size: clamp(48px, 6.8vw, 92px);
+  line-height: 1.075;
+  font-weight: 800;
+  letter-spacing: -.06em;
+  margin: 0;
+  max-width: 1060px;
+}
+.news-hero__panel h1 em {
+  color: #9a7339;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: .93em;
+  font-weight: 400;
+  letter-spacing: -.055em;
+}
+.news-hero__bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 38px;
+  margin-top: 28px;
+}
+.news-page .news-hero__description {
+  max-width: 670px;
+  font-size: clamp(15px, 1.5vw, 18px);
+  line-height: 1.8;
+  color: #536174;
+}
+.news-page .news-hero__action {
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #b99a54;
+  font-size: 14px;
+  font-weight: 800;
+  color: #14243b;
+  transition: color .2s;
+}
+.news-page .news-hero__action:hover { color: #9a7339; }
+.news-hero__action span { font-size: 18px; }
+.news-hero--editorial + .news-updates { padding-top: 49px; }
+@media (max-width: 767px) {
+  .news-hero--editorial { padding-top: 22px; }
+  .news-hero--editorial .news-breadcrumb { margin-bottom: 20px; }
+  .news-hero__panel { padding: 29px 0 35px; }
+  .news-page .news-hero__eyebrow { font-size: 9px; letter-spacing: .13em; margin-bottom: 17px; }
+  .news-hero__panel h1 { font-size: clamp(42px, 10vw, 65px); }
+  .news-hero__bottom { display: block; margin-top: 20px; }
+  .news-page .news-hero__description { font-size: 15px; line-height: 1.75; }
+  .news-page .news-hero__action { margin-top: 24px; }
+  .news-hero--editorial + .news-updates { padding-top: 36px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .news-page .news-hero__action { transition: none; }
+}
