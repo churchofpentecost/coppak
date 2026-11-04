@@ -266,8 +266,9 @@ export const metadata: Metadata = {
     title: "Breaking the Chains of Generational Slavery | COP Pakistan",
     description: "Eighteen marriages, 36 families reached and a community united in hope.",
     url: "/news/breaking-the-chains-of-generational-slavery",
-    images: [{ url: `${base}/DJI_0146(1).JPG`, alt: "Collective wedding celebration in Sheikhupura" }]
-  }
+    images: [{ url: "/assets/images/news/breaking-the-chains-generational-slavery/DJI_0146(1).JPG?v=20261104", alt: "Collective wedding celebration in Sheikhupura" }]
+  },
+  twitter: { card: "summary_large_image", images: ["/assets/images/news/breaking-the-chains-generational-slavery/DJI_0146(1).JPG?v=20261104"] }
 };
 
 export default function BreakingChainsArticle() {
