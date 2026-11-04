@@ -96,15 +96,6 @@ export default function NewsPage() {
         </div>
 
 
-        <a href="/news/breaking-the-chains-generational-slavery.html" aria-label="Read Breaking the Chains of Generational Slavery" style={{display:"block",margin:"24px 0 38px",padding:"clamp(24px,5vw,48px)",background:"#153c35",color:"#ffffff",borderRadius:10,textDecoration:"none",boxShadow:"0 14px 35px rgba(16,46,41,.14)"}}>
-          <p style={{fontSize:12,letterSpacing:"0.13em",fontWeight:700,color:"#edcf93",margin:"0 0 12px"}}>HUMANITARIAN IMPACT · SHEIKHUPURA · 6 DECEMBER 2024</p>
-          <h3 style={{fontSize:"clamp(27px,4vw,44px)",lineHeight:1.15,margin:"0 0 14px",color:"#ffffff"}}>Breaking the Chains of Generational Slavery</h3>
-          <p style={{fontSize:17,lineHeight:1.6,maxWidth:770,margin:"0 0 22px",color:"#f0f5ef"}}>From a plea by sixteen mothers to eighteen collective weddings: thirty-six families reached, more than 2,000 guests welcomed, and essential furnishings provided for all eighteen new households. The brides’ families’ kiln debts were cleared.</p>
-          <div style={{display:"flex",flexWrap:"wrap",gap:20,alignItems:"center",fontWeight:700}}>
-            <span>18 couples</span><span>36 families</span><span>2,000+ guests</span><span style={{color:"#edcf93"}}>Read the illustrated report ↗</span>
-          </div>
-        </a>
-
         {posts.length ? (
           <div className="news-grid news-grid--reports">
             <a
