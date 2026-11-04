@@ -1,31 +1,30 @@
-# Breaking the Chains — draft publication checklist
+# Breaking the Chains — publication verification
 
-**Status: DRAFT. Do not merge or publish to the public website.**
+Scope: the new article, its News listing card and supporting assets only. Other news articles, shared navigation and the homepage remain unchanged.
 
-- The new article route is created: `/news/breaking-the-chains-of-generational-slavery`.
-- The News listing contains a draft card for the new article.
-- The route references all **42 distinct original photos** (32 extracted from the 30-page report, plus 10 additional images supplied by the user).
-- The article references the 13-page expanded PDF.
-- **The binary photos and PDF are not yet in GitHub**. Until uploaded, the website deployment will show broken images/download links.
+The owner authorized publication after successful verification on 4 November 2026.
 
-## Original media prepared for upload
+## Completed
 
-The user-facing archive `COP_Pakistan_GitHub_Original_Media_Upload.zip` has the exact destination hierarchy:
+- Added all 42 original photographs and the 13-page PDF from `COP_Pakistan_GitHub_Original_Media_Upload.zip`.
+- Verified all 43 files against the ZIP with SHA-256; originals are unchanged.
+- Decoded all photographs successfully and matched every gallery filename, including case and spaces.
+- Reviewed all photographs and replaced generic captions with descriptions of the visible scenes.
+- Added intrinsic image dimensions and URL encoding for original-photo links.
+- Rendered and inspected all 13 PDF pages.
+- TypeScript check and production build pass.
+- Browser checks pass at 1440, 768, 390 and 320 pixels; no horizontal overflow, failed requests or page errors.
+- The News card opens the correct article; all 42 original links and all 43 asset HTTP responses match source hashes.
+- A real browser PDF download matches the ZIP original byte for byte.
 
-- `public/assets/images/news/breaking-the-chains-generational-slavery/` — 42 original photographs.
-- `public/reports/COP_Pakistan_Breaking_the_Chains_Impact_Report_Expanded.pdf` — downloadable PDF.
+## Required before publication
 
-Extract this archive and upload its `public/` directory to **this draft branch**, never `main`.
+- Confirm the Vercel preview is READY for the final branch commit and test that exact preview.
+- Confirm the final diff changes no other news article, then merge PR #9.
+- Verify the production article and download after deployment.
 
-## Quality and publication gate
+Article: `/news/breaking-the-chains-of-generational-slavery`
 
-1. Upload 42 photographs and one PDF to the draft branch.
-2. Verify all 42 photo paths (correct spelling, case, image sizes and quality).
-3. Confirm PDF download works.
-4. Review and improve all 42 descriptive captions against actual photographs. Do not publish generic captions as final.
-5. Check the event details, beneficiary privacy and sensitive information.
-6. Check layouts on desktop and mobile and correct any overflow.
-7. Create and test a Vercel preview URL.
-8. Obtain explicit final approval from the site owner before merging or publishing.
+Original photographs: `public/assets/images/news/breaking-the-chains-generational-slavery/`
 
-**Scope:** New article and News card only. Leave homepage, navigation and all previous news articles unchanged.
+Report: `public/reports/COP_Pakistan_Breaking_the_Chains_Impact_Report_Expanded.pdf`
