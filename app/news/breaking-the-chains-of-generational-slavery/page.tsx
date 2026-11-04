@@ -3,17 +3,216 @@ import NewsLayout from "../../../components/NewsLayout";
 
 const base = "/assets/images/news/breaking-the-chains-generational-slavery";
 const photos = [
-  ["original_page_02_01.jpeg", "Pastoral visit to families working at a brick kiln", "Listening to families at the brick kiln"],
-  ["original_page_05_01.jpeg", "Community gathering at the brick kiln", "A community facing generational hardship"],
-  ["original_page_10_01.jpeg", "Furniture gathered for newly married couples", "Practical assistance for new households"],
-  ["595117900_1199985242235279_3483781383811009436_n.jpg", "Wide view of guests attending the collective wedding celebration", "A community gathers to celebrate"],
-  ["DJI_0146(1).JPG", "Aerial view of the stage with wedding couples", "Eighteen couples celebrated in Sheikhupura"],
-  ["DSC_9175.JPG", "Wedding ceremony with minister and couple", "A wedding ceremony conducted in the community"],
-  ["DSC_8588(1).JPG", "Furniture transported as household assistance", "Furniture prepared for delivery"],
-  ["DSC_8643.JPG", "Rows of furniture supplied to new households", "Essential furniture supplied to newly married couples"],
-  ["IMG_5403.JPG", "Newly married couple beside their household furniture", "A new household begins"],
-  ["IMG_5410.JPG", "Couple standing among furniture items", "Practical support beyond the wedding day"],
-  ["DSC_9192(1).JPG", "Wedding couples standing together on stage", "Couples celebrate together"]
+  [
+    "original_page_01_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 1"
+  ],
+  [
+    "original_page_02_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 2"
+  ],
+  [
+    "original_page_03_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 3"
+  ],
+  [
+    "original_page_04_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 4"
+  ],
+  [
+    "original_page_05_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 5"
+  ],
+  [
+    "original_page_06_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 6"
+  ],
+  [
+    "original_page_07_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 7"
+  ],
+  [
+    "original_page_08_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 8"
+  ],
+  [
+    "original_page_09_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 9"
+  ],
+  [
+    "original_page_10_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 10"
+  ],
+  [
+    "original_page_11_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 11"
+  ],
+  [
+    "original_page_12_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 12"
+  ],
+  [
+    "original_page_13_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 13"
+  ],
+  [
+    "original_page_14_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 14"
+  ],
+  [
+    "original_page_15_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 15"
+  ],
+  [
+    "original_page_16_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 16"
+  ],
+  [
+    "original_page_17_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 17"
+  ],
+  [
+    "original_page_17_02.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 18"
+  ],
+  [
+    "original_page_18_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 19"
+  ],
+  [
+    "original_page_19_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 20"
+  ],
+  [
+    "original_page_20_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 21"
+  ],
+  [
+    "original_page_21_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 22"
+  ],
+  [
+    "original_page_22_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 23"
+  ],
+  [
+    "original_page_23_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 24"
+  ],
+  [
+    "original_page_24_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 25"
+  ],
+  [
+    "original_page_25_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 26"
+  ],
+  [
+    "original_page_26_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 27"
+  ],
+  [
+    "original_page_27_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 28"
+  ],
+  [
+    "original_page_27_02.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 29"
+  ],
+  [
+    "original_page_28_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 30"
+  ],
+  [
+    "original_page_29_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 31"
+  ],
+  [
+    "original_page_30_01.jpeg",
+    "Original documentary photograph from the COP Pakistan 2024 report",
+    "Original report photograph 32"
+  ],
+  [
+    "595117900_1199985242235279_3483781383811009436_n.jpg",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 1"
+  ],
+  [
+    "DSC_9321(2).JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 2"
+  ],
+  [
+    "IMG_5403.JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 3"
+  ],
+  [
+    "IMG_5410.JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 4"
+  ],
+  [
+    "DSC_8588(1).JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 5"
+  ],
+  [
+    "DSC_8643.JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 6"
+  ],
+  [
+    "DSC_9175.JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 7"
+  ],
+  [
+    "DJI_0146(1).JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 8"
+  ],
+  [
+    "06 (33).jpg",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 9"
+  ],
+  [
+    "DSC_9192(1).JPG",
+    "Original photograph supplied by COP Pakistan of the marriage celebration and household assistance",
+    "Additional supplied photograph 10"
+  ]
 ] as const;
 
 export const metadata: Metadata = {
