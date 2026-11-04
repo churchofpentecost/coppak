@@ -96,6 +96,13 @@ export default function NewsPage() {
         </div>
 
 
+        <a className="news-card" href="/news/eighteen-new-beginnings-sheikhupura-2024.html" style={{display:"block",margin:"24px 0 38px",borderRadius:12,overflow:"hidden",textDecoration:"none",background:"#143a35",color:"#fff",padding:"clamp(24px,5vw,48px)",boxShadow:"0 14px 35px rgba(16,46,41,.14)"}}>
+          <p style={{fontSize:12,letterSpacing:"0.13em",fontWeight:700,color:"#ead3a1",margin:"0 0 12px"}}>PENTSOS · HUMANITARIAN IMPACT · SHEIKHUPURA, PAKISTAN</p>
+          <h3 style={{fontSize:"clamp(27px,4vw,44px)",lineHeight:1.15,margin:"0 0 14px",color:"#fff"}}>Breaking the Chains of Generational Slavery</h3>
+          <p style={{fontSize:17,lineHeight:1.65,maxWidth:790,margin:"0 0 20px",color:"#f0f5ef"}}>An illustrated account of eighteen collective weddings held on 6 December 2024. Thirty-six families reached, more than 2,000 guests welcomed, and essential household furnishings provided for every couple. The brides' families' kiln debts were cleared; the bridegrooms' families were already debt-free.</p>
+          <span style={{display:"inline-block",color:"#ead3a1",fontWeight:700}}>Read the complete illustrated story ↗</span>
+        </a>
+
         {posts.length ? (
           <div className="news-grid news-grid--reports">
             <a
