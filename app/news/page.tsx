@@ -98,6 +98,16 @@ export default function NewsPage() {
 
         {posts.length ? (
           <div className="news-grid news-grid--reports">
+            <a className="news-card" href="/news/brick-kiln-collective-marriages-2024">
+              <div className="news-card__image"><img src="/assets/images/coppak/projects/collective-marriages/01.jpg" alt="Collective weddings organised by The Church of Pentecost Pakistan" width={800} height={600} loading="lazy" /></div>
+              <div className="news-card__body">
+                <p className="news-eyebrow">PENTSOS · Compassion & dignity</p>
+                <time dateTime="2024-12-06">6 December 2024</time>
+                <h3>Breaking the Chains of Generational Slavery</h3>
+                <p>Eighteen couples married, thirty-six families reached, and households equipped in Sheikhupura.</p>
+                <span className="news-text-link">Read the full story <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
             <a
               className="news-card news-card--asif"
               href="/news/breaking-the-chains-asif-family-freedom"
