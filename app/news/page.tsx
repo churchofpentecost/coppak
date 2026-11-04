@@ -113,6 +113,18 @@ export default function NewsPage() {
                 <span className="news-text-link">Read story <span aria-hidden="true">↗</span></span>
               </div>
             </a>
+            <a className="news-card" href="/news/breaking-the-chains-of-generational-slavery">
+              <div className="news-card__image">
+                <img src="/assets/images/news/breaking-the-chains-generational-slavery/DJI_0146(1).JPG" alt="Collective wedding celebration at the Sheikhupura brick kiln" width={1600} height={900} loading="lazy" />
+              </div>
+              <div className="news-card__body">
+                <p className="news-eyebrow">Humanitarian impact · Compassion ministry</p>
+                <time dateTime="2024-12-06">6 December 2024</time>
+                <h3>Breaking the Chains of Generational Slavery: 18 Daughters, 36 Families, and a New Beginning of Hope</h3>
+                <p>From the plea of sixteen mothers to a community celebration for eighteen couples, discover COP Pakistan's practical response to generational debt bondage.</p>
+                <span className="news-text-link">Read the story <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
             {posts.map((post) => (
               <a
                 className={`news-card${post.slug === "alpha-leadership-training-pakistan-october-2026" ? " news-card--alpha" : post.slug === "vacation-bible-school-pakistan-2026" ? " news-card--vbs" : ""}`}
