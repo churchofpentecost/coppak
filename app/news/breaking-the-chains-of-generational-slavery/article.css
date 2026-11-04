@@ -1,0 +1,12 @@
+.news-page .breaking-chains-article { width: min(1100px, 100%); }
+.breaking-chains-article header > p + p { margin-top: 14px; }
+.breaking-chains-article .breaking-chains-copy h2 { margin: 36px 0 14px; font-size: clamp(25px, 3vw, 34px); line-height: 1.25; }
+.breaking-chains-article .breaking-chains-copy p + p { margin-top: 18px; }
+.breaking-chains-article figcaption { color: #536273; line-height: 1.55; padding-top: 7px; }
+.breaking-chains-article aside h2 { font-size: clamp(25px, 3vw, 34px); margin-bottom: 16px; }
+.breaking-chains-article aside p + p { margin-top: 16px; }
+.breaking-chains-article aside a:not(.breaking-chains-download) { text-decoration: underline; text-underline-offset: 4px; }
+.breaking-chains-article .breaking-chains-download { display: inline-block; padding: 15px 22px; border-radius: 7px; background: #14243b; color: #fff; font-weight: 700; line-height: 1.6; }
+.breaking-chains-article .breaking-chains-download span { display: block; font-size: 13px; font-weight: 400; color: #e6d5a8; }
+.breaking-chains-article .breaking-chains-download:hover { background: #263e5c; }
+@media (max-width: 480px) { .breaking-chains-article aside { overflow-wrap: anywhere; } }
