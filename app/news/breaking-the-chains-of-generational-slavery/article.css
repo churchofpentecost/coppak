@@ -10,3 +10,35 @@
 .breaking-chains-article .breaking-chains-download span { display: block; font-size: 13px; font-weight: 400; color: #e6d5a8; }
 .breaking-chains-article .breaking-chains-download:hover { background: #263e5c; }
 @media (max-width: 480px) { .breaking-chains-article aside { overflow-wrap: anywhere; } }
+
+
+/* Documentary narrative: original photographs woven through the chapters. */
+.breaking-chains-article .breaking-chains-lede {max-width:810px;margin:12px auto 36px;text-align:center;font-size:clamp(19px,2.4vw,24px);line-height:1.65;color:#284746;font-weight:600}
+.breaking-chains-article .breaking-chains-chapter {border-top:1px solid #e1e5e2;padding:52px 0 58px;scroll-margin-top:28px}
+.breaking-chains-article .breaking-chains-chapter-index {color:#916a36;font-size:12px;letter-spacing:.13em;font-weight:800;margin:0 0 15px;text-transform:uppercase}
+.breaking-chains-article .breaking-chains-chapter > h2 {max-width:930px;color:#163638;font-size:clamp(30px,4.2vw,48px);line-height:1.15;margin:0 0 32px;letter-spacing:-.015em}
+.breaking-chains-article .breaking-chains-copy {max-width:850px;margin:0 auto;font-size:clamp(17px,1.8vw,19px);line-height:1.83}
+.breaking-chains-article .breaking-chains-copy p {margin:0 0 19px}
+.breaking-chains-article .breaking-chains-copy strong {color:#163638;font-weight:800}
+.breaking-chains-article .breaking-chains-copy blockquote {color:#284746;background:#f8f6f1;padding:19px 22px !important;border-left:4px solid #a7762c;border-radius:0 8px 8px 0}
+.breaking-chains-article .breaking-chains-photo-sequence {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:37px auto 45px;max-width:1050px}
+.breaking-chains-article .breaking-chains-story-photo {min-width:0;margin:0}
+.breaking-chains-article .breaking-chains-story-photo a {display:block;overflow:hidden;border-radius:8px;background:#f3f4f1}
+.breaking-chains-article .breaking-chains-story-photo img {width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;display:block}
+.breaking-chains-article .breaking-chains-story-photo figcaption {font-size:14px;color:#4d6463;line-height:1.65;margin:0;padding:13px 2px 0}
+.breaking-chains-article .photo-kicker {display:block;color:#956f3e;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+@media(min-width:820px) {
+ .breaking-chains-article .breaking-chains-photo-sequence:has(> :only-child) {grid-template-columns:minmax(0,1fr);max-width:670px}
+}
+@media(max-width:650px) {
+ .breaking-chains-article .breaking-chains-chapter {padding:35px 0 43px}
+ .breaking-chains-article .breaking-chains-photo-sequence {grid-template-columns:minmax(0,1fr);gap:28px;margin:27px 0 33px}
+ .breaking-chains-article .breaking-chains-story-photo img {aspect-ratio:4/3;max-height:none}
+ .breaking-chains-article .breaking-chains-story-photo figcaption {font-size:13px}
+}
+
+/* Uniform visual rhythm without cropping the source photographs. */
+.breaking-chains-article .breaking-chains-story-photo a {width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:#f0f2f1}
+.breaking-chains-article .breaking-chains-story-photo img {display:block;width:100%;height:100%;aspect-ratio:4/3;object-fit:contain}
+.breaking-chains-article .breaking-chains-photo-sequence {align-items:start}
+.breaking-chains-article .breaking-chains-story-photo figcaption {min-height:4.8em}
