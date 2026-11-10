@@ -53,6 +53,18 @@ export default function BlogPage() {
               <a className="bj-link-button" href={firstPost.href}>Read the first blog <span aria-hidden="true">→</span></a>
             </div>
           </article>
+          <article className="bj-feature" style={{ marginTop: 32 }}>
+            <a className="bj-feature-media" href="/news/when-the-church-prays-hope-rises" aria-label="Read When the Church Prays, Hope Rises">
+              <img src="/assets/images/news/youth-pensa-august-2026/mission/mission-22.jpeg" alt="Young believers praying together during a ministry gathering in Lahore" />
+            </a>
+            <div className="bj-feature-content">
+              <span className="bj-eyebrow">Prayer &amp; Hope · New Reflection</span>
+              <span className="bj-feature-date" style={{ marginTop: 9 }}>10 November 2026 · Rev. Dr. Jamil Nasir</span>
+              <h3><a href="/news/when-the-church-prays-hope-rises">When the Church Prays, Hope Rises</a></h3>
+              <p>A biblical reflection on Jeremiah 33:3 and the church's calling to combine prayer, courage and compassion.</p>
+              <a className="bj-link-button" href="/news/when-the-church-prays-hope-rises">Read the new blog <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
           <div className="bj-callout">
             <div>
               <h3>More than a story. A shared mission.</h3>
