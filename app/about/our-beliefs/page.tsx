@@ -62,51 +62,39 @@ const tenets = [
   }
 ];
 export default function OurBeliefsPage() {
-  return (
-    <>
-      <section className="page-hero" style={{backgroundImage:"linear-gradient(178deg,rgba(13,22,52,.90),rgba(10,20,48,.96)),url(/assets/images/coppak/about/history/01.jpg)"}}>
-        <div className="container"><div className="page-hero__inner">
-          <ul className="page-hero__crumbs list-unstyled"><li><a href="/">Home</a></li><li className="page-hero__crumb-sep">/</li><li><a href="/about">About</a></li><li className="page-hero__crumb-sep">/</li><li className="is-current"><span>Our Beliefs</span></li></ul>
-          <h1 className="page-hero__title">Our Beliefs</h1><p className="page-hero__subtitle">Our Statement of Faith and Biblical Foundations</p>
-        </div></div>
-      </section>
-      <section style={{padding:"72px 0 40px",background:"#f7f4ef"}}>
-        <div className="container" style={{maxWidth:1000}}>
-          <p style={{textTransform:"uppercase",letterSpacing:2,color:"#9b782f",fontWeight:700}}>The Church of Pentecost Pakistan</p>
-          <h2 style={{fontSize:"clamp(26px,4vw,42px)",color:"#12203c",lineHeight:1.2,marginBottom:18}}>Rooted in the Word. Empowered by the Holy Spirit. Unleashed to Transform Society.</h2>
-          <p style={{fontStyle:"italic",marginBottom:32}}>Colossians 2:7</p>
-          <h3 style={{fontSize:25,marginBottom:18}}>Our Pentecostal Identity and Biblical Heritage</h3>
-          <p>The Church of Pentecost Pakistan is a Christ-centered, Bible-believing, Spirit-filled church dedicated to proclaiming the Gospel, making disciples, equipping Christian leaders, and transforming communities through the power of the Holy Spirit.</p>
-          <p>Our beliefs are firmly grounded in the Holy Scriptures and affirm the essential doctrines of evangelical Christianity, including the Trinity, the deity of Jesus Christ, salvation through His death and resurrection, and His glorious second coming.</p>
-          <p>We also emphasize the baptism and gifts of the Holy Spirit, divine healing, holiness, prayer, and Spirit-empowered evangelism, believing that the Holy Spirit continues to work in and through believers today.</p>
-          <p><strong>We faithfully uphold the eleven foundational doctrinal tenets of The Church of Pentecost International</strong>, which guide our worship, biblical teaching, discipleship, pastoral leadership, and commitment to the Great Commission.</p>
-          <p>Our mission is to remain faithful to God's unchanging Word, empowered by His Spirit, and committed to transforming lives and communities for the glory of Jesus Christ.</p>
-        </div>
-      </section>
-      <section style={{padding:"65px 0 90px"}}>
-        <div className="container" style={{maxWidth:1000}}>
-          <div className="section-title text-center" style={{marginBottom:36}}><span className="section-title__tagline">Statement of Faith</span><h2 className="section-title__title">Our Eleven Foundational Doctrinal Beliefs</h2></div>
-          <div style={{display:"grid",gap:20}}>
-            {tenets.map((tenet,index)=>(
-              <article key={tenet.title} style={{border:"1px solid #e7e2d7",borderRadius:16,padding:"clamp(22px,4vw,34px)",background:"#fff",boxShadow:"0 8px 28px rgba(12,30,58,.04)"}}>
-                <div style={{color:"#a27a2d",fontSize:14,fontWeight:800,letterSpacing:2,marginBottom:9}}>TENET {String(index+1).padStart(2,"0")}</div>
-                <h3 style={{fontSize:"clamp(20px,3vw,26px)",color:"#132544",marginBottom:17}}>{tenet.title}</h3>
-                <p style={{lineHeight:1.85,marginBottom:14}}>{tenet.description}</p>
-                <p style={{fontSize:14,lineHeight:1.7,color:"#566179",marginBottom:0}}><strong>Scripture references:</strong> {tenet.references}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-      <section style={{padding:"65px 0",background:"#f7f4ef"}}>
-        <div className="container" style={{maxWidth:1000}}>
-          <h2 style={{fontSize:30,color:"#132544",marginBottom:22}}>Our Commitment to Biblical Faith and the Great Commission</h2>
-          <p>The Church of Pentecost Pakistan believes that sound biblical doctrine must produce genuine spiritual transformation, holy living, compassionate service, and faithful Christian witness.</p>
-          <p>We are committed to preaching Jesus Christ as the only Saviour, teaching the unchanging Word of God, making disciples, developing Spirit-filled Christian leaders, strengthening families, and demonstrating God's love through practical service.</p>
-          <p>Our eleven doctrinal beliefs form the foundation of our spiritual identity, ministry philosophy, Christian education, worship, and mission.</p>
-          <p style={{fontWeight:700,color:"#132544",fontSize:19,lineHeight:1.7}}>Jesus Christ is our foundation. The Holy Scriptures are our authority. The Holy Spirit is our strength. The Great Commission is our calling. The glory of God is our ultimate purpose.</p>
-        </div>
-      </section>
-    </>
-  );
+return (<>
+<style>{"\n.bf{--ink:#13243f;--gold:#cba663;color:#26374d}.bf *{box-sizing:border-box}.bf-wrap{max-width:1160px;margin:auto;padding:0 24px}\n.bf-hero{min-height:530px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(9,25,49,.97),rgba(9,25,49,.77)),url('/assets/images/coppak/about/history/01.jpg') center/cover;color:#fff}\n.bf-hero-inner{width:100%;padding:75px 24px 95px}.bf-crumb{font:700 11px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:1px;margin-bottom:65px;color:#dce2ed}.bf-crumb a{color:inherit;text-decoration:none}\n.bf-eyebrow{font:800 12px Montserrat,sans-serif;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin:0 0 20px}\n.bf-hero h1{font:700 clamp(48px,7vw,83px)/1.06 Georgia,serif;color:#fff;margin:0 0 24px;letter-spacing:-1.5px}.bf-hero p{font-size:21px;color:#e2e8f0;max-width:640px;line-height:1.7}\n.bf-button{display:inline-block;background:#d5b275;color:#10213a;text-decoration:none;padding:15px 24px;border-radius:4px;font:800 12px Montserrat,sans-serif;text-transform:uppercase;letter-spacing:1px;margin-top:17px}.bf-button:hover{color:#10213a;background:#e5c899}\n.bf-strip{background:#101f37;color:#f7e8ce;text-align:center;padding:24px;font:700 12px/2 Montserrat,sans-serif;letter-spacing:1.8px;text-transform:uppercase}\n.bf-intro{background:#f7f6f2;padding:94px 0}.bf-intro-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,.75fr);gap:70px;align-items:start}\n.bf-title{font:700 clamp(31px,4vw,47px)/1.2 Georgia,serif;color:var(--ink);margin:0 0 28px}.bf-intro p:not(.bf-eyebrow){font-size:16px;line-height:1.9;color:#4d5b6c;margin-bottom:19px}\n.bf-quote{background:white;border-top:4px solid #caa563;padding:40px 34px;box-shadow:0 20px 45px rgba(16,31,55,.08);margin-top:40px}\n.bf-quote em{display:block;font:italic 26px/1.55 Georgia,serif;color:#19314e}.bf-quote small{display:block;margin-top:25px;color:#9e773c;letter-spacing:2px;font-weight:800}\n.bf-tenets{padding:100px 0;background:#fff}.bf-heading{text-align:center;max-width:750px;margin:0 auto 58px}.bf-heading p{font-size:17px;color:#637185;line-height:1.8}\n.bf-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:45px;align-items:start}.bf-aside{position:sticky;top:25px;background:#f8f7f4;border:1px solid #e9e4dc;padding:27px;max-height:calc(100vh - 50px);overflow-y:auto}\n.bf-aside strong{display:block;margin-bottom:14px;font-size:12px;text-transform:uppercase;color:#a77e40;letter-spacing:1.5px}.bf-aside a{display:block;border-bottom:1px solid #e6e1d8;padding:11px 0;text-decoration:none;color:#344258;font:600 11px/1.6 Montserrat,sans-serif}.bf-aside a:hover{color:#ab8244}.bf-aside span{color:#ac8344;margin-right:8px}\n.bf-items{display:grid;gap:17px}.bf-card{scroll-margin-top:28px;border:1px solid #e9e4db;border-left:4px solid #cba663;box-shadow:0 9px 28px rgba(20,35,55,.045);padding:31px 34px;border-radius:4px;background:#fff}\n.bf-num{font:700 36px Georgia,serif;color:#c49e5f}.bf-card h3{font:700 clamp(20px,2.5vw,26px)/1.3 Georgia,serif;color:#172b48;margin:16px 0}.bf-card p{font-size:15px;line-height:1.88;color:#4d5b6c;margin:0 0 17px}\n.bf-refs{padding:15px 18px;background:#f7f6f2;border-radius:3px;font-size:12px!important}.bf-refs strong{color:#95703e}\n.bf-close{padding:92px 0;background:#101f37;color:#e1e7ef}.bf-close h2{color:white}.bf-close p{font-size:16px;line-height:1.85}.bf-declaration{font:italic 25px/1.6 Georgia,serif;color:#ecd7ae;border-left:3px solid #cba663;padding-left:25px;margin-top:30px}\n@media(max-width:900px){.bf-intro-grid,.bf-layout{grid-template-columns:1fr}.bf-aside{display:none}.bf-quote{max-width:600px;margin-top:0}}\n@media(max-width:600px){.bf-hero{min-height:480px}.bf-hero-inner{padding:60px 20px}.bf-crumb{margin-bottom:45px}.bf-intro,.bf-tenets,.bf-close{padding:65px 0}.bf-card{padding:25px 22px}.bf-strip{font-size:10px}.bf-declaration{font-size:21px}}\n"}</style>
+<div className="bf">
+<section className="bf-hero"><div className="bf-wrap bf-hero-inner">
+<div className="bf-crumb"><a href="/">Home</a> &nbsp; / &nbsp; <a href="/about">About</a> &nbsp; / &nbsp; Our Beliefs</div>
+<div className="bf-eyebrow">The Church of Pentecost Pakistan</div>
+<h1>Our Faith.<br/>Our Foundation.</h1>
+<p>A Christ-centered, Spirit-filled church rooted in Scripture and committed to the Great Commission.</p>
+<a className="bf-button" href="#our-tenets">Explore our eleven tenets →</a>
+</div></section>
+<div className="bf-strip">Rooted in the Word &nbsp; ✦ &nbsp; Empowered by the Holy Spirit &nbsp; ✦ &nbsp; Unleashed to Transform Society</div>
+<section className="bf-intro"><div className="bf-wrap bf-intro-grid"><div>
+<p className="bf-eyebrow">Our identity and heritage</p><h2 className="bf-title">Grounded in Truth.<br/>Living by Faith.</h2>
+<p>The Church of Pentecost Pakistan is a Christ-centered, Bible-believing, Spirit-filled church dedicated to proclaiming the Gospel, making disciples, equipping Christian leaders, and transforming communities through the power of the Holy Spirit.</p>
+<p>Our beliefs are firmly grounded in the Holy Scriptures and affirm the essential doctrines of evangelical Christianity, including the Trinity, the deity of Jesus Christ, salvation through His death and resurrection, and His glorious second coming.</p>
+<p>We also emphasize the baptism and gifts of the Holy Spirit, divine healing, holiness, prayer, and Spirit-empowered evangelism, believing that the Holy Spirit continues to work in and through believers today.</p>
+<p><strong>We faithfully uphold the eleven foundational doctrinal tenets of The Church of Pentecost International</strong>, which guide our worship, biblical teaching, discipleship, pastoral leadership, and commitment to the Great Commission.</p>
+<p>Our mission is to remain faithful to God's unchanging Word, empowered by His Spirit, and committed to transforming lives and communities for the glory of Jesus Christ.</p>
+</div><aside className="bf-quote"><div style={{font:"80px Georgia,serif",color:"#cba663",height:65}}>“</div><em>Rooted and built up in Him, strengthened in the faith as you were taught, and overflowing with thankfulness.</em><small>COLOSSIANS 2:7</small></aside>
+</div></section>
+<section className="bf-tenets" id="our-tenets"><div className="bf-wrap">
+<div className="bf-heading"><p className="bf-eyebrow">What we believe</p><h2 className="bf-title">Eleven Foundations of Faith</h2><p>The biblical doctrines that shape our worship, teaching, discipleship, leadership and mission.</p></div>
+<div className="bf-layout">
+<nav className="bf-aside" aria-label="Tenet navigation"><strong>Explore the tenets</strong>{tenets.map((t,i)=><a key={t.title} href={"#tenet-"+(i+1)}><span>{String(i+1).padStart(2,"0")}</span>{t.title}</a>)}</nav>
+<div className="bf-items">{tenets.map((t,i)=><article className="bf-card" id={"tenet-"+(i+1)} key={t.title}>
+<div className="bf-num">{String(i+1).padStart(2,"0")}</div><h3>{t.title}</h3><p>{t.description}</p><p className="bf-refs"><strong>Scripture references: </strong>{t.references}</p>
+</article>)}</div>
+</div></div></section>
+<section className="bf-close"><div className="bf-wrap" style={{maxWidth:920}}><p className="bf-eyebrow">Our lifelong commitment</p><h2 className="bf-title">Faithful to the Word.<br/>Committed to the World.</h2>
+<p>The Church of Pentecost Pakistan believes that sound biblical doctrine must produce genuine spiritual transformation, holy living, compassionate service, and faithful Christian witness.</p>
+<p>We are committed to preaching Jesus Christ as the only Saviour, teaching the unchanging Word of God, making disciples, developing Spirit-filled Christian leaders, strengthening families, and demonstrating God's love through practical service.</p>
+<p>Our eleven doctrinal beliefs form the foundation of our spiritual identity, ministry philosophy, Christian education, worship, and mission.</p>
+<div className="bf-declaration">Jesus Christ is our foundation. The Holy Scriptures are our authority. The Holy Spirit is our strength. The Great Commission is our calling. The glory of God is our ultimate purpose.</div>
+</div></section>
+</div></>);
 }
