@@ -102,6 +102,16 @@ export default function NewsPage() {
 
         {posts.length ? (
           <div className="news-grid news-grid--reports">
+            <a className="news-card" href="/news/the-bride-who-stood-upon-the-ashes-of-her-wedding">
+              <div className="news-card__image"><img src="/assets/images/news/sahar-story/image2.jpeg" alt="Rev. Dr. Jamil Nasir speaks with Sahar in Jaranwala" width={1430} height={1104} loading="lazy" style={{height:"auto",aspectRatio:"auto",objectFit:"contain"}} /></div>
+              <div className="news-card__body">
+                <p className="news-eyebrow">Faith in action · Compassion ministry</p>
+                <time dateTime="2026-11-10">10 November 2026</time>
+                <h3>The Bride Who Stood Upon the Ashes of Her Wedding</h3>
+                <p>Sahar’s journey from the destruction of her wedding belongings in Jaranwala to a new beginning of hope, dignity and restoration.</p>
+                <span className="news-text-link">Read Sahar’s story <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
             <a
               className="news-card news-card--asif"
               href="/news/breaking-the-chains-asif-family-freedom"

@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "https://coppak.org/events" },
     { url: "https://coppak.org/media" },
     { url: "https://coppak.org/news" },
+    { url: "https://coppak.org/news/the-bride-who-stood-upon-the-ashes-of-her-wedding" },
     { url: "https://coppak.org/sermons" },
     { url: "https://coppak.org/sermons/what-is-in-your-hand" },
     { url: "https://coppak.org/books" },
