@@ -102,6 +102,18 @@ export default function NewsPage() {
 
         {posts.length ? (
           <div className="news-grid news-grid--reports">
+            <a className="news-card" href="/news/when-the-church-prays-hope-rises">
+              <div className="news-card__image">
+                <img src="/assets/images/news/youth-pensa-august-2026/mission/mission-22.jpeg" alt="Young believers gathered in prayer in Lahore" width={1600} height={900} loading="lazy" />
+              </div>
+              <div className="news-card__body">
+                <p className="news-eyebrow">Pastoral reflection · Prayer &amp; hope</p>
+                <time dateTime="2026-11-10">10 November 2026</time>
+                <h3>When the Church Prays, Hope Rises</h3>
+                <p>A reflection by Rev. Dr. Jamil Nasir on Jeremiah 33:3, united prayer, and compassion in action.</p>
+                <span className="news-text-link">Read the blog <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
             <a className="news-card" href="/news/the-bride-who-stood-upon-the-ashes-of-her-wedding">
               <div className="news-card__image"><img src="/assets/images/news/sahar-story/image2.jpeg" alt="Rev. Dr. Jamil Nasir speaks with Sahar in Jaranwala" width={1430} height={1104} loading="lazy" style={{height:"auto",aspectRatio:"auto",objectFit:"contain"}} /></div>
               <div className="news-card__body">
