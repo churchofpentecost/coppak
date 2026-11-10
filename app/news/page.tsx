@@ -102,6 +102,18 @@ export default function NewsPage() {
 
         {posts.length ? (
           <div className="news-grid news-grid--reports">
+            <a className="news-card" href="/news/sahar-bride-ashes-jaranwala">
+              <div className="news-card__image">
+                <img src="/assets/images/news/sahar-bride-ashes/page-01-photo-01.jpeg" alt="Sahar documentary photograph" width={1200} height={900} loading="lazy" style={{objectFit:"contain"}} />
+              </div>
+              <div className="news-card__body">
+                <p className="news-eyebrow">Humanitarian impact · Jaranwala</p>
+                <time dateTime="2023-08-17">17 August 2023</time>
+                <h3>The Bride Who Stood Upon the Ashes of Her Wedding</h3>
+                <p>From the flames of persecution to a new life of hope, dignity and restoration.</p>
+                <span className="news-text-link">Read story <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
             <a
               className="news-card news-card--asif"
               href="/news/breaking-the-chains-asif-family-freedom"
